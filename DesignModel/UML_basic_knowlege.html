@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>UML_basic_knowlege</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h2>UML基础知识</h2>
+<h3>用例图</h3>
+<ul>
+<li>用力图与情节紧紧相关</li>
+<li>用例User case是为了完成一个工作或者达到一个目的的一系列情节的总和。</li>
+<li>
+<p>定义图</p>
+<p>角色与用例的联系是通讯联系，communicaton association</p>
+</li>
+</ul>
+<p><img src=".\uml_img\user_case_define.png" alt="定义图" /> </p>
+<ul>
+<li>实例图</li>
+</ul>
+<p><img src=".\uml_img\user_case_instance.png" alt="实例图" /></p>
+<ul>
+<li>
+<p>用例图在三个领域很有用</p>
+<ul>
+<li>觉得特征(需求)。 当系统已经分析好并且设计成型时，新的用例产生新的需求。</li>
+<li>客户通讯。 使用用例图很容易表示开发者和客户之间的联系。</li>
+<li>产生测试用例。 一个用例的情节可能产生这些情节的一批测试用例。</li>
+</ul>
+</li>
+</ul>
+<h3>类图</h3>
+<ul>
+<li>类图(Class diagram)通过显示出系统的类以及这些之间的关系来表示系统。 <strong>类图是静态的，他们显示出什么可以产生影响但不会告诉你什么时候产生影响</strong>。</li>
+</ul>
+<p><img src=".\uml_img\class.png" alt="类图" /></p>
+<ul>
+<li>
+<p>类图三种关系</p>
+<ul>
+<li>关联association-表示两种类的实例间的关系。 如果一个类的实例必须要用另一个类的实例才能完成工作时就要用关联。 在图中，关联用两个类的连线表示。</li>
+<li>聚合aggregation-当一个类属于一个容器是一种特殊关系。 聚合用一个带菱形连线，菱形指向具有整体性质的类。 在我们的图里，Order是OrderDetails的容器。</li>
+<li>泛化generalization-一个指向以其他类作为超类的继承连线。 泛化关系用一个三角形指向超类。 Payment是Cash，Check和Credit的超类。Payment是Cash,Check和Credit的超类。</li>
+</ul>
+</li>
+<li>
+<p>连线上的说明</p>
+<ul>
+<li>一个关联有两个尾端。 每个尾端可以有一个角色名role name来说明关联的作用。 比如，一个OrderDetail实例是一个Order实例的项目。 </li>
+<li>关联上的方向性navigability箭头表示该关联传递或查询的方向。 OrderDetail类可以查询他的Item，但不可以反过来查询。 </li>
+<li>箭头方向同样关联尾端的数字表示该关联另一边的一个实例可以对应的数字端的实例的个数，通过这种方式表达关联的多样性multiplicity。多样性的数字可以是一个单独的数字或者是一个数字反问。每个Order只有一个Customer，但一个Customer可以有任意多个Order。</li>
+</ul>
+<p><img src=".\uml_img\class_multiplicity.png" alt="类图多样性" /></p>
+</li>
+<li>
+<p>包和对象图</p>
+<ul>
+<li>
+<p>为了简单地表示出复杂的类图，可以把类组合程包packages。 一个包是UML上有逻辑关系的元件的集合。 </p>
+<pre><code>dependencies关系：如果另一个的包B改变可能会导致一个包A改变，则包A依赖于包B。
+</code></pre>
+
+<p><img src=".\uml_img\class_package.png" alt="类包" /></p>
+</li>
+<li>
+<p>他们在解释复杂关系的细小问题时（特别是递归关系时）很有用。</p>
+<pre><code>这个类图是一个大学的Department可以包含其他很多的Departments。
+</code></pre>
+
+</li>
+</ul>
+<p><img src=".\uml_img\class_package_recursive.png" alt="类图包递归" /></p>
+</li>
+</ul>
+<h3>顺序图</h3>
+<ul>
+<li><strong>类图和对象图是静态模型的视图。交互图动态的。他们描述了对象间的交互作用</strong>。</li>
+<li>顺序图将交互关系表示为一个二维图。 </li>
+<li>纵向是时间轴，时间沿竖线向下延伸。 横向轴代表了在协作中个独立对象的类元角色。</li>
+<li>
+<p>类元角色用生命线表示, <strong>当对象存在时，角色用一个虚线表示，当对象的过程处于激活状态时，生命线是一个双道线</strong>。</p>
+<p><img src=".\uml_img\sequence.png" alt="顺序图" /></p>
+</li>
+</ul>
+<h3>协作图</h3>
+<ul>
+<li>
+<p>协作图也是互动的图表。 他们像序列图一样也传递相同的信息，<strong>但他们不关心什么时候消息被传递，只关心对象的角色</strong>。 <strong>在序列图中，对象的角色放在上面而消息则放在连接线</strong>。</p>
+<p><img src=".\uml_img\cooperate.png" alt="写作图" /></p>
+</li>
+<li>
+<p>对象角色矩形上标有类或对象名（或者都有）。类名前面有个冒号（:）</p>
+</li>
+<li>协作图的每个消息都有一个序列号。 顶层消息的数字是1。 同一个等级的消息（也就是同一个调用中的消息）有同样的数字前缀，再更具他们出现的顺序增加一个后缀1，2等等。</li>
+</ul>
+<h3>状态图</h3>
+<ul>
+<li>对象拥有行为和状态。 对象的状态是由对象当前的行动和条件决定的。 <strong>状态图statechart diagram显示出了对象的可能的状态以及由状态的改变而导致的转移</strong>。</li>
+<li>
+<p>银行的在线登录系统。 登录过程包括输入合法的密码和个人账户，再提交给系统验证信息。
+登录系统可以被分为四种不重叠的状态：Getting SSN, Getting PIN, Validating, 以及Rejecting。</p>
+<p><img src=".\uml_img\state.png" alt="状态图" /></p>
+</li>
+<li>
+<p><strong>状态用圆矩阵表示。 转移则是使用带箭头的连线表示。 触发转移的事件或者条件卸载箭头的旁边。</strong></p>
+</li>
+<li>初始状态（黑色圆圈）是开始动作的虚拟开始。 结束状态也是动作的虚拟结束。</li>
+<li>时间或条件除法动作时用（/动作）表示。 当进入Validating状态时，对象并不等外外部事件触发转移。取而代之，它产生一个动作。 <strong>动作的结果决定了下一步的状态</strong>。</li>
+</ul>
+<h3>活动图</h3>
+<ul>
+<li>
+<p>活动图activity diagram是一个很特别的流程图。 活动图和状态图之间是有关系的。 <strong>状态图把焦点集中在过程中的对象身上，而活动图则集中在一个单独过程动作流程。 活动图告诉了我们活动之间的依赖关系</strong>。</p>
+</li>
+<li>
+<p>通过ATM来取钱 ： 这个活动有三个类Customer, ATM和Bank</p>
+<p><img src=".\uml_img\activity.png" alt="活动图" /></p>
+<ul>
+<li>活动图可以分解成许多对象泳道swimclass, 可以决定那些对象负责那些活动。 每个活动都由一个单独的转移transition连接这其他的活动。</li>
+<li>转移可以分为branch成两个以上的互斥的转移。在保护表达式（在[]中）表示转移是从一个分支中引出来的。 分支以及分支结束时的合并merge在图中用菱形表示。</li>
+<li>转移也可以分解为fork成两个以上的活动并行活动。分解以及分解结束时的线程组合join在图中用粗黑线表示。</li>
+</ul>
+</li>
+</ul>
+<h3>组件与配置图</h3>
+<ul>
+<li>组件component是代码模块。 组建图是类图的物理实现。</li>
+<li>配置图Deployment diagrams则是显示软件及硬件的配置。</li>
+<li>下面的配图说明了房地产失误有关的软件及硬件组件的关系。</li>
+<li><img src=".\uml_img\component_configure.png" alt="组建与配置图" /></li>
+</ul>
+<p>物理上的硬件使用节点nodes表示。 每个组件属于一个节点。 组件用左上角带有两个小矩形的矩形表示。</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
