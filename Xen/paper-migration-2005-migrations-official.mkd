@@ -174,7 +174,7 @@ often and so should best be transferred via stop-and-copy - we dub this latter s
 
 			无论是managed 还是 self migration, 我们能够阻碍这种危险靠在迁移开始时在OS kernel中forking a monitoring thread, 随着迁移的进行, 这个线程监控监控被要求的每个线程的WWS和行为, 我们实现的简单版本是限制每个进程到40write faults, 实际上我们就占停了那些使迁移困难的进程,  在figure 7中可以看到这个技术工作良好, 但是一个必须注意的问题是不要占停重要的交互式程序.
 	
-   ![stunning_rogue_processes](./Picture/stunning_rogue_processes)
+   ![stunning_rogue_processes](./Picture/stunning_rogue_processes.png)
 
 
 		* Free Page Cache Pages
