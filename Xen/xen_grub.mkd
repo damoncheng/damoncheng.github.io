@@ -1,0 +1,480 @@
+## Xen_Grub ##
+
+### GRUB features ###
+
+- 对GURB的主要要求是满足多启动规定:
+  [Multiboot Specification](http://www.gnu.org/software/grub/manual/multiboot/html_node/index.html)
+
+- 另外的几个目标,按重要顺序的有:
+	- Basic functions must be straightforward for end-users.
+	- Rich functionality to support kernel experts and designers
+	- Backward compatibility for booting FreeBSD, NetBSD, OpenBSD, and Linux. Proprietary kernels(such as DOS, Windows NT, and OS/2) are supported via a chain-loading function.
+
+- grub 仅仅支持1M内存以上的环境来加载内核, 否则会立即失败,报出问题.
+
+- 除了上面的以外, grub额外的特性:
+
+	* Recognize multiple executable formats
+
+	* Support non-Multiboot kernels
+
+	* Load multiples modules
+
+	* Load a configure file
+
+	* Provide a menu interface
+
+	* Have a flexible command-line interface
+
+	* Support multiple filesystem types
+
+	* Support automatic decompression
+
+	* Access data on any installed device
+
+	* Be independent of drive geometry translations
+
+	* Detect all installed RAM
+
+	* Support Logical Block Address mode
+
+	* Support network booting
+
+	* Support remote terminals
+
+### Naming convention ###
+
+- 在grub中标识使用设备的语法与操作系统中不一样.
+
+	设备名用中括号括住: 
+
+		(fd0)中fd表示软盘, 0表示设备号, **从0开始计数设备号**.
+
+		(hd0, msdos2)中hd意味着是一个硬盘设备, 第一个整数0意味着设备号, 标识为第一个硬盘, 'msdos'指示为分区, 第二个整数2指示分区号(在BSD代表PC slice number), **分区号从1开始计数,不是0**.
+
+		(hd0, msdos5)代表第一个硬盘的第一个扩展分区, 无论硬盘上实际主分区的个数, 扩展分区的分区号从5开始计数, 
+
+		(hd1, msdos1,bsd1) 这个意味BSD的a分区在第二个硬盘第一个PC slice number.
+
+- 利用GRUB访问实际的disks或者partitions, 你需要在命令中规定设备, like 'set root=(fd0)' or 'parttool (hd0, msdos3) hidden-'. 
+
+- 'set root=(' 情况下按TAB有自动补齐提示的功能. 
+
+- GRUB没有确分IDT和SCSI, 它仅仅从0开始规定设备号, IDE设备号比SCSI设备号更小. 
+
+
+- (hd0,msdos1)/vmlinuz, 这个标识文件'vmlinuz', 被发现在第一个硬盘第一个分区.
+
+
+### Install ###
+
+- GRUB带着boot images, 一般放在目录/usr/lib/grub/<cpu>-<platform>(for BIOS-based machines /usr/lib/grub/i386-pc)  
+
+- GRUB初始化被放置的目录/usr/lib/grub/<cpu>-<platform>被称作image directory, boot loader需要发现的目录(/boot)被称作boot directory.
+
+- 在安装了grub后, 通过**grub-install**来安装boot loader到设备上.
+
+- grub启动操作系统的两种方式
+
+	* Loading an operating system directly
+
+		Grub可以直接启动的操作系统有:Linux, FreeBSD, NetBSD and OpenBSD.如果你想要启动另外的操作系统, 你将不得不chain-load他们.(命令boot有更详细的相关操作)
+
+		然而, DOS和Windows有一些不足, 因此你不得不使用更负载的指令. 
+
+	* Chain-loading(加载其他boot loading)
+
+		chainloader command被使用启动这个. 它也是一般必须加载一些GRUB模板设定相关的root device, 把这些放到一起,我们得到案例: 在第一个硬盘下第一个分区的windows系统:
+
+		menuentry "Windows" {
+
+			insmod chain
+			insmod ntfs
+			set root=(hd0,1)
+			chainloader +1
+
+		}
+
+		**Chain-loading仅仅支持在PC BIOS和EFI 平台**
+
+- loopback booting
+
+	GRUB能从image(被存储在CD或者HDD等访问存储)中读取, 然而操作系统自己能够发现它的root, 这个常常涉及到在发现real root前, 运行一个userspace program, grub loading实现了它, 通过加载一个特别小的image, 传递它作为ramdisk到内核, 这个靠kfreebsd_module, knetbsd_module_elf, kopenbsd_ramdisk, initrd,initrd16, multiboot_module, multiboot2_module or xnu_ramdisk依赖于loader.
+
+
+###Writing your own configuration file###
+
+- GRUB使用grub.cfg来进行配置, 常常被定位在boot/grub下. 这个文件是十分灵活的, 但是大多数用户不将需要手动写所有的事情:
+
+	- Simple configuration(Recommended for most users)
+
+			grub-mkconfig生成grub.cfg文件适合大多数案例, 它是合适的,当升级一个分支的时候, 该命令将发现可用的内核,尝试生成menu entries.
+
+			grub-mkconfig有一些限制, 当增加外的自定义菜单条目到列表的结尾, 通过编辑/etc/grub.d/40_custom 或者 创建/boot/grub/custom.cfg.
+
+			改变条目顺序或者title, 直接编辑grub.cfg是最好的选择. 
+
+			文件/etc/default/grub控制grub-mkconfig的操作, 它是该命令的输入源, 必须存在, 其内容是'KEY=value'行, 但是value如果包含space or other special characters, 它必须被引号.例如 : GRUB_TERMINAL_INPUT="console serial"
+
+
+			在/etc/default/grub下可用的key:  
+[可用的初始化KEY](http://www.gnu.org/software/grub/manual/html_node/Simple-configuration.html#Simple-configuration)
+
+	- Shell-like script(For power users and developers)
+
+		grub.cfg 有GRUB的内置脚本语言编写,语法非常像bash.
+
+		**Words**
+		
+			一个单词是连续字符组成的一个单元,单词由metacharacters分开, 跟随着一个space,tab和newline : 
+			{ } | & $ ; < >
+引号可以被使用在words中包括metacharacters.
+
+		**Reserved words**
+		
+			被保留的words对GRUB来说有特别的意义, 当没有加引号时,这下面的单词被认识作为保留, 或者是一个简单命令的第一个单词,或者for命令的第三个单词:
+
+		! [[ ]] { }
+
+		case do done elif else esac fi for function
+
+		if in menuentry select then time until while
+
+		这些保留单词不是所有都有一个有用的目的, 一些被保留为未来扩展.
+
+		**Quoting**
+
+			引号被使用移除确定character or words的规定意思. 它可以被使用对待metacharacter最为一个words, 防止被保留words被认识, 并且防止变量展开.
+
+			有三个quoting mechanisms:the escape character, single quotes, and double quotes.
+
+			a non-quoted backslash(\) 是escape character. 它防止下一个值的文本值跟随, 除了newline.
+
+			单引号文本化所有字符串.
+
+			双引号不文本化$和\
+
+		**Variable expansion**
+
+			$符号介绍变量展开. 变量名展开可以被关闭在括号来定界, 函数的参数由$1等数字变量组成.
+
+			特别的变量名?保存最后一次命令执行的状态, 另外的特别变量名@, *, #被定义, 分别展现参数值带着引号, 参数值没有引号,参数值个数.
+
+		**Comments**
+
+			#符号注释行
+
+		**Simple commands**
+
+			调用方式:command param
+			返回值是命令的退出状态, 如果!符号放在命令前, 状态的返回值取反.
+
+		**Compound Commands**
+
+			for name in word ...;do list;done
+
+			if list; then list; [elif list; then list;] ... [else list;] fi			
+
+			while cond; do list; done
+
+			until cond; do list; done
+
+			function name { command; ... }
+
+			menuentry title [--class=class ...] [--user=users] [--unrestricted] [--hotkey=key] {command;...}
+
+		**Build-in Commands**
+
+			break [n] (n:跳出的层数)
+
+			continue [n] (n:继续第n层循环)
+
+			return [n] (返回n,如果n不被规定,最后一个命令的状态被返回)
+
+			shift [n] (此命令对参数进行左移操作,参数n+1被重命名为$1, $#变成$#-n+1, n必须是小于或等于$#的非负数). 如果n是0, 没有参数被改变, 如果n不被给, 它被假设是1, 如果n大于$#, 参数不被改变,如果n比$#大,返回状态大于0,或者比0小；否则等于0
+
+	- Multi-boot mannual config (For non-standard multi-os scenarios)
+
+	- Embedded configuration(Embedding a configuration file into GRUB) 
+
+###Theme file format###
+
+	(外观调整以后再看)
+
+###Booting GRUB from the network###
+
+- 下面的指令仅仅工作在PC BIOS系统, 且支持PXE(Preboot execution Environment).
+
+	- 生成一个PXE boot image:
+		grub-mkimage --format=i386-pc-pxe --output=grub.pxe --prefix='(pxe)/boot/grub' pxe pxecmd
+
+	- 复制grub.pxe, /boot/grub/*.mod, 和 /boot/grub/*.lst到PXE(TFTP)服务器, 确性*.mod和*.lst来自TFTP服务器root下的/boot/grub路径. 设定DHCP服务器配置提供grub.pxe作为boot文件(the filename option in ISC dhcpd).
+
+	- 也可以使用命令grub-mknetdir工具生成一个image和一个GRUB目录树, 而不是手动的复制文件
+
+	- 在GRUB已经开始后, 在TFTP服务器的文件将通过'pxe'设备变得可访问.
+
+	- 服务器和网管IP地址可以通过改变'pxe'设备名为'(pxe:server-ip)'或者'(pxe:server-ip:gateway-ip)'来被控制. Note that this should be changed both in the prefix and in any references to the device name in the configuration file.
+
+	- Grub提供了几个环境变量来被使用检测或者改变PXE设备的行为:
+
+		'net_pxe_ip'
+			The IP address of this machine. Read-only.
+
+		'net_pxe_mac'
+			The network interface's MAC address. Read-only.
+
+		'net_pxe_hostname'
+			The client host name provided by DHCP. Read-only.
+
+		'net_pxe_domain'
+			The client domain name provided by DHCP. Read-only
+
+		'net_pxe_rootpath'
+			The path to the client's root disk provided by DHCP. Read-only
+
+		'net_pxe_extensionspath'
+			The path to additional DHCP vendor extensions provided by DHCP. Read-only
+
+		'net_pxe_boot_file'
+			The boot file name provided by DHCP. Read-only.
+
+		'net_pxe_dhcp_server_name'
+			The name of the DHCP server responsible for these boot parameters. Read-only
+
+		'net_default_server'
+			The default server. Read-write. although setting this is only useful before opening a network device.
+
+###Using GRUB via a seria line###
+
+- 如果你有许多计算机或者计算机没有display/keyboard, 通过serial communications来控制计算机是非常有用的, 通过一个serial line来连接另一个计算机, 你需要准备一个null-modern(cross)serial cable, 你可能需要有multiport serial boards, 如果你的计算机没有额外的serial port. 此外, 一个ternima emulator也被要求. 参考操作系统手册为更多的信息.
+
+	- 作为GRUB, 启动一个serial terminal的指令是十分简单的:
+		grub>serial --unit=0 --speed=9600
+		grub>terminal_input serial;terminal_output serial
+
+	- 命令serial初始化serial unit 0带着9600bps的速度. The serial unit 0 常常被称作'COM1', 因此, 如果你要想使用COM2, 你必须指定'--unit=1'来代替. 这个命令接受许多另外的选项, 具体参考
+[Serial](www.gnu.org/software/grub/manual/html_node/serial.html#serial)获取更多信息
+
+	- terminal_input命令和terminal_output命令选择想要使用的终端类型, 在上面的案例中, 终端将是serial terminal, 也可以传递console到这个命令, as 'terminal_input serial console', 在这个案例中, 你在terminal按的认可键,都将被GRUB terminal选择. 在上面的案例中, 注意你需要把所有命令都在same communicate line, 由于在第一个命令后, 你将不能再在第一个命令后在console上输入命令.
+
+	- 然而, GRUB假设你的terminal emulator默认和VT100兼容. 对于现在的大多数terminal emulator都是ok的, 但是你应该传递选项 --dumb到命令, 如果你的emulator不是VT100-compatible或者实现很少的VT100 escape sequences. 如果你规定了option, GRUB将提供给你一个可选的menu interface, 因为一般的normal menu要求several fancy features of your terminal.
+
+### Using GRUB with vendor power-on keys ###
+
+- 一些labtop vendors提供一个额外的power-on button用来启动另一个OS. GRUB支持如此buttons, 通过'GRUB_TIMEOUT_BUTTON', 'GRUB_DEFAULT_BUTTON', 'GRUB_HIDDEN_TIMEOUT_BUTTON' and 'GRUB_BUTTON_CMOS_ADDRESS'变量在default/grub(See [Simpe Configure](http://www.gnu.org/software/grub/manual/html_node/Simple-configuration.html#Simple-configuration))
+
+- 'GRUB_TIMEOUT_BUTTON', 'GRUB_DEFAULT_BUTTON' and  'GRUB_HIDDEN_TIMEOUT_BUTTON'被使用代替没有加_BUTTON后缀的变量,当powered on设同指定的button时. 'GRUB_BUTTON_CMOS_ADDRESS'是一个vendor-specific and partially model-specific. values known to GRUB teams有:
+
+	Dell XPS M1530
+
+		85:3
+
+	Asus EeePC 1005PE
+
+		84:1(unconfirmed)
+
+- 充分利用这个功能, 安装GRUB到MBR[see Installing GRUB using grub-install](http://www.gnu.org/software/grub/manual/html_node/Installing-GRUB-using-grub_002dinstall.html#Installing-GRUB-using-grub_002dinstall)
+
+- 如果你有一个相似特征的labtop, 但是被有在上面列出来, 怎样贡献出来解决方案?To discover the address do the fowlloing:
+
+	* boot normally
+	* sudo modprobe nvram
+
+		sudo cat /dev/nvram | xxd > normal_button.txt 
+
+	* boot using vendor button
+
+		sudo cat /dev/nvram | xxd > normal_vendor.txt
+
+- Then compare these text files and find where a bit was toggled. E.g. in case of Dell XPS it was:
+	
+	byte 0x47: 20 --> 28
+
+	It’s a bit number 3 as seen from following table:
+
+	
+	0	01
+
+	1	02
+
+	2	04
+
+	3	08
+
+	4	10
+
+	5	20
+
+	6	40
+
+	7	80
+
+	0x47 is decimal 71. Linux nvram implementation cuts first 14 bytes of CMOS. So the real byte address in CMOS is 71+14=85 So complete address is 85:3
+
+### GRUB image files ###
+
+- GRUB由几个image组成:几个方式的bootstrap image, 一系列和kernal image绑定的模板形成一个core image.在这人是简短的看下:
+
+	- boot.img
+		On PC BIOS systems, 这个image是GRUB开始的第一部分. **It is written to a master boot record(MBR) or to the boot sector of a partition**. 因为PC系统的boot sector是512字节, 这个image的大小是精确的512bytes大小.
+
+		boot.img的作用就是read the first sector of the score image from a local disk and jump to it. 因为大小的限制, boot.img不能理解任何文件系统结构, 因此grub-setup硬编码core image的第一个部分的位置到boot.img.
+
+	- diskboot.img
+		当从一个硬盘启动时, 这个image被使用作为core image的第一个部分, 它负责读core image剩下的部分到内存并且启动kernel, 由于文件系统处理一直不是可用的, it encodes the location of the core image using a block list format.
+
+	- cdboot.img
+		当从一个CD-ROM driver启动时, 这个image被使用作为core image的第一部分.
+
+	- pxeboot.img
+		当使用PXE从网络启动时,这个image被使用作为core image的开始(see [Network](http://www.gnu.org/software/grub/manual/html_node/Network.html#Network)) 
+
+	- lnxboot.img
+		This image may be placed at the start of the core image in order to make GRUB look enough like a Linux kernel that it can be booted by LILO using an 'image=' section.
+
+
+	- kernel.img
+		这个image包含GRUB的基本运行时工具:framworks for device and file handling, environment variables, the rescue mode command-line parser, and so on. 它是很少被使用, 但是被内置到所有的core image.
+
+	- core.img
+		这个是GRUB的core image. 它被grub-mkimage程从kernel image和任意的modules列表动态建立,常常它包含足够的模块访问/boot/grub, 从文件系统加载另外的东西(包括menu handing, 加载目标操作系统等), The modular design运行core image保持足够的小, 由于安装它的硬盘区域只有32KB.
+
+		See [BIOS install](http://www.gnu.org/software/grub/manual/html_node/BIOS-installation.html#BIOS-installation)获取更多的细节来了解core image可以被安装在PC系统的位置.
+
+	- *.mod
+		在GRUB里存在动态可加载模块, 这些常常是动态的被加载, 或者如果他们是基本的就内置到core image, 但是也可以常常通过insmode命令来手动加载.
+
+###Filesystem syntax and semantics###
+	
+- GRUB使用一个特别的语法来规定指定的disk drives可以被BIOS访问. 因为BIOS的限制, GRUB不能在IDE, ESDI, SCSI 和另外类型的硬盘进行区分. 你必须自己知道哪一个BIOS设备对赢哪一个OS设备. 一般的那将是清除的if you see the files in a device or use the command search(see [search](http://www.gnu.org/software/grub/manual/html_node/search.html#search)) 
+
+
+	- Device syntax
+
+		设备语法像下面一样:
+		(device[,partmap-namelpart-num1[,partmap-name2part-num2[,...]]])
+
+		'[]'意味这参数是可选的, device依赖于你正在使用的disk driver				
+		BIOS and EFI disks使用或者'fd' or 'hd'跟随数字来表示.
+		AHCI, PATA(ata), crypto, USB 使用driver的名字并跟随一个	
+		number. Memdisk and host被限制到one disk以至于它被一个
+		driver name引用, RAID(ms), ofdisk(ieee1275 and nand), 
+		LVM(lv), LDM和arcdisk(src)使用intrinsic name of disk 
+		prefixed by driver name. 此外仅仅"nand"引用硬盘别名作
+		为"nand", 冲突靠前缀一个number来解决, 逗号需要被escape, 
+		Loopback uses wahtever name specified to loopback 
+		command. Hostdisk uses names specified in device.map 
+		as long as it's of the form [fhc]d[0-9]* or 
+		hostdisk/<OS DEVICE>, For crypto and RAID(md)额外的你能
+		使用语法<driver name>uuid/<uuid>
+
+			(fd0)
+			(hd0)
+			(cd)
+			(ahci0)
+			(ata0)
+			(crypto0)
+			(cryptouuid/123456789abcdef0123456789abcdef0)
+                          (mduuid/123456789abcdef0123456789abcdef0)
+                          (lv/system-root)
+			(md/myraid)
+			(md/0)
+			(ieee1275/disk2)
+			(ieee1275//pci@1f\,0/ide@d/disk@2)
+			(nand)
+			(memdisk)
+			(host)
+			(myloop)
+			(hostdisk//dev/sda) 
+
+		语法'hd(0)'代表使用entire disk(or the MBR when installing GRUB), 'hd(0,1)'带表使用硬盘的第一个分区, 
+
+			(hd0,msdos1)
+			(hd0,msdos1,msdos5)
+			(hd0,msdos1,bsd3)
+			(hd0,netbsd1)
+			(hd0,gpt1)
+			(hd0,1,3)
+
+		如果你enabled网络支持, 特别的driver'(tftp)', '(http)' and so ars also available. 详细看网络章节.
+
+	- File name syntax
+
+		有两种方式指定文件, by absolute file name 和 by block list
+
+		absolute file name : (hd0,1)/boot/grub/grub.cfg
+
+	- Block list syntax
+
+		a block list被使用指定一个不显示在文件系统内			的文件, like a chainloader. 语法是				[offset]+length[, [offset]+length]...在			这儿是一个例子:
+			0+ 100.200+1.300+300
+
+		**这个代表GRUB应该读blocks 0 through 99, 			  block 200, and blocks 300 through 			  599. 如果你忽略an offset, GRUB假设				  offset为0**, 像file name syntax语法一样
+		  如果blocklist不包含一个device name, 然后
+		  GRUB使用GRUB的root device. (hd0,2)+1, 
+	           与+1一样(当(hd0,2)是root设备时)
+
+###GRUB's user interface###
+(menu 接口的一些编辑功能, command接口的一些快捷键)
+
+###GRUB environment variables###
+
+- GRUB支持类似Unix-like系统的环境变量, 环境变量常常是唯一的且简短的标识和一个任意字符串的value. 他们可以被set, unset 或者靠名字查询。
+
+- 一些环境变量对GRUB有特别的含义， 另外的可以在GRUB配置文件中自由的使用。
+
+	- Special environment variables
+
+		列举局部变量，其他的看on-line
+		
+		default : 设定默认启动条目，如果有子条目用'>'
+		分开. 这个变量常常用GRUB_DEFAULT, grub-			set-default, or grub-reboot修改。
+
+		gfxmode:设定终端分辨率
+
+		fallback: 失败启动后要启动的条目
+
+		下面这些变量仅仅可读：
+		net_pxe_boot_file
+
+		net_pxe_dhcp_server_name
+
+		net_pxe_domain
+
+		net_pxe_extensionspath
+
+		net_pxe_hostname
+
+		net_pxe_ip
+
+		net_pxe_mac
+
+		net_pxe_rootpath
+
+		pager : 如果满屏幕，停顿输出直到按键按下。
+
+		prefix : /boot/grub目录的位置， 绝对路径， 
+		这个一般在运行grub-install时被grub设定，			grub模块自动的从这个目录被加载，因此它必须被
+		正确的设定来保证GRUB接下来工作。
+
+		root : 任何文件不规定device name都会从这个
+		设备中读取，默认都被GRUB基于prefix来设定
+
+		time_out : 如果这个变量被设定， 它规定以秒为			单位的时间来设置超时menu界面等待时间。 0为不等			带，-1为一直等待。
+
+	- Environment block
+
+		grub的保持环境变量设置在$prefix/grubenv中，
+		该文件被成为环境块。
+		grub.cfg脚本每次执行都会通过load_env来进行读			取和save_env来进行保持。
+		可以通过grub-editenv工具来编辑环境块
+
+		为了安全理由， 当这个存储被安装在plain 
+		disk(no LVM or RAID), using a 
+		non-checksumming filesystem(no ZFS), 
+		and using BIOS or EFI functions
+		(no ATA, USB or IEEEE1275).
+
+		grub-mkconfig uses this facility 实现
+		"GRUB_SAVEDEFAULT" 
