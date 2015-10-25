@@ -478,3 +478,384 @@
 
 		grub-mkconfig uses this facility 实现
 		"GRUB_SAVEDEFAULT" 
+		
+###The list of available commands###
+
+- 在这章， 我们列出了在GRUB中所有可用的命令。
+  命令属于不同的组，一些被使用在配置文件(or menu)的全局章节， 他们大多数被可以在命令行中使用，
+  也可以或者在menu中被使用，或者在menu entries中被使用。
+
+- 在安全模式(rescue mode), 仅仅insmod, ls, set, and unset命令是一般可用的。
+
+	- GRUB only offers a rescue shell
+	
+		GRUB是一个normal启动过程， 涉及设定'prefex'环境变量为一个值（grub-install
+		常常设定这个值）， 设定root变量匹配对应分区， 从'prefix'中加载normal模块，
+		运行'normal命令'。然后这个命令负责从/boot/grub/grub.cfg中读取并运行menu，
+		然后做GRUB所有可以做的事情。
+
+		如果你仅仅在rescue shell下， 这常常意味着GRUB因为某些理由失败加载'normal'模块,
+		可以在这个环境临时工作， 例如：如果失败是由于'prefix'错误， 可以纠正它，然后手动
+		输入normal命令。
+		
+		set prefix=(hd0,1)/grub
+		set root=(hd0,1)
+		insmod normal
+		normal
+		
+		然而，在安全模式下可能是因为GURB没有正确被安装，通过grub-install device重新安装可能是更有用的。
+		当做这个的时候， 下面的事情要注意：
+		* 在操作系统的设备顺序可以不与firmware的启动顺序一样。 别假设你的第一个hard device是你firmware
+		  讲启动的那个。device.map(see Device map)可能被使用覆盖这个
+			(see [Device map](http://www.gnu.org/software/grub/manual/grub.html#Device-map))
+		  但是如果使用UUIDs或者file system labels常常是更好的，从而完全的避免了设备顺序。
+		*　如果可能，最好避免安全GRUB到一个分区（除非一个单独的分区提供给GRUB使用，比如BIOS启动分区被使用
+		   在GTP中）。 如果这样做了， 不好的是当文件系统移动blocks后，GRUB读不到core image, 比如碎片整理，
+		   运行检查，设置一般的操作，都会可能引起block发生移动。 安装到到整个disk device是常常更健壮。
+		* 确认/boot/grub的文职， GRUB不能从加密硬盘或者不被支持的文件系统中读取GRUB。
+		
+	- Menu-specific commands
+		
+		- The semantics used in parsing the configuration file are the following:
+
+			* 这个文件必须是在plain-text format。
+			* 在配置文件中，当一行是以'#'开头的时候，该行为注释。
+			* 选项用空格分开
+			* 所有的numbers或者是10进制或者是16进制， 十六进制必须前缀'0x', 是大小写铭感的。
+			
+		- 命令仅仅被使用在menu中的有：
+		
+			* menuentry : 开始一个menu entry
+		
+				Command: menuentry title [--class=class …] [--users=users] [--unrestricted] [--hotkey=key] { 					 command; … }
+
+			* submenu : Group menu entries 
+
+				Command: submenu title [--class=class …] [--users=users] [--unrestricted] [--hotkey=key] { 						 **menu entries** … }
+
+	- General commands
+
+		- Commands usable anywhere in the menu and in the command-line.	
+		
+			* serial : 启动一个serial device
+
+				Command: serial [--unit=unit] [--port=port] [--speed=speed] [--word=word] [--parity=parity] 						[--stop=stop]			
+
+			* terminal_input : 管理input terminals
+
+				Command: terminal_input [--append|--remove] [terminal1] [terminal2] …			
+
+			* terminal_output : 管理output terminals
+			
+				Command: terminal_output [--append|--remove] [terminal1] [terminal2] … 
+			
+			* terminfo : 定义terminal type
+			 
+				Command: terminfo [-a|-u|-v] [term]
+				
+
+	- Command-line and menu_entry_commands
+	
+		- 这些命令在命令行和menu entries中都是可用的， 如果忘记了，可以运行help命令来查看帮助
+		
+			* acpi : Load ACPI tables
+			
+				acpi [-1|-2] [--exclude=table1,…|--load-only=table1,…] [--oemid=id] [--oemtable=table] [--oemtablerev=rev] [--oemtablecreator=creator] [--oemtablecreatorrev=rev] [--no-ebda] filename … 
+			
+			* badram : Filter out bad regions of RAM
+			
+				badram addr,mask[,addr,mask...]
+			
+			* blocklist : Print a block list
+			
+				blocklist file
+			
+			* boot : Start up your operation system
+			
+				Boot the OS or chain-loader which has been loaded. Only necessary if running the fully interactive command-line (it is implicit at the end of a menu entry).
+			
+			* cat : Show the contents of a file
+
+				 cat [--dos] file
+				 Display the contents of the file file. This command may be useful to remind you of your OS’s root partition:
+
+				grub> cat /etc/fstab
+				If the --dos option is used, then carriage return / new line pairs will be displayed as a simple new line. Otherwise, the carriage return will be displayed as a control character (‘<d>’) to make it easier to see when boot problems are caused by a file formatted using DOS-style line endings.
+
+			* chainloader : chain-load another boot loader
+
+				chainloader [--force] file
+				
+				Load file as a chain-loader. Like any other file loaded by the filesystem code, it can use the blocklist notation (see Block list syntax) to grab the first sector of the current partition with ‘+1’. If you specify the option --force, then load file forcibly, whether it has a correct signature or not. This is required when you want to load a defective boot loader, such as SCO UnixWare 7.1.
+
+			* cmp : Compare two files
+			
+				 cmp file1 file2
+			
+			* configfile : Load a configuration file
+
+				configfile file
+				Load file as a configuration file. If file defines any menu entries, then show a menu containing them immediately.			
+
+			* cpuid : Check for CPU features
+
+				cpuid [-l]			
+
+			* crc : Calculate CRC32 checksums
+
+				crc file				
+
+			* date : display or set curent date and time
+
+				date [[year-]month-day] [hour:minute[:second]]			
+
+			* drivemap : Map a drive to another
+
+				drivemap -l|-r|[-s] from_drive to_drive			
+
+			* echo : Display a line of text
+
+				echo [-n] [-e] string …			
+
+			* export : Export an environment variable
+
+				export envvar			
+
+			* false : Do noting, unsuccessfuallt
+			* gettext : Translate a string
+			* 
+				gettext string
+
+				Translate string into the current language.
+
+				The current language code is stored in the ‘lang’ variable in GRUB’s environment (see lang). Translation files in MO format are read from ‘locale_dir’ (see locale_dir), usually /boot/grub/locale.
+
+			* gptsync : Fill an MBR based on GPT entries
+
+				gptsync device [partition[+/-[type]]] …			
+
+			* halt : shut down your computer
+
+				halt --no-apm			
+
+			* help : show help messages
+
+				help [pattern …]			
+
+			* initrd : Load a Linux initrd
+
+				 initrd file
+				 
+				 Load an initial ramdisk for a Linux kernel image, and set the appropriate parameters in the Linux setup area in memory. This may only be used after the linux command (see linux) has been run. See also GNU/Linux.
+
+			* initrd6 : Load a Linux initrd(16-bit mode)
+			* insmod : Insert a module
+
+				insmod module			
+
+			* kestatus : Check key modifier status
+
+				keystatus [--shift] [--ctrl] [--alt]			
+
+			* linux : Load a Linux kernel
+
+				linux file …
+				
+				Load a Linux kernel image from file. The rest of the line is passed verbatim as the kernel command-line. Any initrd must be reloaded after using this command (see initrd).
+
+				On x86 systems, the kernel will be booted using the 32-bit boot protocol. Note that this means that the ‘vga=’ boot option will not work; if you want to set a special video mode, you will need to use GRUB commands such as ‘set gfxpayload=1024x768’ or ‘set gfxpayload=keep’ (to keep the same mode as used in GRUB) instead. GRUB can automatically detect some uses of ‘vga=’ and translate them to appropriate settings of ‘gfxpayload’. The linux16 command (see linux16) avoids this restriction.
+
+			* linux16: Load a Linux kernel(16-bit mode)
+			* list_env : List variables in environment block
+			
+				list_env [-f file] 
+			
+			* load_env : Load variables from environment block
+
+				load_env [-f file]			
+
+			* loopback : make a device from a filesystem image
+
+				loopback [-d] device file			
+
+			* ls : List devices or files
+
+				ls [arg …]			
+
+			* normal : Enter normal mode
+
+				normal [file]
+				
+				Enter normal mode and display the GRUB menu.
+
+				In normal mode, commands, filesystem modules, and cryptography modules are automatically loaded, and the full GRUB script parser is available. Other modules may be explicitly loaded using insmod (see insmod).
+
+				If a file is given, then commands will be read from that file. Otherwise, they will be read from $prefix/grub.cfg if it exists.
+
+				normal may be called from within normal mode, creating a nested environment. It is more usual to use configfile (see configfile) for this.
+
+			* normal_exit : Exit from normal mode
+
+				Exit normal mode (see normal). If this instance of normal mode was not nested within another one, then return to rescue mode.			
+
+			* parttool : Modify partition tables entries
+
+				parttool partition commands
+				
+				Make various modifications to partition table entries.
+
+				Each command is either a boolean option, in which case it must be followed with ‘+’ or ‘-’ (with no intervening space) to enable or disable that option, or else it takes a value in the form ‘command=value’.
+
+				Currently, parttool is only useful on DOS partition tables (also known as Master Boot Record, or MBR). On these partition tables, the following commands are available:
+
+				‘boot’ (boolean)
+					When enabled, this makes the selected partition be the active (bootable) partition on its disk, clearing the active flag on all other partitions. This command is limited to primary partitions.
+
+				‘type’ (value)
+					Change the type of an existing partition. The value must be a number in the range 0-0xFF (prefix with ‘0x’ to enter it in hexadecimal).
+
+				‘hidden’ (boolean)
+					When enabled, this hides the selected partition by setting the hidden bit in its partition type code; when disabled, unhides the selected partition by clearing this bit. This is useful only when booting DOS or Wwindows and multiple primary FAT partitions exist in one disk. See also DOS/Windows.
+
+			* password: : Set a clear-text password
+			
+				password user clear-password
+
+			* password_pbkfd2 : set a hashed password
+
+				password_pbkdf2 user hashed-password			
+
+			* play : play a tune
+
+				play file | tempo [pitch1 duration1] [pitch2 duration2] ...			
+
+			* pxe_unload : Unload the PXE environment
+
+				Unload the PXE environment 
+				
+				This command is only available on PC BIOS systems.
+
+			* read : Read user input 
+
+				read [var]
+				
+				Read a line of input from the user. If an environment variable var is given, set that environment variable to the line of input that was read, with no terminating newline
+
+			* reboot : Reboot your computer
+			* save_env : save variables to environment block
+
+				save_env [-f file] var … 			
+
+			* search : Search devices by file, label, or UUID
+
+				search [--file|--label|--fs-uuid] [--set [var]] [--no-floppy] name
+				
+				Search devices by file (-f, --file), filesystem label (-l, --label), or filesystem UUID (-u, --fs-uuid).
+
+				If the --set option is used, the first device found is set as the value of environment variable var. The default variable is ‘root’.
+
+				The --no-floppy option prevents searching floppy devices, which can be slow.
+
+				The ‘search.file’, ‘search.fs_label’, and ‘search.fs_uuid’ commands are aliases for ‘search --file’, ‘search --label’, and ‘search --fs-uuid’ respectively.
+
+			* sendkey : Emulate keystrokes
+
+				sendkey [--num|--caps|--scroll|--insert|--pause|--left-shift|--right-shift|--sysrq|--numkey|--capskey|--scrollkey|--insertkey|--left-alt|--right-alt|--left-ctrl|--right-ctrl ‘on’|‘off’]… [no-led] keystroke			
+
+			* set : Set an environment variable
+
+				set [envvar=value]			
+
+			* true : Do nothing, successfully
+			* unset : Unset an environment variable
+
+				unset envvar		
+
+			* uppermem : set the upper memory size
+			
+				This command is not yet implemented for GRUB 2, although it is planned.
+
+### Charset ###
+
+### Filesystems ###
+
+### Output_terminal ###
+
+### Input terminal ###
+
+### Gettext ###
+
+	GRUB supports being translated. For this you need to have language *.mo files in $prefix/locale, load gettext module and set “lang” variable.
+
+### Regexp ###
+
+### Other ###
+
+### Authentication and authorisation ###
+
+### Platform limitations ###
+
+### Outline ###
+
+### Supported boot targets ###
+
+### Boot tests ###
+
+### Error messages produced by GRUB ###
+
+### Invoking grub-install ###
+
+- grub-install使用grub-mkimage 和 grub-setup安装GRUB，你必须要规定安装grub的设备名 ：
+
+	grub-install install_device
+	
+	install_device是一个OS device name 或者 a GRUB device name.
+	
+	--boot-directory=dir
+	
+		将会安装GRUB image到dir/grub/目录下， 当你想要GRUB到另一个分区，或者到一个可移动硬盘，
+		这个选项是可用的，默认dir是/boot, 因此
+			grub-install /dev/sda
+		等价于
+			grub-install --boot-directory=/mnt/boot /dev/sdb
+			
+	--recheck
+	
+		重新检查device map, 尽管/boot/grub/device.map已经存在。 无论什么时候你增加或者移除
+		一个选项到计算机时，你应该使用这个选项。
+
+### Invoking grub-mkconfig ###
+
+- 对于GRUB利用grub-mkconfig生成一个配置文件
+
+	grub-mkconfig -o /boot/grub/grub.cfg
+	
+	-o file
+	--output=file
+		
+		发送被生成的文件到file, 默认是发送它到标准输出
+
+### Invoking grub-mkpasswd-pbkdf2 ###
+
+- The program grub-mkpasswd-pbkdf2 生成password hashes for GRUB
+
+	grub-mkpasswd-pbkdf2
+
+### Invoking grub-mkrescue ###
+
+- The programe grub-mkrescue生成一个可执行的GRUB rescue image
+
+	grub-mkrescue -o grub.iso
+	
+	没有选项参数指定额外的参数路径。 一般被使用增加额外文件到image:
+		mkdir -p disk/boot/grub
+		(add extra files to disk/boot/grub)
+		grub-mkrescue -o grub.iso disk
+	
+### Invoking grub-probe ###
+
+- The program grub-probe probes device information for a given path or device.
+
+	grub-probe --target=fs /boot/grub
+	grub-probe --target=drive --device /dev/sda1
+	grub-probe must be given a path or device as a non-option argument
