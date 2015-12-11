@@ -1,0 +1,327 @@
+### 前言 ###
+
+- 压缩算法可以使一些消息变短， 但是会使另外一些消息变长，压缩是基于概率而设计的。
+（例如：假设重复的字符比随机的字符多，或者在图片中大量的白斑）
+
+- 当讨论压缩算法时，区分两个重要的组件是重要的 ： the model and the coder. The 
+ Model 组件靠发现input的结构来捕捉消息的概率分布，Coder组件利用Model的概率分布
+生成codes. 
+
+- the coder components tend to be quite generic—in current algorithms are almost exclusively 
+based on either Huffman or arithmetic codes.
+
+- 它被证明信息理论在**model** 和 **coder**之间充当了胶水的作用。特别的，它给了一个非常好的理论来讲概率和information content and code length关联起来。这个理论在实践中表现的相当好，理论预测和实际的代码长度相同。
+
+- 关于压缩算法的另一问题是，如何判断压缩算法的质量。
+   在无损压缩算法中，有几个至关重要的标准用来参考：压缩的时间，重构的时间，被压缩消息
+   的大小， 和普遍实用性。
+
+   	有损压缩的判断显得更加复杂，典型的权衡标准是运行的时间和重构的质量。
+
+- Perhaps the best attempt to systematically compare lossless compression algorithms is **the Archive Comparison Test (ACT) by Jeff Gilchrist**. It reports times and compression ratios for 100s of compression algorithms over many databases. It also gives a score based on a weighted average of runtime and the compression ratio.
+
+- 章节2覆盖了基本的信息论知识。 章节3呈现了压缩算法的coding component, 呈现了coding和信息论如何被关联。
+  章节4讨论了各种models生成被coding component需要的probabilities。 章节5描述了Lempel-Ziv算法，章节6覆盖了
+  另外的非压缩算法（当前仅仅currently just Burrows-Wheeler）。
+
+### Information Theory ###
+
+- Entropy
+
+	- shannon借用统计物理（statistical physics）中熵的定义公式作为信息熵的定义。在物理熵中熵呈现了系统的随机性或者混乱。一个特定的系统中假设作为一个可能状态的集合：
+
+	![熵定义](./Picture_Compress/entropy.png)
+
+	* S 代表了可能的状态, p(s)是状态s (- S产生的概率. 这个定义指出**熵越高,概率越平均. 熵越低,概率越失调**. 例如:如果我们知道状态是确定事件, 
+H(s) = 0. One might remember that the second law of thermodynamics(热力
+学) basically says that entropy of a closed system can only increase.
+
+	- 在信息论中上下文中,shannon用message代替state(状态), 因此S是可能messages的集合, p(s)是message s (- S的概率. shannon也定义了一个消息的self information 
+	![self_information](./Picture_Compress/self_information.png)
+
+		**self informatin 代表呈现信息所需要的位数, 简单的来说, 编码message所需要的bit数量.** self information的定义指出了更高概率的消息包含更少的信息(或者说bit).
+
+	- entropy是一个简单的基于概率的self information平均数. 是通过概率分布来确定的呈现一个消息所需要的平均位数. 熵越大,平均信息(average )越大, 通过直观可以感受到, 消息结合越随机(概率分布越平均), 平均信息(information on average)越多.
+
+
+	- 在这儿是五个消息在不同概率分布下的熵:
+ 	![self_information](./Picture_Compress/entrody_experiment.png)
+	消息越不平均, 熵越低.
+
+	- 为什么一个probability的相反数的对数就能正确的测量一个消息的self information? 尽管self information和entropy to message length的关系会在Section 3中更加正式的介绍, 这儿我们先直观的来感受下. 首先, 对于a set of ![entrody_1](./Picture_Compress/entrody_1.png) 的等概率事件, 每个的概率都是1/n, 我们也知道,如果所有的消息都是一样的长度, 然后log2n bits被要求来编码每个消息,
+在等概率事件中,我们发现所需要的位数与i(Si) = log2 1/pi = log2 n. 另一个我们想要的information属性是,两个独立的信息应该是各自信息长度的和, 特别的如果message A和message B独立, 相邻发送两个详细的概率是p(A)p(B), 可有的self information为:
+![self_information_property](./Picture_Compress/self_information_property.png)
+对数是拥有该属性且最简单的函数.
+
+
+- The Entropy of the English Language
+
+	- 我们可能感兴趣英语语言包含多少信息. 这个可以被绑定作为我们能对英语压缩多少, 这也能允许我们比较不同语言的密度.
+
+	- 一种测量information content的方式是通过每个字符的平均位数. 表1呈现了bits-per-character的几个方式来测量英语的内容. 如果我们假设所有字符是等概率的, 为每个字符都有一个分开的编码字符. 有96个可打印的字符(the number on a standard keyboard), 然后每个字符都将有 上界(log96) = 7 bits. 假设为平均概率的熵是log96=6.6 bits/char. 如果我们字符一个概率分布(based on a corpus of English text), 熵被减少到大约4.5bits/char. 如果我们假设每个字符一个编码(which the Huffman code is optimal)这个数量是比4.7bits/char稍微大一点.
+
+	- 注意,到目前为止, 我们一直没有利用连续字符或者临近字符的关系. 如果你划分text到8个字符的blocks. 然后测量这些块(based on measuring thire frequency in an English corpus)的熵, 你能得到大约19bits的熵. 当我们group更大的blocks时, 人们已经将熵的值趋近于.13(or lower). 实际上它是不可能被实际评估, 因为太多可能的string来被统计, 没有足够大的文集.
+
+	- 值 1.3bits/char 是英语信息内容的评估. 假设这个趋近是正确的, 如果我们想要无损压缩, 这个绑定了我们能够压缩英语内容的期望. Table1 也呈现了各种压缩器的压缩率.所有的这些,然而,是唯一适应各种语言的设计, 不是仅仅为了英语而特别的设计, 最后一个压缩其BOA是当前sate-of-the-art for general-purpose compressors. 实现1.3/bits/char的处理器不得不缺席知道关于English grammar, standard idioms. 
+
+	- table2一个以Calgary corpus为压缩对象,各个处理器的压缩率集合. The Calgary corpus是一个标准的平台来测量压缩率, 其大多数由英语内容组成. 其具体的组成部分有: 2 books, 5 papers, 1 bibliography, 1 collection of news articles, 3 programs, 1 terminal session, 2 object files, 1 geophysical data, and 1 bit-map b/w image. 这张表呈现了经过这些年的发展,压缩这门艺术提高了不少.
+
+	![entrody_table_one](./Picture_Compress/entrody_table_one.png)
+
+
+	![compressor_table_two](./Picture_Compress/compressor_table_two.png)
+
+
+- Conditional Entropy and Markov Chains
+
+	- 常常events(messages)的概率是依赖于上下文的, 使用context常常可以提高我们上下文的准确度. 上下文可以是先前的文本字符(see PPM in Section 4.5), or 在图像中的neighboring pixels(see JBIG in Section 4.3).
+
+	- 一个event e基于一个context c的条件概率被写为p(e|c), 一个事件e的全部的(unconditional)概率通过![conditional_probability](./Picture_Compress/conditional_probability.png) , C 是所有可能context的集合. 基于条件概率来定义![conditional_self_information](./Picture_Compress/conditional_self_information.png)来作为在context c下event e的self-information. **This need not be the same as the unconditional self-information. For example, a message stating that it is going to rain in LA with no other information tells us more than a message tating that it is going to rain in the context that it is currently January.**
+
+	- As with the unconditional case, 我们能定义the average conditional self-informaton, and we call this the ** conditional-entropy of a source of messages **. We have to derive this average by averageing both over the contexts and over the messages. For a message Set S and context Set C, the **conditional entropy is** : 
+
+	![conditional_entropy](./Picture_Compress/conditional_entropy.png)
+
+	- 它不是困难的呈现, 如果S的概率分布独立于Context C, 然后, H(S|C) = H(S), 否则H(S|C) < H(S). 换句话说, **考虑context会减少entropy**.
+
+	- shannon原来实际上利用术语information sources来定义entropy. 一个information sources生成一个无限的messagees Xk的序列, k -( {负无穷, 正无穷}, 
+来自一个固定的消息结合S. 如果每个消息的概率独立于先前消息的概率, 这个系统被称作一个**independent and identically distributed(iid) source**. 如此source的熵被称作**unconditional or first order entropy**, 它被定义在Section 2.1. 在这章默认我们将使用术语entropy来意味这first-order entropy.
+
+	- 另一类消息源是Markov process, or 更精确的说是discrete time Markov chain. A sequence follows an order k Markov model if the probability of each message(or event) only depends on the k previous messages, in particular
+![markov_process](./Picture_Compress/markov_process.png)
+
+		Xi 是被source生成的第i个消息. {xn-1, ..., xn-k}被称作系统的状态. Markov process的熵被定义作为conditional entropy, 它是基于条件概率p(xn|xn-1,...,xn-k). 
+
+
+	- Figure 1 呈现了一个first-order Markov Model. 
+![markov_figure1](./Picture_Compress/markov_figure1.png)这个Markov model代表了概率that the source generates a black (b) or white (w) pixel. 每个弧代表了生成一个特定pixel的条件概率, 例如p(w|b)从黑色生成一个白色pixel的条件概率. 每个节点代表了状态中的一个, which in a first-order Markov model仅仅是前一个被生成的消息. 让我门考虑特别的概率p(b|w) = .01, p(w|w) = .99, p(b|b) = .7, p(w|b)=.3, 它不是困难的得到p(b) = 1/31 and p(w) = 30/31(dos this as a exercise). 这些概率给出conditional entropy:
+
+			30/31(.01log(1/.01) + .99log(1/.99)) + 1/31(.7log(1/.7) + .3log(1/.3)) 约等于 .107 
+
+	- This gives the expected number of bits of information contained in each pixel generated by the source. Note that the first-order entropy of the source is:
+
+			30/31log(31/30) + 1/31log(1/30) 约等于 .206
+
+		**which is almost twice as large**
+
+	- Shannon也定义了一个general notion of source entropy for an arbitrary source. 让 A的n次方代表 来自字母表(alphabet)A且长度为n的所有字符串集合,然后第n个order normalized entropy 被定义作为:
+
+		![general_entropy](./Picture_Compress/general_entropy.png)
+
+		This is normalized since we divede it by n - it represents the per-character information. The source entropy 然后被定义作为:
+
+		![general_entropy](./Picture_Compress/general_entropy_limit.png)
+
+		In general it extremely hard to determine the source entropy of an arbitrary source process just by looking at the output of the process. This is because to calculate accurate probabilities even for a relatively simple process could looking at extremely long sequences.
+
+### Probability Coding ###
+
+- 在介绍中提到, 编码是利用消息的概率来生成bit strings. 概率如何被生成由算法中model component决定. 在Section 4中会被讨论.
+
+- 第一类编码是huffman编码, 它是一类前缀编码(prefix code). 更后面的种类我门考虑arthmetic codes. The arithmetic codes 能够实现更好的压缩, 但是要求encoder延迟发送消息, 因为messages需要在发送前进行绑定.
+
+- Prefix Codes
+
+	- A code C for a message set S is a mapping from each message to a bit string. 每个bit string被称作a codeword, 我们将表示代码,使用语法C = {(s1,w1), (s2, w2), ..., (sm, wm)}. codeword基于消息的概率变长, 但是有一个潜在的问题,例如: {(a, 1), (b, 01), (c, 101), (d, 011)}, 位序列1011在被解码时,将有集中可能:aba, ca,or ad. 一个有效的解决方案是设计唯一译码的序列. 我们称如此编码为**uniquely decodable codes**.
+
+	- ** a prefix code is a special kind of uniquely decodable code in which no bit-string is a prefix of another one**, 例如: {(a, 1), (b, 01), (c, 000), (d, 001)}, 所有的prefix codes都是唯一解码, 由于一旦我们匹配, 不再有更长的编码也能匹配.
+
+	- 相比较于其他的uniquely decodable codes, 前缀编码的优势是不必关心下一个消息的开始. 当发送不同类型的消息时, 这个是十分重要的.
+
+	- a prefix code能够被看作一个binary tree(prefix-code tree)
+
+		- each message is a leaf in the tree
+
+		- the code for each message is given by following a path from the root to  the leaf, and appending a 0 each time a left branch is taken, and a 1 each time a right branch is taken. 
+
+	- 这个树在解码的时候是相当有用的, 当bits来时, 解码器跟随树的路径达到一个leaf, 然后输出这个消息, 针对下一位, 回到root重新解码(可能不同的消息类型对应不同tree的root).
+
+	- 在a set of messages和相关的变长编码C上给定一个概率分布, 我们的定义变长的长度为: 
+
+
+		![variable_length](./Picture_Compress/variable_length.png)
+
+		l(w)是codeword w的长度, 如果la(C)是最小, 我们说前缀编码C是一个最优前缀编码. 
+
+	- Ralationship to Entropy
+
+		- 现在揭开prefix codes的平均长度和一集合消息的熵之间的关系, 就像我们展现的, 我们将使用Kraft-McMillan inequality(克拉夫特不等式)
+
+		- 得到前缀表达式的三个公式, 具体证明看book:
+			- 最优前缀表达式的下界 : For any message set S with a probability distribution and associated uniquely decodable code C.
+
+				![lower bound](./Picture_Compress/lower_bound.png)
+
+			- 最优前缀表达式的上界 : For any message set S with a probability distribution and associated optimal prefix Code C.
+
+				![upper_bound](./Picture_Compress/upper_bound.png)
+
+			- 概率与长度关系
+
+				- 如果C是概率{p1,p2,...,pn}的最优前缀表达式, 如果pi > pj暗示l(ci) <= l(cj)
+
+			
+- Huffman Codes
+
+	- Huffman编码利用具体的算法通过概率集合生成optimal prefix codes. David Huffman在MIT于1950年信息论课上开发了这个算法. 这个算法是压缩算法中最流行的组件, 被使用作为GZIP, JPEG和另外工具的后端.
+
+	- Huffman算法是非常简单的,且最容易描述它是如何生成prefix-code树的. 
+
+		- 开始是一片树林, 每个message都是一颗树, 没颗数都包含一个单顶点带着权重wi = pi.
+
+		- Repeat until a single tree remains
+
+		- 选择最低权重root的两颗树(w1 and w2)
+
+		- 绑定他们到一颗树, 并且增加一个新的root,且权重为w1 + w2, 两颗数作为它的孩子. 左右无关, 但是我们的规定是如果w1!=w2, 低权重的root在左边.			
+
+	- 大小为n的编码要求n - 1步, n个叶子, n - 1个中间节点, 每一步创建一个中间节点. **如果我们使用一个优先队列带着O(logn)时间插入,寻找最小值, 这个算法将运行在O(nlogn)时间**.
+
+	- **Huffman codes的关键属性是他们生成最优prefix codes**.(具体证明看book).
+
+	- 由于huffman编码是最优, 我们知道对于任何概率分布S, 与Huffman code C相关联可得 : 
+
+
+		![huffman_code_entropy](./Picture_Compress/huffman_code_entropy.png)
+
+
+	- Combining Messages
+
+		- 尽管huffman编码相对于其他prefix codes是最优的, prefix code相对于熵可能是无效的. 特别是H(s)可能是比1更少, 因此H(S)+1变得十分有意义.
+
+ 		- group消息可能是减少每个消息的消耗.
+
+	- Minimum Variance Huffman Codes
+
+		- 当两个相同频率都被发现时, huffman树有一些灵活性. 因为这个时候有多种方案来生成huffman树.
+
+		- 对于一些应用程序,较少方差是有帮助的, 因为**更小的方差更可以维持一个常量的字符传输速率(constant character transmission rate), 或者减少buffers的大小**
+
+		- variance的定义:
+
+			![huffman_variance.png](./Picture_Compress/huffman_variance.png)
+
+		- 在huffman树生成过程中具体的做法是, 在合并时, 相同概率的树, 优先选择深度浅的树.
+
+		- 具体实例:当用上述方法时code2会被采用
+
+
+			![huffman_variance_table](./Picture_Compress/huffman_variance_table.png)
+
+
+			![huffman_variance_tree](./Picture_Compress/huffman_variance_tree.png)
+
+
+- Arithmetic Coding
+
+	- Arithmetic coding is a technique for coding that **allows the information from the messages in a message sequence to combined to share the same bits**. 这个技术允许发送的总共位数渐进接近独立每个消息的self information的和. 
+
+	- 要看Arithmetic coding的意义, 首先考虑发送几千个消息, 且每个消息都有概率.999, 使用Huffman code, 每个消息不得不占有至少1 bit, 一共要求1000 bits被发送. 在另一方面每一个消息的self-information是log(1/pi) = .00144bits, 因此超过1000个消息的self-information的和为1.4bits. 它证明了arithmetic coding发送所有的信息,仅仅需要3 bits. 比Huffman coder少几百. 当然,这个一个特别的案例, 当所有的概率都比较小, 收获显得不是很明显, **因此, 当在概率分布中有大概率存在时, Arithmetic coders显得很有意义**.
+
+	- 算术编码的主要思想是呈现n个消息的每个在0到1之间按概率生成区间. 消息中的每个序列都带着概率p1,...,pn, 按照消息定位区间, 然后取下一个消息, 定位的空间充当整个空间继续划分, 按照消息定位到更小的空间, 循环下去, 直到定位到最后一个消息. 取该空间的任意一个实数作为编码.  
+
+	- 我们首先利用公式定义出 消息在概率区间间隔点, 其中消息的概率分布为{p(1), ..., p(m)}, 得到累加概率的概率分布为:
+
+
+		![accumulated_probability](./Picture_Compress/accumulated_probability.png)    
+
+		注:累加概率在[0,1)这个起始区间可以得到指定消息区间的起点.
+
+	- 一个案例来得到最后概率区间和编码结果: a = .2, b = .5 and c = .3. 通过消息序列babc得到的间隔为[.255 , .27).
+
+
+		![arithmetic_coding_example](./Picture_Compress/arithmetic_coding_example.png)
+
+
+	- 在处理消息序列时, 可能在每个消息上的概率变得不一样, 这个时候设第i个消息的概率分布为 {pi(1), ..., pi(mi)}, 累加概率则为{fi(1), ..., fi(mi)}. 注意我们指定第i个消息值的index为vi, 我们将使用快捷符 pi作为pi(vi), fi作为fi(vi), 从而可以得到**任意一个消息队列 中 任意一个消息的  区间起始点 的一般递归公式**:
+
+
+		![message_sequence_general_recursive_formula](./Picture_Compress/message_sequence_general_recursive_formula.png) 
+
+		**其中li为第i个消息的区间起始, si为第i个消息的区间宽度, fi为第i消息区间的相对起始点.**
+
+	- 三个区间术语:
+
+		- sequence interval :  [li, li + si]
+
+		- message interval : [fi, fi + pi]
+
+		- code interval : interval of a codeword
+
+	- Lemma 3.3.1: For a Code C, if no two intervals represented by its binary codewords w (- C overlap then the code is prefix code.
+
+	- Lemma 3.3.2: For any l and an s such that l,s > 0 and l + s <  1, the interval represented by **taking the binary fractional representation of l + s/2** and truncating it to **上界(log s) + 1** bits is contained in the interval [l, l + s).
+
+	- **我们将利用上述方程式 然后使用Lemma3.3.2的truncation method来实现RealArithCode算法**
+
+	- Theorem 3.3.1. For a sequence of n messages, with self information s1, ..., sn the length of the arithmetic code generated by RealArithCode is bounded by ![RealArithCode_upper_bound](./Picture_Compress/RealArithCode_upper_bound.png), and the code will not be prefix of any other sequence of n messages.
+
+		**RealArithCode将生成一个在区间内, 不为其他消息前缀, 且有位数上界的编码.**
+
+		我们将给一个解码的细节描述, 在下面的integer implement实现中.
+
+
+		从实现的角度来看, 到现在描述为止, 算术编码还有一些问题, 首先这个算法需要高精度来维护l and s. 随着这些数变得越来越小且有效位越来越多, 维护这些数的成本变得expensive.  另一个问题是, encoder不能确定消息的边界, 书上描述了一种动态确定消息边界的方法, 但同时也否定了它,因此为它会造成一系列问题. **为了解决问题, 算术编码将消息序列分割成固定大小的blocks, 在每个block上分别使用arithmetic coding.** **这个方法还有另外一个优势 : 由于block的大小固定了,encoder不用发送消息的长度(除了最后一个消息, 由于它可能比block size更小)**
+
+
+	- Integer Implementation
+  
+		- 它被证明, 如果我们能够放弃一点点编码效率, 我们可以用固定精度的整数来作为算术编码. 因为roundoff errors(舍入偏差), 实现没有给精确的算术编码. 但是如果我们确信coder and decoder规定rouding in the same way. docoder将能精确的解释消息.
+
+		- 对于这个算法, 我们假设counts作为概率被给:
+
+			c(1), c(2), ... , c(m),
+
+		- 累积的count被定义作为: 
+	
+			![integer_imp_cumulative](./Picture_Compress/integer_imp_cumulative.png)
+
+		- 总共的count为:
+
+			![integer_imp_total_count](./Picture_Compress/integer_imp_total_count.png)
+
+		- counts的使用避免了概率的小数和实数的需要. **代替[0,1]的间距, 我们将使用[0..(R-1)], 其中R = 2的k次方(2的幂), 且R > 4T**. 这个将保证没有区间变得太小来呈现. R越大, 这个算法越接近真实的算术编码. 就象非整数算术编码, 每个消息都有自己的概率分布(有它自己的counts和accumulative counts).
+
+		- 下面就是图4的算术编码. 当前序列的区间间距通过整数l(lower)和u(upper)来规定, 对应的间距是[l, u + 1). 间距s的大小为u - l + 1. 这个算法的主要思想:当间距变得太小时, 通过扩张间距来保持间距大小大于R/4, 这个是内部while循环做的. 在这个循环中, 无论什么时候序列间距掉到原始区域的上半部分(从R/2 to R), 下一位将是1, 我们知道间距要收缩. 相似的如果序列间距完全掉到区域的下半部分, 下一位将是0, 扩展区域的下半部分来填充整个区域.
+
+		- 第三个案例是当间距在区域的中部(R/4 to 3R/4). 在这个案例中, 算法不能输出a bit, 因为它不知道是否这个位是0 还是 1. 然而, 通过增加一个count m来扩展中部区域和追踪扩张. 现在当算法扩张顶部(底部), 它将输出一个1(0), 然而跟随m 0s(1s). 要看这么做的正确性, 考虑扩展中部m次, 然后around the top. 中部区域的第一次扩张在原始区域的1/4和3/4之间, 第二次是在3/8和5/8之间. 在 m expansions后, 间距interval被缩小到区域(1/2 - 1/2的m+1次方, 1/2 + 1/2的m+1次方). 现在我们扩展top缩小间距到(1/2, 1/2 + 1/2的m+1次方). 所有包含在这个范围的间距都将以1开始, 然后跟随m 0s.
+
+		- 另一个有趣的方面是增样完成这个算法. 就像在实数算术编码案例一样, 让它可能解码, 我们必须要确信 任何一个消息序列的编码(bit pattern)都不会是另一个消息序列编码的前缀. 就像之前, 我们做这个的方式是make sure the code interval is fully cocntained in the sequence interval. 当整数算法编码算法(下图figure 4)退出for循环时, 我们知道sequence interval[l, u]完全覆盖在要么second quarter(from R/4 to R/2) 或者 third quarter(from R/2 to 3R/4). 之后扩展规则中的任意一个将被应用. 
+
+
+		![integer_imp_pseudocode](./Picture_Compress/integer_imp_pseudocode.png)
+
+
+		- 编码算法执行的中间状态
+
+
+		![real_arithmetic_code_encode_flow](./Picture_Compress/real_arithmetic_code_encode_flow.png)
+
+		- 这个算法因此简单的判定这个序列的区间落在 两个区间的哪一个(top or bottom),  然后输出编码位来对应指定的区间 - 01是在下半区域, 10是在上半区域. 在输出了这两位的第一位后, 这个算法必须输出m位来指出 在中区间 的扩张.
+
+		- R至少为4T的理由是序列区间大小可能变得像R/4 + 1一样小, 从而掉不到三个区间中的任何一个. To be able to resolve the counts C(i). T has to be at least as large as this interval.
+
+
+		- 一个实例:
+
+			概率分布 : c(1) = 1, c(2) = 10, c(3) = 20
+
+			累积概率 : f(1) = 0, f(2) = 1, f(3) = 11
+
+			相关参数 : T = 31, k = 8(2的k次方确定R), R = 256. 这个统计要求R > 4T. 
+
+			编码序列 : 3,1,2,3
+
+			编码结果 : 0101111101
+
+			编码序列的self-information: 
+
+
+			![arithmetic_real_code_example](./Picture_Compress/arithmetic_real_code_example.png) 
+
+			编码结果11比其稍大
+
+		- 现在考虑怎样使用整数算术编码来解码消息, 相关代码在figure 6. 主要的一点是持续分开code interval和sequence interval的下界和上界. 这个算法每次读一位, 当每一位被读的时候(the bottom half when the bit is a 0 and the top half when it is 1)code interval 减半.  当code interval落在下一个消息的interval时. 这个消息被输出sequence interval被message interval减少. This reduction is followed by the same set of expansions around the top, bottom and middle halves as followed by the encoder. The sequence intervals因此跟着the exact same set of lower and upper bounds as when they were coded. 这个属性保证that all rounding 发生在一样的方式for the coder and decoder, 对算法的正确性是至关重要的. 由于有2的幂次方被改变, 因此code interval的减少和扩张是值得注意的.
+
+
+		![real_arithmetic_code_decode](./Picture_Compress/real_arithmetic_code_decode.png)

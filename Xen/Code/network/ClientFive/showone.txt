@@ -1,0 +1,1093 @@
+Script started on Mon 12 Jan 2015 04:44:52 PM CST
+root@www:/home/Programe/xen/C/ClientFive# ./client 
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+start:117963, end:131072
+start:0, end:13107
+start:104856, end:117963
+start:91749, end:104856
+start:78642, end:91749
+start:65535, end:78642
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+start:52428, end:65535
+start:39321, end:52428
+start:26214, end:39321
+start:13107, end:26214
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+index = 4 boot up
+index = 5 boot up
+index = 6 boot up
+index = 7 boot up
+index = 8 boot up
+index = 9 boot up
+index = 3 boot up
+index = 2 boot up
+index = 1 boot up
+index = 0 boot up
+next_num 76675 : next_sum 78901508
+page num 19263
+start locate current last!
+interval = 7667
+i:0 start_offset:0
+i:0 end_offset:7666
+i:1 start_offset:7667
+i:1 end_offset:15333
+i:2 start_offset:15334
+i:2 end_offset:23000
+i:3 start_offset:23001
+i:3 end_offset:30667
+i:4 start_offset:30668
+i:4 end_offset:38334
+i:5 start_offset:38335
+i:5 end_offset:46001
+i:6 start_offset:46002
+i:6 end_offset:53668
+i:7 start_offset:53669
+i:7 end_offset:61335
+i:8 start_offset:61336
+i:8 end_offset:69002
+i:9 start_offset:69003
+i:9 end_offset:76669
+i:10 start_offset:76670
+index:4 start send
+index:9 start send
+index:9 end send
+index:7 start send
+index:7 end send
+index:4 end send
+wait send PTHREADS end
+index:3 start send
+index:3 end send
+index:1 start send
+index:1 end send
+index:5 start send
+index:5 end send
+index:8 start send
+index:8 end send
+index:0 start send
+index:0 end send
+index:2 start send
+index:2 end send
+index:6 start send
+index:6 end send
+end locate current last!
+next_num 3322 : next_sum 3438886
+page num 839
+start locate current last!
+interval = 332
+i:0 start_offset:0
+i:0 end_offset:331
+i:1 start_offset:332
+i:1 end_offset:663
+i:2 start_offset:664
+i:2 end_offset:995
+i:3 start_offset:996
+i:3 end_offset:1327
+i:4 start_offset:1328
+i:4 end_offset:1659
+i:5 start_offset:1660
+i:5 end_offset:1991
+i:6 start_offset:1992
+i:6 end_offset:2323
+i:7 start_offset:2324
+i:7 end_offset:2655
+i:8 start_offset:2656
+i:8 end_offset:2987
+i:9 start_offset:2988
+i:9 end_offset:3319
+i:10 start_offset:3320
+wait send PTHREADS end
+index:9 start send
+index:9 end send
+index:8 start send
+index:8 end send
+index:4 start send
+index:4 end send
+index:7 start send
+index:7 end send
+index:3 start send
+index:3 end send
+index:6 start send
+index:6 end send
+index:5 start send
+index:5 end send
+index:1 start send
+index:1 end send
+index:2 start send
+index:2 end send
+index:0 start send
+index:0 end send
+end locate current last!
+next_num 1503 : next_sum 1519659
+page num 371
+start locate current last!
+interval = 150
+i:0 start_offset:0
+i:0 end_offset:149
+i:1 start_offset:150
+i:1 end_offset:299
+i:2 start_offset:300
+i:2 end_offset:449
+i:3 start_offset:450
+i:3 end_offset:599
+i:4 start_offset:600
+i:4 end_offset:749
+i:5 start_offset:750
+i:5 end_offset:899
+i:6 start_offset:900
+i:6 end_offset:1049
+i:7 start_offset:1050
+i:7 end_offset:1199
+i:8 start_offset:1200
+i:8 end_offset:1349
+i:9 start_offset:1350
+i:9 end_offset:1499
+i:10 start_offset:1500
+wait send PTHREADS end
+index:9 start send
+index:9 end send
+index:4 start send
+index:4 end send
+index:5 start send
+index:5 end send
+index:6 start send
+index:6 end send
+index:3 start send
+index:3 end send
+index:8 start send
+index:8 end send
+index:7 start send
+index:7 end send
+index:2 start send
+index:2 end send
+index:1 start send
+index:1 end send
+end locate current last!
+next_num 1779 : next_sum 1757178
+page num 428
+start locate current last!
+interval = 177
+i:0 start_offset:0
+i:0 end_offset:176
+i:1 start_offset:177
+i:1 end_offset:353
+i:2 start_offset:354
+i:2 end_offset:530
+i:3 start_offset:531
+i:3 end_offset:707
+i:4 start_offset:708
+i:4 end_offset:884
+i:5 start_offset:885
+i:5 end_offset:1061
+i:6 start_offset:1062
+i:6 end_offset:1238
+i:7 start_offset:1239
+i:7 end_offset:1415
+i:8 start_offset:1416
+i:8 end_offset:1592
+i:9 start_offset:1593
+i:9 end_offset:1769
+i:10 start_offset:1770
+wait send PTHREADS end
+index:2 start send
+index:2 end send
+index:0 start send
+index:0 end send
+index:8 start send
+index:8 end send
+index:6 start send
+index:6 end send
+index:7 start send
+index:7 end send
+index:4 start send
+index:4 end send
+index:9 start send
+index:5 start send
+index:5 end send
+index:9 end send
+index:3 start send
+index:3 end send
+index:1 start send
+index:1 end send
+end locate current last!
+next_num 1486 : next_sum 1486218
+page num 362
+start locate current last!
+interval = 148
+i:0 start_offset:0
+i:0 end_offset:147
+i:1 start_offset:148
+i:1 end_offset:295
+i:2 start_offset:296
+i:2 end_offset:443
+i:3 start_offset:444
+i:3 end_offset:591
+i:4 start_offset:592
+i:4 end_offset:739
+i:5 start_offset:740
+i:5 end_offset:887
+i:6 start_offset:888
+i:6 end_offset:1035
+i:7 start_offset:1036
+i:7 end_offset:1183
+i:8 start_offset:1184
+i:8 end_offset:1331
+i:9 start_offset:1332
+i:9 end_offset:1479
+i:10 start_offset:1480
+wait send PTHREADS end
+index:7 start send
+index:7 end send
+index:1 start send
+index:1 end send
+index:2 start send
+index:2 end send
+index:0 start send
+index:0 end send
+index:3 start send
+index:3 end send
+index:9 start send
+index:9 end send
+index:5 start send
+index:5 end send
+index:6 start send
+index:6 end send
+index:4 start send
+index:4 end send
+index:8 start send
+index:8 end send
+end locate current last!
+next_num 2375 : next_sum 2434196
+page num 594
+start locate current last!
+interval = 237
+i:0 start_offset:0
+i:0 end_offset:236
+i:1 start_offset:237
+i:1 end_offset:473
+i:2 start_offset:474
+i:2 end_offset:710
+i:3 start_offset:711
+i:3 end_offset:947
+i:4 start_offset:948
+i:4 end_offset:1184
+i:5 start_offset:1185
+i:5 end_offset:1421
+i:6 start_offset:1422
+i:6 end_offset:1658
+i:7 start_offset:1659
+i:7 end_offset:1895
+i:8 start_offset:1896
+i:8 end_offset:2132
+i:9 start_offset:2133
+i:9 end_offset:2369
+i:10 start_offset:2370
+wait send PTHREADS end
+index:5 start send
+index:5 end send
+index:7 start send
+index:7 end send
+index:8 start send
+index:8 end send
+index:1 start send
+index:1 end send
+index:4 start send
+index:4 end send
+index:0 start send
+index:6 start send
+index:6 end send
+index:0 end send
+index:9 start send
+index:9 end send
+index:3 start send
+index:3 end send
+index:2 start send
+index:2 end send
+end locate current last!
+next_num 1260 : next_sum 1302800
+page num 318
+start locate current last!
+interval = 126
+i:0 start_offset:0
+i:0 end_offset:125
+i:1 start_offset:126
+i:1 end_offset:251
+i:2 start_offset:252
+i:2 end_offset:377
+i:3 start_offset:378
+i:3 end_offset:503
+i:4 start_offset:504
+i:4 end_offset:629
+i:5 start_offset:630
+i:5 end_offset:755
+i:6 start_offset:756
+i:6 end_offset:881
+i:7 start_offset:882
+i:7 end_offset:1007
+i:8 start_offset:1008
+i:8 end_offset:1133
+i:9 start_offset:1134
+index:2 start send
+index:2 end send
+index:7 start send
+index:7 end send
+index:6 start send
+index:6 end send
+index:4 start send
+index:4 end send
+index:5 start send
+index:5 end send
+index:1 start send
+index:1 end send
+index:3 start send
+index:3 end send
+index:9 start send
+index:9 end send
+index:0 start send
+index:0 end send
+wait send PTHREADS end
+index:8 start send
+index:8 end send
+end locate current last!
+next_num 2315 : next_sum 2336911
+page num 570
+start locate current last!
+interval = 231
+i:0 start_offset:0
+i:0 end_offset:230
+i:1 start_offset:231
+i:1 end_offset:461
+i:2 start_offset:462
+i:2 end_offset:692
+i:3 start_offset:693
+i:3 end_offset:923
+i:4 start_offset:924
+i:4 end_offset:1154
+i:5 start_offset:1155
+i:5 end_offset:1385
+i:6 start_offset:1386
+i:6 end_offset:1616
+i:7 start_offset:1617
+i:7 end_offset:1847
+i:8 start_offset:1848
+i:8 end_offset:2078
+i:9 start_offset:2079
+i:9 end_offset:2309
+i:10 start_offset:2310
+index:5 start send
+index:5 end send
+index:3 start send
+index:3 end send
+index:4 start send
+index:4 end send
+index:0 start send
+index:0 end send
+wait send PTHREADS end
+index:2 start send
+index:2 end send
+index:1 start send
+index:1 end send
+index:8 start send
+index:8 end send
+index:9 start send
+index:9 end send
+index:7 start send
+index:7 end send
+index:6 start send
+index:6 end send
+end locate current last!
+next_num 1831 : next_sum 2023265
+page num 493
+start locate current last!
+interval = 183
+i:0 start_offset:0
+i:0 end_offset:182
+i:1 start_offset:183
+i:1 end_offset:365
+i:2 start_offset:366
+i:2 end_offset:548
+i:3 start_offset:549
+i:3 end_offset:731
+i:4 start_offset:732
+i:4 end_offset:914
+i:5 start_offset:915
+i:5 end_offset:1097
+i:6 start_offset:1098
+i:6 end_offset:1280
+i:7 start_offset:1281
+i:7 end_offset:1463
+i:8 start_offset:1464
+i:8 end_offset:1646
+i:9 start_offset:1647
+i:9 end_offset:1829
+index:0 start send
+index:0 end send
+index:2 start send
+index:2 end send
+index:3 start send
+index:3 end send
+wait send PTHREADS end
+index:1 start send
+index:1 end send
+index:6 start send
+index:6 end send
+index:4 start send
+index:4 end send
+index:7 start send
+index:7 end send
+index:5 start send
+index:5 end send
+index:9 start send
+index:9 end send
+index:8 start send
+index:8 end send
+end locate current last!
+next_num 1490 : next_sum 1585940
+page num 387
+start locate current last!
+interval = 149
+i:0 start_offset:0
+i:0 end_offset:148
+i:1 start_offset:149
+i:1 end_offset:297
+i:2 start_offset:298
+i:2 end_offset:446
+i:3 start_offset:447
+i:3 end_offset:595
+i:4 start_offset:596
+i:4 end_offset:744
+i:5 start_offset:745
+i:5 end_offset:893
+i:6 start_offset:894
+i:6 end_offset:1042
+i:7 start_offset:1043
+i:7 end_offset:1191
+i:8 start_offset:1192
+i:8 end_offset:1340
+i:9 start_offset:1341
+index:4 start send
+index:4 end send
+index:1 start send
+index:1 end send
+index:7 start send
+index:7 end send
+wait send PTHREADS end
+index:9 start send
+index:9 end send
+index:3 start send
+index:3 end send
+index:2 start send
+index:2 end send
+index:0 start send
+index:0 end send
+index:5 start send
+index:5 end send
+index:8 start send
+index:8 end send
+index:6 start send
+index:6 end send
+end locate current last!
+next_num 1668 : next_sum 1696898
+page num 414
+start locate current last!
+interval = 166
+i:0 start_offset:0
+i:0 end_offset:165
+i:1 start_offset:166
+i:1 end_offset:331
+i:2 start_offset:332
+i:2 end_offset:497
+i:3 start_offset:498
+i:3 end_offset:663
+i:4 start_offset:664
+i:4 end_offset:829
+i:5 start_offset:830
+i:5 end_offset:995
+i:6 start_offset:996
+i:6 end_offset:1161
+i:7 start_offset:1162
+i:7 end_offset:1327
+i:8 start_offset:1328
+i:8 end_offset:1493
+i:9 start_offset:1494
+i:9 end_offset:1659
+i:10 start_offset:1660
+index:0 start send
+index:0 end send
+index:9 start send
+index:9 end send
+index:3 start send
+index:3 end send
+index:7 start send
+index:7 end send
+wait send PTHREADS end
+index:2 start send
+index:2 end send
+index:8 start send
+index:8 end send
+index:4 start send
+index:4 end send
+index:6 start send
+index:6 end send
+index:5 start send
+index:5 end send
+index:1 start send
+index:1 end send
+end locate current last!
+next_num 1903 : next_sum 1950271
+page num 476
+start locate current last!
+interval = 190
+i:0 start_offset:0
+i:0 end_offset:189
+i:1 start_offset:190
+i:1 end_offset:379
+i:2 start_offset:380
+i:2 end_offset:569
+i:3 start_offset:570
+i:3 end_offset:759
+i:4 start_offset:760
+i:4 end_offset:949
+i:5 start_offset:950
+i:5 end_offset:1139
+i:6 start_offset:1140
+i:6 end_offset:1329
+i:7 start_offset:1330
+i:7 end_offset:1519
+i:8 start_offset:1520
+i:8 end_offset:1709
+i:9 start_offset:1710
+i:9 end_offset:1899
+i:10 start_offset:1900
+wait send PTHREADS end
+index:0 start send
+index:0 end send
+index:3 start send
+index:3 end send
+index:8 start send
+index:8 end send
+index:2 start send
+index:2 end send
+index:4 start send
+index:4 end send
+index:5 start send
+index:5 end send
+index:1 start send
+index:1 end send
+index:7 start send
+index:7 end send
+index:9 start send
+index:9 end send
+index:6 start send
+index:6 end send
+end locate current last!
+next_num 1679 : next_sum 1677134
+page num 409
+start locate current last!
+interval = 167
+i:0 start_offset:0
+i:0 end_offset:166
+i:1 start_offset:167
+i:1 end_offset:333
+i:2 start_offset:334
+i:2 end_offset:500
+i:3 start_offset:501
+i:3 end_offset:667
+i:4 start_offset:668
+i:4 end_offset:834
+i:5 start_offset:835
+i:5 end_offset:1001
+i:6 start_offset:1002
+i:6 end_offset:1168
+i:7 start_offset:1169
+i:7 end_offset:1335
+i:8 start_offset:1336
+i:8 end_offset:1502
+i:9 start_offset:1503
+i:9 end_offset:1669
+i:10 start_offset:1670
+wait send PTHREADS end
+index:7 start send
+index:7 end send
+index:6 start send
+index:6 end send
+index:0 start send
+index:0 end send
+index:1 start send
+index:1 end send
+index:3 start send
+index:3 end send
+index:9 start send
+index:9 end send
+index:4 start send
+index:4 end send
+index:5 start send
+index:5 end send
+index:8 start send
+index:8 end send
+index:2 start send
+index:2 end send
+end locate current last!
+next_num 1203 : next_sum 1255035
+page num 306
+start locate current last!
+interval = 120
+i:0 start_offset:0
+i:0 end_offset:119
+i:1 start_offset:120
+i:1 end_offset:239
+i:2 start_offset:240
+i:2 end_offset:359
+i:3 start_offset:360
+i:3 end_offset:479
+i:4 start_offset:480
+i:4 end_offset:599
+i:5 start_offset:600
+i:5 end_offset:719
+i:6 start_offset:720
+i:6 end_offset:839
+i:7 start_offset:840
+i:7 end_offset:959
+i:8 start_offset:960
+i:8 end_offset:1079
+i:9 start_offset:1080
+i:9 end_offset:1199
+i:10 start_offset:1200
+wait send PTHREADS end
+index:8 start send
+index:8 end send
+index:4 start send
+index:4 end send
+index:5 start send
+index:5 end send
+index:0 start send
+index:0 end send
+index:1 start send
+index:1 end send
+index:6 start send
+index:6 end send
+index:7 start send
+index:7 end send
+index:9 start send
+index:9 end send
+index:3 start send
+index:3 end send
+index:2 start send
+index:2 end send
+end locate current last!
+next_num 1208 : next_sum 1250707
+page num 305
+start locate current last!
+interval = 120
+i:0 start_offset:0
+i:0 end_offset:119
+i:1 start_offset:120
+i:1 end_offset:239
+i:2 start_offset:240
+i:2 end_offset:359
+i:3 start_offset:360
+i:3 end_offset:479
+i:4 start_offset:480
+i:4 end_offset:599
+i:5 start_offset:600
+i:5 end_offset:719
+i:6 start_offset:720
+i:6 end_offset:839
+i:7 start_offset:840
+i:7 end_offset:959
+i:8 start_offset:960
+i:8 end_offset:1079
+i:9 start_offset:1080
+i:9 end_offset:1199
+i:10 start_offset:1200
+wait send PTHREADS end
+index:7 start send
+index:7 end send
+index:9 start send
+index:9 end send
+index:0 start send
+index:0 end send
+index:1 start send
+index:1 end send
+index:2 start send
+index:2 end send
+index:3 start send
+index:3 end send
+index:5 start send
+index:5 end send
+index:6 start send
+index:6 end send
+index:8 start send
+index:8 end send
+index:4 start send
+index:4 end send
+end locate current last!
+next_num 1361 : next_sum 1426253
+page num 348
+start locate current last!
+interval = 136
+i:0 start_offset:0
+i:0 end_offset:135
+i:1 start_offset:136
+i:1 end_offset:271
+i:2 start_offset:272
+i:2 end_offset:407
+i:3 start_offset:408
+i:3 end_offset:543
+i:4 start_offset:544
+i:4 end_offset:679
+i:5 start_offset:680
+i:5 end_offset:815
+i:6 start_offset:816
+i:6 end_offset:951
+i:7 start_offset:952
+i:7 end_offset:1087
+i:8 start_offset:1088
+i:8 end_offset:1223
+i:9 start_offset:1224
+wait send PTHREADS end
+index:5 start send
+index:5 end send
+index:6 start send
+index:6 end send
+index:1 start send
+index:1 end send
+index:3 start send
+index:3 end send
+index:8 start send
+index:8 end send
+index:0 start send
+index:0 end send
+index:7 start send
+index:7 end send
+index:4 start send
+index:4 end send
+index:9 start send
+index:9 end send
+index:2 start send
+index:2 end send
+end locate current last!
+next_num 1473 : next_sum 1516417
+page num 370
+start locate current last!
+interval = 147
+i:0 start_offset:0
+i:0 end_offset:146
+i:1 start_offset:147
+i:1 end_offset:293
+i:2 start_offset:294
+i:2 end_offset:440
+i:3 start_offset:441
+i:3 end_offset:587
+i:4 start_offset:588
+i:4 end_offset:734
+i:5 start_offset:735
+i:5 end_offset:881
+i:6 start_offset:882
+i:6 end_offset:1028
+i:7 start_offset:1029
+i:7 end_offset:1175
+i:8 start_offset:1176
+i:8 end_offset:1322
+i:9 start_offset:1323
+i:9 end_offset:1469
+i:10 start_offset:1470
+wait send PTHREADS end
+index:1 start send
+index:1 end send
+index:3 start send
+index:3 end send
+index:2 start send
+index:2 end send
+index:8 start send
+index:8 end send
+index:6 start send
+index:6 end send
+index:4 start send
+index:4 end send
+index:7 start send
+index:7 end send
+index:9 start send
+index:9 end send
+index:0 start send
+index:0 end send
+index:5 start send
+index:5 end send
+end locate current last!
+next_num 1282 : next_sum 1263149
+page num 308
+start locate current last!
+interval = 128
+i:0 start_offset:0
+i:0 end_offset:127
+i:1 start_offset:128
+i:1 end_offset:255
+i:2 start_offset:256
+i:2 end_offset:383
+i:3 start_offset:384
+i:3 end_offset:511
+i:4 start_offset:512
+i:4 end_offset:639
+i:5 start_offset:640
+i:5 end_offset:767
+i:6 start_offset:768
+i:6 end_offset:895
+i:7 start_offset:896
+i:7 end_offset:1023
+i:8 start_offset:1024
+i:8 end_offset:1151
+i:9 start_offset:1152
+i:9 end_offset:1279
+i:10 start_offset:1280
+index:3 start send
+index:3 end send
+index:2 start send
+index:2 end send
+index:4 start send
+index:4 end send
+index:8 start send
+index:8 end send
+index:6 start send
+index:6 end send
+index:1 start send
+index:1 end send
+index:5 start send
+index:5 end send
+wait send PTHREADS end
+index:0 start send
+index:0 end send
+index:7 start send
+index:7 end send
+index:9 start send
+index:9 end send
+end locate current last!
+next_num 1563 : next_sum 1585465
+page num 387
+start locate current last!
+interval = 156
+i:0 start_offset:0
+i:0 end_offset:155
+i:1 start_offset:156
+i:1 end_offset:311
+i:2 start_offset:312
+i:2 end_offset:467
+i:3 start_offset:468
+i:3 end_offset:623
+i:4 start_offset:624
+i:4 end_offset:779
+i:5 start_offset:780
+i:5 end_offset:935
+i:6 start_offset:936
+i:6 end_offset:1091
+i:7 start_offset:1092
+i:7 end_offset:1247
+i:8 start_offset:1248
+i:8 end_offset:1403
+i:9 start_offset:1404
+i:9 end_offset:1559
+i:10 start_offset:1560
+wait send PTHREADS end
+index:8 start send
+index:8 end send
+index:0 start send
+index:0 end send
+index:1 start send
+index:1 end send
+index:2 start send
+index:2 end send
+index:9 start send
+index:9 end send
+index:3 start send
+index:3 end send
+index:7 start send
+index:7 end send
+index:5 start send
+index:5 end send
+index:6 start send
+index:6 end send
+index:4 start send
+index:4 end send
+end locate current last!
+next_num 1621 : next_sum 1685068
+page num 411
+start locate current last!
+interval = 162
+i:0 start_offset:0
+i:0 end_offset:161
+i:1 start_offset:162
+i:1 end_offset:323
+i:2 start_offset:324
+i:2 end_offset:485
+i:3 start_offset:486
+i:3 end_offset:647
+i:4 start_offset:648
+i:4 end_offset:809
+i:5 start_offset:810
+i:5 end_offset:971
+i:6 start_offset:972
+i:6 end_offset:1133
+i:7 start_offset:1134
+i:7 end_offset:1295
+i:8 start_offset:1296
+i:8 end_offset:1457
+i:9 start_offset:1458
+wait send PTHREADS end
+index:0 start send
+index:0 end send
+index:5 start send
+index:1 start send
+index:1 end send
+index:5 end send
+index:8 start send
+index:8 end send
+index:6 start send
+index:6 end send
+index:7 start send
+index:7 end send
+index:9 start send
+index:9 end send
+index:3 start send
+index:3 end send
+index:4 start send
+index:4 end send
+index:2 start send
+index:2 end send
+end locate current last!
+next_num 1170 : next_sum 1258053
+page num 307
+start locate current last!
+interval = 117
+i:0 start_offset:0
+i:0 end_offset:116
+i:1 start_offset:117
+i:1 end_offset:233
+i:2 start_offset:234
+i:2 end_offset:350
+i:3 start_offset:351
+i:3 end_offset:467
+i:4 start_offset:468
+i:4 end_offset:584
+i:5 start_offset:585
+i:5 end_offset:701
+i:6 start_offset:702
+i:6 end_offset:818
+i:7 start_offset:819
+i:7 end_offset:935
+i:8 start_offset:936
+i:8 end_offset:1052
+i:9 start_offset:1053
+wait send PTHREADS end
+index:5 start send
+index:5 end send
+index:0 start send
+index:0 end send
+index:1 start send
+index:1 end send
+index:7 start send
+index:7 end send
+index:9 start send
+index:9 end send
+index:6 start send
+index:6 end send
+index:8 start send
+index:8 end send
+index:3 start send
+index:3 end send
+index:4 start send
+index:4 end send
+index:2 start send
+index:2 end send
+end locate current last!
+next_num 1796 : next_sum 1858977
+page num 453
+start locate current last!
+interval = 179
+i:0 start_offset:0
+i:0 end_offset:178
+i:1 start_offset:179
+i:1 end_offset:357
+i:2 start_offset:358
+i:2 end_offset:536
+i:3 start_offset:537
+i:3 end_offset:715
+i:4 start_offset:716
+i:4 end_offset:894
+i:5 start_offset:895
+i:5 end_offset:1073
+i:6 start_offset:1074
+i:6 end_offset:1252
+i:7 start_offset:1253
+i:7 end_offset:1431
+i:8 start_offset:1432
+i:8 end_offset:1610
+i:9 start_offset:1611
+i:9 end_offset:1789
+i:10 start_offset:1790
+wait send PTHREADS end
+index:4 start send
+index:4 end send
+index:7 start send
+index:7 end send
+index:5 start send
+index:5 end send
+index:1 start send
+index:1 end send
+index:8 start send
+index:2 start send
+index:2 end send
+index:6 start send
+index:6 end send
+index:3 start send
+index:3 end send
+index:0 start send
+index:0 end send
+index:9 start send
+index:9 end send
+end locate current last!
+next_num 0 : next_sum 0
+page num 0
+interation while end
+interation end
+index:8 end send
+random end
+main return
+root@www:/home/Programe/xen/C/ClientFive# exit
+exit
+
+Script done on Mon 12 Jan 2015 04:47:31 PM CST
