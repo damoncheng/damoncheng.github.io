@@ -1,0 +1,1290 @@
+thread create
+thread create end
+thread create
+start:0, end:4369
+start:4369, end:8738
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+start:13107, end:17476
+thread create end
+thread create
+start:8738, end:13107
+start:17476, end:21845
+start:21845, end:26214
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+start:26214, end:30583
+start:30583, end:34952
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+connect successfully
+start:91749, end:96118
+start:100487, end:104856
+start:126701, end:131072
+start:104856, end:109225
+start:113594, end:117963
+start:56797, end:61166
+start:96118, end:100487
+start:65535, end:69904
+start:74273, end:78642
+start:78642, end:83011
+start:83011, end:87380
+start:109225, end:113594
+start:117963, end:122332
+start:61166, end:65535
+start:69904, end:74273
+start:87380, end:91749
+start:122332, end:126701
+start:52428, end:56797
+start:48059, end:52428
+start:43690, end:48059
+start:39321, end:43690
+start:34952, end:39321
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+index = 7 boot up
+index = 5 boot up
+index = 6 boot up
+index = 4 boot up
+index = 3 boot up
+index = 2 boot up
+index = 1 boot up
+index = 8 boot up
+index = 0 boot up
+next_num 57559 : next_sum 58846094
+page num 14366
+start locate current last!
+interval = 1918
+i:0 start_offset:0 data_start_offset:702059328
+i:0 end_offset:1917
+ data_end_offset:701739648
+i:1 start_offset:1918 data_start_offset:700964976
+i:1 end_offset:3835
+ data_end_offset:701140896
+i:2 start_offset:3836 data_start_offset:701494056
+i:2 end_offset:5753
+ data_end_offset:701021304
+i:3 start_offset:5754 data_start_offset:701308416
+i:3 end_offset:7671
+ data_end_offset:701506728
+i:4 start_offset:7672 data_start_offset:700927728
+index = 21 boot up
+i:4 end_offset:9589
+ data_end_offset:701373432
+i:5 start_offset:9590 data_start_offset:701566512
+index = 22 boot up
+index = 23 boot up
+index = 24 boot up
+i:5 end_offset:11507
+ data_end_offset:701106504
+i:6 start_offset:11508 data_start_offset:701830848
+index = 25 boot up
+index = 26 boot up
+index = 27 boot up
+index = 28 boot up
+index = 29 boot up
+i:6 end_offset:13425
+ data_end_offset:701246064
+i:7 start_offset:13426 data_start_offset:702273432
+i:7 end_offset:15343
+ data_end_offset:701471616
+i:8 start_offset:15344 data_start_offset:701497848
+i:8 end_offset:17261
+ data_end_offset:701130312
+i:9 start_offset:17262 data_start_offset:702036216
+i:9 end_offset:19179
+ data_end_offset:701714352
+i:10 start_offset:19180 data_start_offset:701753232
+i:10 end_offset:21097
+ data_end_offset:701397096
+i:11 start_offset:21098 data_start_offset:701494608
+i:11 end_offset:23015
+ data_end_offset:701053464
+i:12 start_offset:23016 data_start_offset:701247120
+i:12 end_offset:24933
+ data_end_offset:701159928
+i:13 start_offset:24934 data_start_offset:701613984
+i:13 end_offset:26851
+ data_end_offset:701699088
+i:14 start_offset:26852 data_start_offset:701790480
+i:14 end_offset:28769
+ data_end_offset:701371176
+i:15 start_offset:28770 data_start_offset:702182016
+i:15 end_offset:30687
+ data_end_offset:702062208
+i:16 start_offset:30688 data_start_offset:701275824
+i:16 end_offset:32605
+ data_end_offset:701935512
+i:17 start_offset:32606 data_start_offset:700993584
+i:17 end_offset:34523
+ data_end_offset:701356248
+i:18 start_offset:34524 data_start_offset:701515080
+i:18 end_offset:36441
+ data_end_offset:701882472
+i:19 start_offset:36442 data_start_offset:701328480
+i:19 end_offset:38359
+ data_end_offset:701144832
+i:20 start_offset:38360 data_start_offset:702255312
+i:20 end_offset:40277
+ data_end_offset:701657688
+i:21 start_offset:40278 data_start_offset:701354832
+i:21 end_offset:42195
+ data_end_offset:702127344
+i:22 start_offset:42196 data_start_offset:701557320
+i:22 end_offset:44113
+ data_end_offset:700942704
+i:23 start_offset:44114 data_start_offset:701764824
+i:23 end_offset:46031
+ data_end_offset:702071088
+i:24 start_offset:46032 data_start_offset:701500680
+i:24 end_offset:47949
+ data_end_offset:701836320
+i:25 start_offset:47950 data_start_offset:701485176
+i:25 end_offset:49867
+ data_end_offset:701498112
+i:26 start_offset:49868 data_start_offset:701505408
+i:26 end_offset:51785
+ data_end_offset:701197968
+i:27 start_offset:51786 data_start_offset:701435256
+i:27 end_offset:53703
+ data_end_offset:701711592
+i:28 start_offset:53704 data_start_offset:701245848
+i:28 end_offset:55621
+ data_end_offset:701644008
+i:29 start_offset:55622 data_start_offset:702215544
+i:29 end_offset:57539
+ data_end_offset:701940168
+allocate=57539
+wait send PTHREADS end
+index = 9 boot up
+index = 18 boot up
+index = 19 boot up
+index = 10 boot up
+index = 20 boot up
+index = 11 boot up
+index = 16 boot up
+index = 12 boot up
+index = 17 boot up
+index = 13 boot up
+index = 14 boot up
+index = 15 boot up
+index:7 start send cur_offset:702273432 end_offset:701471616
+index:5 start send cur_offset:701566512 end_offset:701106504
+index:21 start send cur_offset:701354832 end_offset:702127344
+index:6 start send cur_offset:701830848 end_offset:701246064
+index:22 start send cur_offset:701557320 end_offset:700942704
+index:4 start send cur_offset:700927728 end_offset:701373432
+index:23 start send cur_offset:701764824 end_offset:702071088
+index:3 start send cur_offset:701308416 end_offset:701506728
+index:24 start send cur_offset:701500680 end_offset:701836320
+index:25 start send cur_offset:701485176 end_offset:701498112
+index:2 start send cur_offset:701494056 end_offset:701021304
+index:26 start send cur_offset:701505408 end_offset:701197968
+index:1 start send cur_offset:700964976 end_offset:701140896
+index:27 start send cur_offset:701435256 end_offset:701711592
+index:28 start send cur_offset:701245848 end_offset:701644008
+index:8 start send cur_offset:701497848 end_offset:701130312
+index:29 start send cur_offset:702215544 end_offset:701940168
+index:0 start send cur_offset:702059328 end_offset:701739648
+index:9 start send cur_offset:702036216 end_offset:701714352
+index:10 start send cur_offset:701753232 end_offset:701397096
+index:18 start send cur_offset:701515080 end_offset:701882472
+index:19 start send cur_offset:701328480 end_offset:701144832
+index:20 start send cur_offset:702255312 end_offset:701657688
+index:11 start send cur_offset:701494608 end_offset:701053464
+index:12 start send cur_offset:701247120 end_offset:701159928
+index:16 start send cur_offset:701275824 end_offset:701935512
+index:17 start send cur_offset:700993584 end_offset:701356248
+index:13 start send cur_offset:701613984 end_offset:701699088
+index:14 start send cur_offset:701790480 end_offset:701371176
+index:15 start send cur_offset:702182016 end_offset:702062208
+index:12 end send
+index:16 end send
+index:21 end send
+index:28 end send
+index:19 end send
+index:13 end send
+index:27 end send
+index:29 end send
+index:11 end send
+index:17 end send
+index:15 end send
+index:18 end send
+index:8 end send
+index:23 end send
+index:24 end send
+index:25 end send
+index:26 end send
+index:9 end send
+index:10 end send
+index:20 end send
+index:14 end send
+index:0 end send
+index:4 end send
+index:22 end send
+index:2 end send
+index:6 end send
+index:1 end send
+index:7 end send
+index:5 end send
+index:3 end send
+end locate current last!
+next_num 18489 : next_sum 18878003
+page num 4608
+start locate current last!
+interval = 616
+i:0 start_offset:0 data_start_offset:702418080
+i:0 end_offset:615
+ data_end_offset:702591432
+i:1 start_offset:616 data_start_offset:702624960
+i:1 end_offset:1231
+ data_end_offset:702674376
+i:2 start_offset:1232 data_start_offset:702328944
+i:2 end_offset:1847
+ data_end_offset:702671256
+i:3 start_offset:1848 data_start_offset:702365424
+i:3 end_offset:2463
+ data_end_offset:702505992
+i:4 start_offset:2464 data_start_offset:702635760
+i:4 end_offset:3079
+ data_end_offset:702648792
+i:5 start_offset:3080 data_start_offset:702677688
+i:5 end_offset:3695
+ data_end_offset:702625944
+i:6 start_offset:3696 data_start_offset:702343344
+i:6 end_offset:4311
+ data_end_offset:702490872
+i:7 start_offset:4312 data_start_offset:702466008
+i:7 end_offset:4927
+ data_end_offset:702360384
+i:8 start_offset:4928 data_start_offset:702593016
+i:8 end_offset:5543
+ data_end_offset:702367080
+i:9 start_offset:5544 data_start_offset:702488208
+i:9 end_offset:6159
+ data_end_offset:702326304
+i:10 start_offset:6160 data_start_offset:702503592
+i:10 end_offset:6775
+ data_end_offset:702620928
+i:11 start_offset:6776 data_start_offset:702728832
+i:11 end_offset:7391
+ data_end_offset:702357888
+i:12 start_offset:7392 data_start_offset:702485496
+i:12 end_offset:8007
+ data_end_offset:702461616
+i:13 start_offset:8008 data_start_offset:702712464
+i:13 end_offset:8623
+ data_end_offset:702404112
+i:14 start_offset:8624 data_start_offset:702318192
+i:14 end_offset:9239
+ data_end_offset:702573912
+i:15 start_offset:9240 data_start_offset:702441240
+i:15 end_offset:9855
+ data_end_offset:702464688
+i:16 start_offset:9856 data_start_offset:702455832
+i:16 end_offset:10471
+ data_end_offset:702673152
+i:17 start_offset:10472 data_start_offset:702691200
+i:17 end_offset:11087
+ data_end_offset:702365712
+i:18 start_offset:11088 data_start_offset:702479280
+i:18 end_offset:11703
+ data_end_offset:702510648
+i:19 start_offset:11704 data_start_offset:702642744
+i:19 end_offset:12319
+ data_end_offset:702350616
+i:20 start_offset:12320 data_start_offset:702682056
+i:20 end_offset:12935
+ data_end_offset:702310800
+i:21 start_offset:12936 data_start_offset:702518616
+i:21 end_offset:13551
+ data_end_offset:702477768
+i:22 start_offset:13552 data_start_offset:702694632
+i:22 end_offset:14167
+ data_end_offset:702685416
+i:23 start_offset:14168 data_start_offset:702338376
+i:23 end_offset:14783
+ data_end_offset:702540432
+i:24 start_offset:14784 data_start_offset:702579240
+i:24 end_offset:15399
+ data_end_offset:702379248
+i:25 start_offset:15400 data_start_offset:702458472
+i:25 end_offset:16015
+ data_end_offset:702423816
+i:26 start_offset:16016 data_start_offset:702431976
+i:26 end_offset:16631
+ data_end_offset:702306456
+i:27 start_offset:16632 data_start_offset:702521808
+i:27 end_offset:17247
+ data_end_offset:702376464
+i:28 start_offset:17248 data_start_offset:702722760
+i:28 end_offset:17863
+ data_end_offset:702359880
+i:29 start_offset:17864 data_start_offset:702434520
+i:29 end_offset:18479
+ data_end_offset:702419160
+allocate=18479
+index:9 start send cur_offset:702488208 end_offset:702326304
+index:28 start send cur_offset:702722760 end_offset:702359880
+index:3 start send cur_offset:702365424 end_offset:702505992
+index:29 start send cur_offset:702434520 end_offset:702419160
+index:5 start send cur_offset:702677688 end_offset:702625944
+index:8 start send cur_offset:702593016 end_offset:702367080
+index:21 start send cur_offset:702518616 end_offset:702477768
+index:16 start send cur_offset:702455832 end_offset:702673152
+index:23 start send cur_offset:702338376 end_offset:702540432
+index:12 start send cur_offset:702485496 end_offset:702461616
+index:1 start send cur_offset:702624960 end_offset:702674376
+index:22 start send cur_offset:702694632 end_offset:702685416
+index:11 start send cur_offset:702728832 end_offset:702357888
+index:25 start send cur_offset:702458472 end_offset:702423816
+index:24 start send cur_offset:702579240 end_offset:702379248
+index:20 start send cur_offset:702682056 end_offset:702310800
+wait send PTHREADS end
+index:15 start send cur_offset:702441240 end_offset:702464688
+index:2 start send cur_offset:702328944 end_offset:702671256
+index:19 start send cur_offset:702642744 end_offset:702350616
+index:6 start send cur_offset:702343344 end_offset:702490872
+index:7 start send cur_offset:702466008 end_offset:702360384
+index:26 start send cur_offset:702431976 end_offset:702306456
+index:17 start send cur_offset:702691200 end_offset:702365712
+index:14 start send cur_offset:702318192 end_offset:702573912
+index:10 start send cur_offset:702503592 end_offset:702620928
+index:4 start send cur_offset:702635760 end_offset:702648792
+index:0 start send cur_offset:702418080 end_offset:702591432
+index:13 start send cur_offset:702712464 end_offset:702404112
+index:18 start send cur_offset:702479280 end_offset:702510648
+index:27 start send cur_offset:702521808 end_offset:702376464
+index:29 end send
+index:18 end send
+index:8 end send
+index:16 end send
+index:28 end send
+index:21 end send
+index:11 end send
+index:15 end send
+index:17 end send
+index:12 end send
+index:27 end send
+index:13 end send
+index:0 end send
+index:6 end send
+index:4 end send
+index:9 end send
+index:23 end send
+index:24 end send
+index:25 end send
+index:20 end send
+index:26 end send
+index:19 end send
+index:10 end send
+index:14 end send
+index:2 end send
+index:22 end send
+index:7 end send
+index:1 end send
+index:5 end send
+index:3 end send
+end locate current last!
+next_num 5567 : next_sum 5654986
+page num 1380
+start locate current last!
+interval = 185
+i:0 start_offset:0 data_start_offset:701108520
+i:0 end_offset:184
+ data_end_offset:701721672
+i:1 start_offset:185 data_start_offset:701508768
+i:1 end_offset:369
+ data_end_offset:700966320
+i:2 start_offset:370 data_start_offset:701694480
+i:2 end_offset:554
+ data_end_offset:701339136
+i:3 start_offset:555 data_start_offset:701732760
+i:3 end_offset:739
+ data_end_offset:701656512
+i:4 start_offset:740 data_start_offset:701731248
+i:4 end_offset:924
+ data_end_offset:701659800
+i:5 start_offset:925 data_start_offset:701069832
+i:5 end_offset:1109
+ data_end_offset:702138336
+i:6 start_offset:1110 data_start_offset:701955840
+i:6 end_offset:1294
+ data_end_offset:701087472
+i:7 start_offset:1295 data_start_offset:701611104
+i:7 end_offset:1479
+ data_end_offset:700913640
+i:8 start_offset:1480 data_start_offset:701353248
+i:8 end_offset:1664
+ data_end_offset:702279312
+i:9 start_offset:1665 data_start_offset:701441328
+i:9 end_offset:1849
+ data_end_offset:701492304
+i:10 start_offset:1850 data_start_offset:701183088
+i:10 end_offset:2034
+ data_end_offset:701492040
+i:11 start_offset:2035 data_start_offset:701934048
+i:11 end_offset:2219
+ data_end_offset:701425536
+i:12 start_offset:2220 data_start_offset:700915968
+i:12 end_offset:2404
+ data_end_offset:701015352
+i:13 start_offset:2405 data_start_offset:701812464
+i:13 end_offset:2589
+ data_end_offset:701404800
+i:14 start_offset:2590 data_start_offset:701471928
+i:14 end_offset:2774
+ data_end_offset:701252808
+i:15 start_offset:2775 data_start_offset:700963368
+i:15 end_offset:2959
+ data_end_offset:702103680
+i:16 start_offset:2960 data_start_offset:701646432
+i:16 end_offset:3144
+ data_end_offset:701199624
+i:17 start_offset:3145 data_start_offset:701453664
+i:17 end_offset:3329
+ data_end_offset:701880384
+i:18 start_offset:3330 data_start_offset:701763672
+i:18 end_offset:3514
+ data_end_offset:702226800
+i:19 start_offset:3515 data_start_offset:702260400
+i:19 end_offset:3699
+ data_end_offset:701825304
+i:20 start_offset:3700 data_start_offset:700934568
+i:20 end_offset:3884
+ data_end_offset:701082840
+i:21 start_offset:3885 data_start_offset:701728968
+i:21 end_offset:4069
+ data_end_offset:701155440
+i:22 start_offset:4070 data_start_offset:701112552
+i:22 end_offset:4254
+ data_end_offset:701620128
+i:23 start_offset:4255 data_start_offset:701261832
+i:23 end_offset:4439
+ data_end_offset:702228576
+i:24 start_offset:4440 data_start_offset:701523552
+i:24 end_offset:4624
+ data_end_offset:701106864
+i:25 start_offset:4625 data_start_offset:701807256
+i:25 end_offset:4809
+ data_end_offset:701176536
+i:26 start_offset:4810 data_start_offset:701060352
+i:26 end_offset:4994
+ data_end_offset:701056512
+i:27 start_offset:4995 data_start_offset:702071112
+i:27 end_offset:5179
+ data_end_offset:701571120
+i:28 start_offset:5180 data_start_offset:701819376
+i:28 end_offset:5364
+ data_end_offset:701756592
+i:29 start_offset:5365 data_start_offset:701128248
+i:29 end_offset:5549
+ data_end_offset:701486640
+allocate=5549
+wait send PTHREADS end
+index:27 start send cur_offset:702071112 end_offset:701571120
+index:27 end send
+index:8 start send cur_offset:701353248 end_offset:702279312
+index:26 start send cur_offset:701060352 end_offset:701056512
+index:26 end send
+index:8 end send
+index:3 start send cur_offset:701732760 end_offset:701656512
+index:0 start send cur_offset:701108520 end_offset:701721672
+index:1 start send cur_offset:701508768 end_offset:700966320
+index:0 end send
+index:1 end send
+index:5 start send cur_offset:701069832 end_offset:702138336
+index:6 start send cur_offset:701955840 end_offset:701087472
+index:24 start send cur_offset:701523552 end_offset:701106864
+index:6 end send
+index:24 end send
+index:13 start send cur_offset:701812464 end_offset:701404800
+index:18 start send cur_offset:701763672 end_offset:702226800
+index:15 start send cur_offset:700963368 end_offset:702103680
+index:13 end send
+index:15 end send
+index:17 start send cur_offset:701453664 end_offset:701880384
+index:17 end send
+index:20 start send cur_offset:700934568 end_offset:701082840
+index:20 end send
+index:4 start send cur_offset:701731248 end_offset:701659800
+index:4 end send
+index:10 start send cur_offset:701183088 end_offset:701492040
+index:28 start send cur_offset:701819376 end_offset:701756592
+index:10 end send
+index:28 end send
+index:18 end send
+index:25 start send cur_offset:701807256 end_offset:701176536
+index:19 start send cur_offset:702260400 end_offset:701825304
+index:19 end send
+index:25 end send
+index:11 start send cur_offset:701934048 end_offset:701425536
+index:14 start send cur_offset:701471928 end_offset:701252808
+index:11 end send
+index:14 end send
+index:29 start send cur_offset:701128248 end_offset:701486640
+index:29 end send
+index:12 start send cur_offset:700915968 end_offset:701015352
+index:12 end send
+index:9 start send cur_offset:701441328 end_offset:701492304
+index:9 end send
+index:22 start send cur_offset:701112552 end_offset:701620128
+index:22 end send
+index:7 start send cur_offset:701611104 end_offset:700913640
+index:2 start send cur_offset:701694480 end_offset:701339136
+index:21 start send cur_offset:701728968 end_offset:701155440
+index:2 end send
+index:21 end send
+index:23 start send cur_offset:701261832 end_offset:702228576
+index:23 end send
+index:16 start send cur_offset:701646432 end_offset:701199624
+index:16 end send
+index:7 end send
+index:3 end send
+index:5 end send
+end locate current last!
+next_num 1723 : next_sum 1737509
+page num 424
+start locate current last!
+interval = 57
+i:0 start_offset:0 data_start_offset:702608928
+i:0 end_offset:56
+ data_end_offset:702509256
+i:1 start_offset:57 data_start_offset:702336888
+i:1 end_offset:113
+ data_end_offset:702610080
+i:2 start_offset:114 data_start_offset:702380016
+i:2 end_offset:170
+ data_end_offset:702725880
+i:3 start_offset:171 data_start_offset:702430944
+i:3 end_offset:227
+ data_end_offset:702513888
+i:4 start_offset:228 data_start_offset:702380568
+i:4 end_offset:284
+ data_end_offset:702297408
+i:5 start_offset:285 data_start_offset:702447120
+i:5 end_offset:341
+ data_end_offset:702664392
+i:6 start_offset:342 data_start_offset:702578856
+i:6 end_offset:398
+ data_end_offset:702391632
+i:7 start_offset:399 data_start_offset:702603456
+i:7 end_offset:455
+ data_end_offset:702394680
+i:8 start_offset:456 data_start_offset:702670248
+i:8 end_offset:512
+ data_end_offset:702348288
+i:9 start_offset:513 data_start_offset:702578712
+i:9 end_offset:569
+ data_end_offset:702350496
+i:10 start_offset:570 data_start_offset:702610392
+i:10 end_offset:626
+ data_end_offset:702421896
+i:11 start_offset:627 data_start_offset:702512568
+i:11 end_offset:683
+ data_end_offset:702465024
+i:12 start_offset:684 data_start_offset:702301488
+i:12 end_offset:740
+ data_end_offset:702370152
+i:13 start_offset:741 data_start_offset:702473784
+i:13 end_offset:797
+ data_end_offset:702376872
+i:14 start_offset:798 data_start_offset:702656904
+i:14 end_offset:854
+ data_end_offset:702669792
+i:15 start_offset:855 data_start_offset:702393696
+i:15 end_offset:911
+ data_end_offset:702630936
+i:16 start_offset:912 data_start_offset:702643560
+i:16 end_offset:968
+ data_end_offset:702675528
+i:17 start_offset:969 data_start_offset:702602256
+i:17 end_offset:1025
+ data_end_offset:702358392
+i:18 start_offset:1026 data_start_offset:702557880
+i:18 end_offset:1082
+ data_end_offset:702365592
+i:19 start_offset:1083 data_start_offset:702674376
+i:19 end_offset:1139
+ data_end_offset:702386640
+i:20 start_offset:1140 data_start_offset:702461496
+i:20 end_offset:1196
+ data_end_offset:702559344
+i:21 start_offset:1197 data_start_offset:702563952
+i:21 end_offset:1253
+ data_end_offset:702451752
+i:22 start_offset:1254 data_start_offset:702627528
+i:22 end_offset:1310
+ data_end_offset:702317712
+i:23 start_offset:1311 data_start_offset:702378024
+i:23 end_offset:1367
+ data_end_offset:702461472
+i:24 start_offset:1368 data_start_offset:702699456
+i:24 end_offset:1424
+ data_end_offset:702605304
+i:25 start_offset:1425 data_start_offset:702561552
+i:25 end_offset:1481
+ data_end_offset:702519888
+i:26 start_offset:1482 data_start_offset:702337800
+i:26 end_offset:1538
+ data_end_offset:702636288
+i:27 start_offset:1539 data_start_offset:702393360
+i:27 end_offset:1595
+ data_end_offset:702574968
+i:28 start_offset:1596 data_start_offset:702501000
+i:28 end_offset:1652
+ data_end_offset:702452904
+i:29 start_offset:1653 data_start_offset:702541296
+i:29 end_offset:1709
+ data_end_offset:702710424
+allocate=1709
+wait send PTHREADS end
+index:4 start send cur_offset:702380568 end_offset:702297408
+index:18 start send cur_offset:702557880 end_offset:702365592
+index:10 start send cur_offset:702610392 end_offset:702421896
+index:4 end send
+index:18 end send
+index:10 end send
+index:29 start send cur_offset:702541296 end_offset:702710424
+index:17 start send cur_offset:702602256 end_offset:702358392
+index:6 start send cur_offset:702578856 end_offset:702391632
+index:6 end send
+index:22 start send cur_offset:702627528 end_offset:702317712
+index:22 end send
+index:14 start send cur_offset:702656904 end_offset:702669792
+index:14 end send
+index:20 start send cur_offset:702461496 end_offset:702559344
+index:27 start send cur_offset:702393360 end_offset:702574968
+index:20 end send
+index:27 end send
+index:3 start send cur_offset:702430944 end_offset:702513888
+index:3 end send
+index:29 end send
+index:28 start send cur_offset:702501000 end_offset:702452904
+index:28 end send
+index:7 start send cur_offset:702603456 end_offset:702394680
+index:7 end send
+index:25 start send cur_offset:702561552 end_offset:702519888
+index:25 end send
+index:17 end send
+index:12 start send cur_offset:702301488 end_offset:702370152
+index:12 end send
+index:0 start send cur_offset:702608928 end_offset:702509256
+index:0 end send
+index:19 start send cur_offset:702674376 end_offset:702386640
+index:19 end send
+index:26 start send cur_offset:702337800 end_offset:702636288
+index:11 start send cur_offset:702512568 end_offset:702465024
+index:26 end send
+index:11 end send
+index:2 start send cur_offset:702380016 end_offset:702725880
+index:2 end send
+index:15 start send cur_offset:702393696 end_offset:702630936
+index:15 end send
+index:5 start send cur_offset:702447120 end_offset:702664392
+index:5 end send
+index:9 start send cur_offset:702578712 end_offset:702350496
+index:9 end send
+index:8 start send cur_offset:702670248 end_offset:702348288
+index:8 end send
+index:21 start send cur_offset:702563952 end_offset:702451752
+index:21 end send
+index:23 start send cur_offset:702378024 end_offset:702461472
+index:23 end send
+index:1 start send cur_offset:702336888 end_offset:702610080
+index:1 end send
+index:24 start send cur_offset:702699456 end_offset:702605304
+index:24 end send
+index:16 start send cur_offset:702643560 end_offset:702675528
+index:16 end send
+index:13 start send cur_offset:702473784 end_offset:702376872
+index:13 end send
+end locate current last!
+next_num 543 : next_sum 555148
+page num 135
+start locate current last!
+interval = 18
+i:0 start_offset:0 data_start_offset:701984208
+i:0 end_offset:17
+ data_end_offset:701274528
+i:1 start_offset:18 data_start_offset:701783592
+i:1 end_offset:35
+ data_end_offset:701999472
+i:2 start_offset:36 data_start_offset:701774880
+i:2 end_offset:53
+ data_end_offset:701539656
+i:3 start_offset:54 data_start_offset:701996208
+i:3 end_offset:71
+ data_end_offset:701611056
+i:4 start_offset:72 data_start_offset:701676744
+i:4 end_offset:89
+ data_end_offset:701726568
+i:5 start_offset:90 data_start_offset:700920120
+i:5 end_offset:107
+ data_end_offset:700946112
+i:6 start_offset:108 data_start_offset:701721672
+i:6 end_offset:125
+ data_end_offset:702194232
+i:7 start_offset:126 data_start_offset:701952720
+i:7 end_offset:143
+ data_end_offset:701665968
+i:8 start_offset:144 data_start_offset:700954968
+i:8 end_offset:161
+ data_end_offset:701120880
+i:9 start_offset:162 data_start_offset:702210768
+i:9 end_offset:179
+ data_end_offset:701315856
+i:10 start_offset:180 data_start_offset:702007944
+i:10 end_offset:197
+ data_end_offset:701181984
+i:11 start_offset:198 data_start_offset:701659440
+i:11 end_offset:215
+ data_end_offset:701482368
+i:12 start_offset:216 data_start_offset:701505456
+i:12 end_offset:233
+ data_end_offset:701759592
+i:13 start_offset:234 data_start_offset:702173664
+i:13 end_offset:251
+ data_end_offset:701395872
+i:14 start_offset:252 data_start_offset:701683080
+i:14 end_offset:269
+ data_end_offset:701972976
+i:15 start_offset:270 data_start_offset:701322336
+i:15 end_offset:287
+ data_end_offset:701200032
+i:16 start_offset:288 data_start_offset:701140200
+i:16 end_offset:305
+ data_end_offset:702230832
+i:17 start_offset:306 data_start_offset:700966704
+i:17 end_offset:323
+ data_end_offset:701889192
+i:18 start_offset:324 data_start_offset:702254400
+i:18 end_offset:341
+ data_end_offset:700913112
+i:19 start_offset:342 data_start_offset:702269400
+i:19 end_offset:359
+ data_end_offset:701034672
+i:20 start_offset:360 data_start_offset:701293704
+i:20 end_offset:377
+ data_end_offset:702106224
+i:21 start_offset:378 data_start_offset:701039136
+i:21 end_offset:395
+ data_end_offset:701757144
+i:22 start_offset:396 data_start_offset:701698824
+i:22 end_offset:413
+ data_end_offset:701547624
+i:23 start_offset:414 data_start_offset:701347224
+i:23 end_offset:431
+ data_end_offset:700906272
+i:24 start_offset:432 data_start_offset:701622096
+i:24 end_offset:449
+ data_end_offset:701253024
+i:25 start_offset:450 data_start_offset:700939896
+i:25 end_offset:467
+ data_end_offset:701591760
+i:26 start_offset:468 data_start_offset:701981760
+i:26 end_offset:485
+ data_end_offset:701522952
+i:27 start_offset:486 data_start_offset:701558472
+i:27 end_offset:503
+ data_end_offset:701180568
+i:28 start_offset:504 data_start_offset:701223960
+i:28 end_offset:521
+ data_end_offset:701728944
+i:29 start_offset:522 data_start_offset:701188272
+i:29 end_offset:539
+ data_end_offset:701823792
+allocate=539
+wait send PTHREADS end
+index:26 start send cur_offset:701981760 end_offset:701522952
+index:6 start send cur_offset:701721672 end_offset:702194232
+index:6 end send
+index:0 start send cur_offset:701984208 end_offset:701274528
+index:0 end send
+index:10 start send cur_offset:702007944 end_offset:701181984
+index:10 end send
+index:2 start send cur_offset:701774880 end_offset:701539656
+index:2 end send
+index:26 end send
+index:27 start send cur_offset:701558472 end_offset:701180568
+index:27 end send
+index:22 start send cur_offset:701698824 end_offset:701547624
+index:22 end send
+index:9 start send cur_offset:702210768 end_offset:701315856
+index:9 end send
+index:20 start send cur_offset:701293704 end_offset:702106224
+index:20 end send
+index:19 start send cur_offset:702269400 end_offset:701034672
+index:19 end send
+index:4 start send cur_offset:701676744 end_offset:701726568
+index:11 start send cur_offset:701659440 end_offset:701482368
+index:4 end send
+index:11 end send
+index:28 start send cur_offset:701223960 end_offset:701728944
+index:28 end send
+index:15 start send cur_offset:701322336 end_offset:701200032
+index:15 end send
+index:17 start send cur_offset:700966704 end_offset:701889192
+index:17 end send
+index:25 start send cur_offset:700939896 end_offset:701591760
+index:25 end send
+index:14 start send cur_offset:701683080 end_offset:701972976
+index:14 end send
+index:29 start send cur_offset:701188272 end_offset:701823792
+index:29 end send
+index:8 start send cur_offset:700954968 end_offset:701120880
+index:8 end send
+index:18 start send cur_offset:702254400 end_offset:700913112
+index:18 end send
+index:13 start send cur_offset:702173664 end_offset:701395872
+index:13 end send
+index:12 start send cur_offset:701505456 end_offset:701759592
+index:12 end send
+index:5 start send cur_offset:700920120 end_offset:700946112
+index:5 end send
+index:3 start send cur_offset:701996208 end_offset:701611056
+index:3 end send
+index:23 start send cur_offset:701347224 end_offset:700906272
+index:23 end send
+index:16 start send cur_offset:701140200 end_offset:702230832
+index:16 end send
+index:1 start send cur_offset:701783592 end_offset:701999472
+index:1 end send
+index:24 start send cur_offset:701622096 end_offset:701253024
+index:24 end send
+index:21 start send cur_offset:701039136 end_offset:701757144
+index:21 end send
+index:7 start send cur_offset:701952720 end_offset:701665968
+index:7 end send
+end locate current last!
+next_num 266 : next_sum 287567
+page num 70
+start locate current last!
+interval = 8
+i:0 start_offset:0 data_start_offset:702629784
+i:0 end_offset:7
+ data_end_offset:702566592
+i:1 start_offset:8 data_start_offset:702534984
+i:1 end_offset:15
+ data_end_offset:702437928
+i:2 start_offset:16 data_start_offset:702568584
+i:2 end_offset:23
+ data_end_offset:702341112
+i:3 start_offset:24 data_start_offset:702601128
+i:3 end_offset:31
+ data_end_offset:702294960
+i:4 start_offset:32 data_start_offset:702560976
+i:4 end_offset:39
+ data_end_offset:702326496
+i:5 start_offset:40 data_start_offset:702480744
+i:5 end_offset:47
+ data_end_offset:702562104
+i:6 start_offset:48 data_start_offset:702574080
+i:6 end_offset:55
+ data_end_offset:702571488
+i:7 start_offset:56 data_start_offset:702591624
+i:7 end_offset:63
+ data_end_offset:702362592
+i:8 start_offset:64 data_start_offset:702358992
+i:8 end_offset:71
+ data_end_offset:702475752
+i:9 start_offset:72 data_start_offset:702610320
+i:9 end_offset:79
+ data_end_offset:702457032
+i:10 start_offset:80 data_start_offset:702672192
+i:10 end_offset:87
+ data_end_offset:702427152
+i:11 start_offset:88 data_start_offset:702591888
+i:11 end_offset:95
+ data_end_offset:702502464
+i:12 start_offset:96 data_start_offset:702300000
+i:12 end_offset:103
+ data_end_offset:702286248
+i:13 start_offset:104 data_start_offset:702575208
+i:13 end_offset:111
+ data_end_offset:702446808
+i:14 start_offset:112 data_start_offset:702468336
+i:14 end_offset:119
+ data_end_offset:702460296
+i:15 start_offset:120 data_start_offset:702375960
+i:15 end_offset:127
+ data_end_offset:702707568
+i:16 start_offset:128 data_start_offset:702581160
+i:16 end_offset:135
+ data_end_offset:702506424
+i:17 start_offset:136 data_start_offset:702608928
+i:17 end_offset:143
+ data_end_offset:702583008
+i:18 start_offset:144 data_start_offset:702725880
+i:18 end_offset:151
+ data_end_offset:702499320
+i:19 start_offset:152 data_start_offset:702712176
+i:19 end_offset:159
+ data_end_offset:702642504
+i:20 start_offset:160 data_start_offset:702533616
+i:20 end_offset:167
+ data_end_offset:702544032
+i:21 start_offset:168 data_start_offset:702455688
+i:21 end_offset:175
+ data_end_offset:702523080
+i:22 start_offset:176 data_start_offset:702543912
+i:22 end_offset:183
+ data_end_offset:702538200
+i:23 start_offset:184 data_start_offset:702719184
+i:23 end_offset:191
+ data_end_offset:702498432
+i:24 start_offset:192 data_start_offset:702487392
+i:24 end_offset:199
+ data_end_offset:702564696
+i:25 start_offset:200 data_start_offset:702699000
+i:25 end_offset:207
+ data_end_offset:702628296
+i:26 start_offset:208 data_start_offset:702390024
+i:26 end_offset:215
+ data_end_offset:702509256
+i:27 start_offset:216 data_start_offset:702564192
+i:27 end_offset:223
+ data_end_offset:702719256
+i:28 start_offset:224 data_start_offset:702513888
+i:28 end_offset:231
+ data_end_offset:702704280
+i:29 start_offset:232 data_start_offset:702372672
+i:29 end_offset:239
+ data_end_offset:702709440
+allocate=239
+wait send PTHREADS end
+index:0 start send cur_offset:702629784 end_offset:702566592
+index:0 end send
+index:2 start send cur_offset:702568584 end_offset:702341112
+index:2 end send
+index:26 start send cur_offset:702390024 end_offset:702509256
+index:26 end send
+index:10 start send cur_offset:702672192 end_offset:702427152
+index:10 end send
+index:22 start send cur_offset:702543912 end_offset:702538200
+index:22 end send
+index:6 start send cur_offset:702574080 end_offset:702571488
+index:6 end send
+index:4 start send cur_offset:702560976 end_offset:702326496
+index:4 end send
+index:9 start send cur_offset:702610320 end_offset:702457032
+index:9 end send
+index:20 start send cur_offset:702533616 end_offset:702544032
+index:20 end send
+index:19 start send cur_offset:702712176 end_offset:702642504
+index:19 end send
+index:3 start send cur_offset:702601128 end_offset:702294960
+index:3 end send
+index:17 start send cur_offset:702608928 end_offset:702583008
+index:17 end send
+index:11 start send cur_offset:702591888 end_offset:702502464
+index:11 end send
+index:15 start send cur_offset:702375960 end_offset:702707568
+index:15 end send
+index:28 start send cur_offset:702513888 end_offset:702704280
+index:28 end send
+index:14 start send cur_offset:702468336 end_offset:702460296
+index:14 end send
+index:29 start send cur_offset:702372672 end_offset:702709440
+index:25 start send cur_offset:702699000 end_offset:702628296
+index:29 end send
+index:25 end send
+index:18 start send cur_offset:702725880 end_offset:702499320
+index:8 start send cur_offset:702358992 end_offset:702475752
+index:18 end send
+index:8 end send
+index:27 start send cur_offset:702564192 end_offset:702719256
+index:27 end send
+index:23 start send cur_offset:702719184 end_offset:702498432
+index:23 end send
+index:13 start send cur_offset:702575208 end_offset:702446808
+index:13 end send
+index:12 start send cur_offset:702300000 end_offset:702286248
+index:12 end send
+index:5 start send cur_offset:702480744 end_offset:702562104
+index:5 end send
+index:16 start send cur_offset:702581160 end_offset:702506424
+index:16 end send
+index:1 start send cur_offset:702534984 end_offset:702437928
+index:1 end send
+index:24 start send cur_offset:702487392 end_offset:702564696
+index:24 end send
+index:21 start send cur_offset:702455688 end_offset:702523080
+index:21 end send
+index:7 start send cur_offset:702591624 end_offset:702362592
+index:7 end send
+end locate current last!
+next_num 358 : next_sum 373996
+page num 91
+start locate current last!
+interval = 11
+i:0 start_offset:0 data_start_offset:701471448
+i:0 end_offset:10
+ data_end_offset:700921704
+i:1 start_offset:11 data_start_offset:701208240
+i:1 end_offset:21
+ data_end_offset:702135360
+i:2 start_offset:22 data_start_offset:702175248
+i:2 end_offset:32
+ data_end_offset:701668440
+i:3 start_offset:33 data_start_offset:701321040
+i:3 end_offset:43
+ data_end_offset:701689680
+i:4 start_offset:44 data_start_offset:701076288
+i:4 end_offset:54
+ data_end_offset:700945752
+i:5 start_offset:55 data_start_offset:701316648
+i:5 end_offset:65
+ data_end_offset:701308224
+i:6 start_offset:66 data_start_offset:701106072
+i:6 end_offset:76
+ data_end_offset:701528016
+i:7 start_offset:77 data_start_offset:701410152
+i:7 end_offset:87
+ data_end_offset:701008104
+i:8 start_offset:88 data_start_offset:700947192
+i:8 end_offset:98
+ data_end_offset:702069744
+i:9 start_offset:99 data_start_offset:701772216
+i:9 end_offset:109
+ data_end_offset:701600352
+i:10 start_offset:110 data_start_offset:701951568
+i:10 end_offset:120
+ data_end_offset:701579256
+i:11 start_offset:121 data_start_offset:700990464
+i:11 end_offset:131
+ data_end_offset:701035728
+i:12 start_offset:132 data_start_offset:702074616
+i:12 end_offset:142
+ data_end_offset:702028272
+i:13 start_offset:143 data_start_offset:700925568
+i:13 end_offset:153
+ data_end_offset:701914704
+i:14 start_offset:154 data_start_offset:702133152
+i:14 end_offset:164
+ data_end_offset:701147928
+i:15 start_offset:165 data_start_offset:701394528
+i:15 end_offset:175
+ data_end_offset:701042952
+i:16 start_offset:176 data_start_offset:701589384
+i:16 end_offset:186
+ data_end_offset:701649096
+i:17 start_offset:187 data_start_offset:701507568
+i:17 end_offset:197
+ data_end_offset:701779680
+i:18 start_offset:198 data_start_offset:700958184
+i:18 end_offset:208
+ data_end_offset:701783592
+i:19 start_offset:209 data_start_offset:701755560
+i:19 end_offset:219
+ data_end_offset:702037728
+i:20 start_offset:220 data_start_offset:701274528
+i:20 end_offset:230
+ data_end_offset:702212232
+i:21 start_offset:231 data_start_offset:701754696
+i:21 end_offset:241
+ data_end_offset:701792688
+i:22 start_offset:242 data_start_offset:701539656
+i:22 end_offset:252
+ data_end_offset:701997096
+i:23 start_offset:253 data_start_offset:701163576
+i:23 end_offset:263
+ data_end_offset:701637288
+i:24 start_offset:264 data_start_offset:701406192
+i:24 end_offset:274
+ data_end_offset:701746152
+i:25 start_offset:275 data_start_offset:701999688
+i:25 end_offset:285
+ data_end_offset:701026344
+i:26 start_offset:286 data_start_offset:701939688
+i:26 end_offset:296
+ data_end_offset:701541096
+i:27 start_offset:297 data_start_offset:701200032
+i:27 end_offset:307
+ data_end_offset:701977128
+i:28 start_offset:308 data_start_offset:701450424
+i:28 end_offset:318
+ data_end_offset:701676744
+i:29 start_offset:319 data_start_offset:701657856
+i:29 end_offset:329
+ data_end_offset:702126912
+allocate=329
+wait send PTHREADS end
+index:18 start send cur_offset:700958184 end_offset:701783592
+index:18 end send
+index:14 start send cur_offset:702133152 end_offset:701147928
+index:14 end send
+index:17 start send cur_offset:701507568 end_offset:701779680
+index:17 end send
+index:26 start send cur_offset:701939688 end_offset:701541096
+index:26 end send
+index:27 start send cur_offset:701200032 end_offset:701977128
+index:27 end send
+index:19 start send cur_offset:701755560 end_offset:702037728
+index:19 end send
+index:23 start send cur_offset:701163576 end_offset:701637288
+index:23 end send
+index:13 start send cur_offset:700925568 end_offset:701914704
+index:13 end send
+index:4 start send cur_offset:701076288 end_offset:700945752
+index:11 start send cur_offset:700990464 end_offset:701035728
+index:4 end send
+index:11 end send
+index:2 start send cur_offset:702175248 end_offset:701668440
+index:2 end send
+index:12 start send cur_offset:702074616 end_offset:702028272
+index:12 end send
+index:1 start send cur_offset:701208240 end_offset:702135360
+index:1 end send
+index:22 start send cur_offset:701539656 end_offset:701997096
+index:22 end send
+index:28 start send cur_offset:701450424 end_offset:701676744
+index:28 end send
+index:24 start send cur_offset:701406192 end_offset:701746152
+index:6 start send cur_offset:701106072 end_offset:701528016
+index:24 end send
+index:6 end send
+index:21 start send cur_offset:701754696 end_offset:701792688
+index:21 end send
+index:7 start send cur_offset:701410152 end_offset:701008104
+index:7 end send
+index:10 start send cur_offset:701951568 end_offset:701579256
+index:10 end send
+index:16 start send cur_offset:701589384 end_offset:701649096
+index:16 end send
+index:3 start send cur_offset:701321040 end_offset:701689680
+index:3 end send
+index:9 start send cur_offset:701772216 end_offset:701600352
+index:5 start send cur_offset:701316648 end_offset:701308224
+index:9 end send
+index:5 end send
+index:15 start send cur_offset:701394528 end_offset:701042952
+index:15 end send
+index:20 start send cur_offset:701274528 end_offset:702212232
+index:0 start send cur_offset:701471448 end_offset:700921704
+index:20 end send
+index:0 end send
+index:25 start send cur_offset:701999688 end_offset:701026344
+index:29 start send cur_offset:701657856 end_offset:702126912
+index:25 end send
+index:29 end send
+index:8 start send cur_offset:700947192 end_offset:702069744
+index:8 end send
+end locate current last!
+next_num 161 : next_sum 153799
+page num 37
+start locate current last!
+send last current
+random end
+end locate current last!
+interation while end
+at last, send remain next
+stop time = 0.003126
+interation end
+main return

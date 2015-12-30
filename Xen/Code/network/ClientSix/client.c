@@ -1,3 +1,4 @@
+#define _BSD_SOURCE
 #include "../include/page.h"
 #include "../include/config.h"
 #include "interation.h"
@@ -6,8 +7,6 @@
 static void *sn_thread(void *arg);
 static void *sn_random(void *arg);
 //static void *sn_interation(void *arg);
-
-
 
 
 int main(int argc, char **argv)
@@ -25,6 +24,7 @@ int main(int argc, char **argv)
 pthread_create(&random_pid, NULL, &sn_random, NULL);
 
 
+
 //first : send all
    for(i = 0; i < PTHREAD_NUM; i++)
    {
@@ -38,6 +38,7 @@ printf("thread create end\n");
    {
       pthread_join(tid[i],NULL );
    }
+
 
 //second: interative transmit    
 pthread_create(&interation_pid, NULL, &sn_interation, NULL);
@@ -55,6 +56,7 @@ pthread_create(&interation_pid, NULL, &sn_interation, NULL);
    {
       pthread_join(tid[i],NULL );
    }
+
 
 
    freePage(&page);
@@ -121,6 +123,8 @@ printf("start:%d, end:%d\n",start, end);
     }
 
 printf("connect successfully\n");
+
+/* here to compress and transmit */
 
 for(i = start ; i < end; i++)
 {

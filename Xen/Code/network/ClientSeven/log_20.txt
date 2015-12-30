@@ -1,0 +1,559 @@
+thread create
+thread create end
+thread create
+thread create end
+thread create
+start:0, end:6553
+thread create end
+thread create
+start:6553, end:13106
+start:13106, end:19659
+thread create end
+thread create
+start:19659, end:26212
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+start:32765, end:39318
+thread create end
+thread create
+start:39318, end:45871
+start:45871, end:52424
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+start:58977, end:65530
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+connect successfully
+start:78636, end:85189
+start:85189, end:91742
+start:91742, end:98295
+start:98295, end:104848
+start:104848, end:111401
+start:111401, end:117954
+start:117954, end:124507
+start:124507, end:131072
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+start:72083, end:78636
+connect successfully
+connect successfully
+connect successfully
+start:26212, end:32765
+start:65530, end:72083
+start:52424, end:58977
+connect successfully
+connect successfully
+connect successfully
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+sn_thread end
+next_num 31209 : next_sum 31945212
+page num 7799
+start locate current last!
+interval = 1560
+i:0 start_offset:0 data_start_offset:676947600
+i:0 end_offset:1559
+ data_end_offset:676626984
+i:1 start_offset:1560 data_start_offset:676799592
+i:1 end_offset:3119
+ data_end_offset:676996272
+i:2 start_offset:3120 data_start_offset:676731624
+i:2 end_offset:4679
+ data_end_offset:676369536
+i:3 start_offset:4680 data_start_offset:676430280
+i:3 end_offset:6239
+ data_end_offset:676826544
+i:4 start_offset:6240 data_start_offset:676773336
+i:4 end_offset:7799
+ data_end_offset:676818192
+i:5 start_offset:7800 data_start_offset:676732920
+i:5 end_offset:9359
+ data_end_offset:676518888
+i:6 start_offset:9360 data_start_offset:676884768
+i:6 end_offset:10919
+ data_end_offset:676539024
+i:7 start_offset:10920 data_start_offset:676843656
+i:7 end_offset:12479
+ data_end_offset:676834776
+i:8 start_offset:12480 data_start_offset:676791216
+i:8 end_offset:14039
+ data_end_offset:676771584
+i:9 start_offset:14040 data_start_offset:676825824
+index = 13 boot up
+i:9 end_offset:15599
+ data_end_offset:677002416
+i:10 start_offset:15600 data_start_offset:676982544
+index = 15 boot up
+i:10 end_offset:17159
+ data_end_offset:676787568
+i:11 start_offset:17160 data_start_offset:676410288
+index = 16 boot up
+i:11 end_offset:18719
+ data_end_offset:676826136
+i:12 start_offset:18720 data_start_offset:676674744
+index = 18 boot up
+i:12 end_offset:20279
+ data_end_offset:676576776
+i:13 start_offset:20280 data_start_offset:676421568
+index = 5 boot up
+index = 14 boot up
+i:13 end_offset:21839
+ data_end_offset:676511136
+i:14 start_offset:21840 data_start_offset:676320744
+index = 7 boot up
+i:14 end_offset:23399
+ data_end_offset:676714104
+i:15 start_offset:23400 data_start_offset:676689096
+index = 9 boot up
+i:15 end_offset:24959
+ data_end_offset:676489944
+i:16 start_offset:24960 data_start_offset:676772856
+index = 10 boot up
+index = 11 boot up
+index = 17 boot up
+index = 19 boot up
+i:16 end_offset:26519
+ data_end_offset:677023512
+i:17 start_offset:26520 data_start_offset:676796088
+i:17 end_offset:28079
+ data_end_offset:676398720
+i:18 start_offset:28080 data_start_offset:676848840
+index = 6 boot up
+i:18 end_offset:29639
+ data_end_offset:676631808
+i:19 start_offset:29640 data_start_offset:676603680
+index = 8 boot up
+index = 12 boot up
+i:19 end_offset:31199
+ data_end_offset:676606728
+allocate=31199
+index:10 start send cur_offset:676982544 end_offset:676787568
+index:13 start send cur_offset:676421568 end_offset:676511136
+index:7 start send cur_offset:676843656 end_offset:676834776
+wait send PTHREADS end
+index:5 start send cur_offset:676732920 end_offset:676518888
+index:8 start send cur_offset:676791216 end_offset:676771584
+index:16 start send cur_offset:676772856 end_offset:677023512
+index:18 start send cur_offset:676848840 end_offset:676631808
+index:14 start send cur_offset:676320744 end_offset:676714104
+index:15 start send cur_offset:676689096 end_offset:676489944
+index:11 start send cur_offset:676410288 end_offset:676826136
+index:9 start send cur_offset:676825824 end_offset:677002416
+index:17 start send cur_offset:676796088 end_offset:676398720
+index:19 start send cur_offset:676603680 end_offset:676978392
+index:12 start send cur_offset:676674744 end_offset:676576776
+index:6 start send cur_offset:676884768 end_offset:676539024
+index = 4 boot up
+index = 3 boot up
+index = 2 boot up
+index = 1 boot up
+index = 0 boot up
+index:4 start send cur_offset:676773336 end_offset:676818192
+index:2 start send cur_offset:676731624 end_offset:676369536
+index:3 start send cur_offset:676430280 end_offset:676826544
+index:1 start send cur_offset:676799592 end_offset:676996272
+index:0 start send cur_offset:676947600 end_offset:676626984
+index:10 end send
+index:13 end send
+index:15 end send
+index:5 end send
+index:7 end send
+index:2 end send
+index:19 end send
+index:1 end send
+index:8 end send
+index:14 end send
+index:18 end send
+index:16 end send
+index:17 end send
+index:3 end send
+index:12 end send
+index:11 end send
+index:9 end send
+index:6 end send
+index:4 end send
+index:0 end send
+end locate current last!
+next_num 9163 : next_sum 9463974
+page num 2310
+start locate current last!
+interval = 458
+i:0 start_offset:0 data_start_offset:677101968
+i:0 end_offset:457
+ data_end_offset:677043960
+i:1 start_offset:458 data_start_offset:677107920
+i:1 end_offset:915
+ data_end_offset:677193528
+i:2 start_offset:916 data_start_offset:677113296
+i:2 end_offset:1373
+ data_end_offset:677200512
+i:3 start_offset:1374 data_start_offset:677124648
+i:3 end_offset:1831
+ data_end_offset:677141760
+i:4 start_offset:1832 data_start_offset:677125992
+i:4 end_offset:2289
+ data_end_offset:677069280
+i:5 start_offset:2290 data_start_offset:677203416
+i:5 end_offset:2747
+ data_end_offset:677085264
+i:6 start_offset:2748 data_start_offset:677082288
+i:6 end_offset:3205
+ data_end_offset:677108472
+i:7 start_offset:3206 data_start_offset:677234376
+i:7 end_offset:3663
+ data_end_offset:677217384
+i:8 start_offset:3664 data_start_offset:677069712
+i:8 end_offset:4121
+ data_end_offset:677249640
+i:9 start_offset:4122 data_start_offset:677183688
+i:9 end_offset:4579
+ data_end_offset:677082600
+i:10 start_offset:4580 data_start_offset:677106096
+i:10 end_offset:5037
+ data_end_offset:677175816
+i:11 start_offset:5038 data_start_offset:677247312
+i:11 end_offset:5495
+ data_end_offset:677093472
+i:12 start_offset:5496 data_start_offset:677109816
+i:12 end_offset:5953
+ data_end_offset:677204784
+i:13 start_offset:5954 data_start_offset:677118240
+i:13 end_offset:6411
+ data_end_offset:677214336
+i:14 start_offset:6412 data_start_offset:677108448
+i:14 end_offset:6869
+ data_end_offset:677059848
+i:15 start_offset:6870 data_start_offset:677071344
+i:15 end_offset:7327
+ data_end_offset:677153160
+i:16 start_offset:7328 data_start_offset:677091648
+i:16 end_offset:7785
+ data_end_offset:677055048
+i:17 start_offset:7786 data_start_offset:677049432
+i:17 end_offset:8243
+ data_end_offset:677226528
+i:18 start_offset:8244 data_start_offset:677184384
+i:18 end_offset:8701
+ data_end_offset:677224632
+i:19 start_offset:8702 data_start_offset:677074464
+i:19 end_offset:9159
+ data_end_offset:677052840
+allocate=9159
+wait send PTHREADS end
+index:0 start send cur_offset:677101968 end_offset:677043960
+index:3 start send cur_offset:677124648 end_offset:677141760
+index:5 start send cur_offset:677203416 end_offset:677085264
+index:1 start send cur_offset:677107920 end_offset:677193528
+index:4 start send cur_offset:677125992 end_offset:677069280
+index:12 start send cur_offset:677109816 end_offset:677204784
+index:17 start send cur_offset:677049432 end_offset:677226528
+index:8 start send cur_offset:677069712 end_offset:677249640
+index:10 start send cur_offset:677106096 end_offset:677175816
+index:9 start send cur_offset:677183688 end_offset:677082600
+index:18 start send cur_offset:677184384 end_offset:677224632
+index:7 start send cur_offset:677234376 end_offset:677217384
+index:11 start send cur_offset:677247312 end_offset:677093472
+index:13 start send cur_offset:677118240 end_offset:677214336
+index:6 start send cur_offset:677082288 end_offset:677108472
+index:14 start send cur_offset:677108448 end_offset:677059848
+index:2 start send cur_offset:677113296 end_offset:677200512
+index:19 start send cur_offset:677074464 end_offset:677257368
+index:15 start send cur_offset:677071344 end_offset:677153160
+index:16 start send cur_offset:677091648 end_offset:677055048
+index:0 end send
+index:17 end send
+index:9 end send
+index:5 end send
+index:4 end send
+index:12 end send
+index:3 end send
+index:11 end send
+index:6 end send
+index:19 end send
+index:1 end send
+index:10 end send
+index:7 end send
+index:13 end send
+index:2 end send
+index:15 end send
+index:8 end send
+index:14 end send
+index:16 end send
+index:18 end send
+end locate current last!
+next_num 2549 : next_sum 2656115
+page num 648
+start locate current last!
+interval = 127
+i:0 start_offset:0 data_start_offset:676579056
+i:0 end_offset:126
+ data_end_offset:676472664
+i:1 start_offset:127 data_start_offset:676398864
+i:1 end_offset:253
+ data_end_offset:676466184
+i:2 start_offset:254 data_start_offset:676312848
+i:2 end_offset:380
+ data_end_offset:676899600
+i:3 start_offset:381 data_start_offset:676979016
+i:3 end_offset:507
+ data_end_offset:676633896
+i:4 start_offset:508 data_start_offset:676650000
+i:4 end_offset:634
+ data_end_offset:676927056
+i:5 start_offset:635 data_start_offset:676517664
+i:5 end_offset:761
+ data_end_offset:677018136
+i:6 start_offset:762 data_start_offset:676586712
+i:6 end_offset:888
+ data_end_offset:676708944
+i:7 start_offset:889 data_start_offset:676966104
+i:7 end_offset:1015
+ data_end_offset:676501296
+i:8 start_offset:1016 data_start_offset:676669896
+i:8 end_offset:1142
+ data_end_offset:676836120
+i:9 start_offset:1143 data_start_offset:676852896
+i:9 end_offset:1269
+ data_end_offset:676977000
+i:10 start_offset:1270 data_start_offset:676632960
+i:10 end_offset:1396
+ data_end_offset:676548672
+i:11 start_offset:1397 data_start_offset:676469880
+i:11 end_offset:1523
+ data_end_offset:676424424
+i:12 start_offset:1524 data_start_offset:676878216
+i:12 end_offset:1650
+ data_end_offset:676844040
+i:13 start_offset:1651 data_start_offset:676680960
+i:13 end_offset:1777
+ data_end_offset:677026032
+i:14 start_offset:1778 data_start_offset:676777584
+i:14 end_offset:1904
+ data_end_offset:676458840
+i:15 start_offset:1905 data_start_offset:676788360
+i:15 end_offset:2031
+ data_end_offset:676933608
+i:16 start_offset:2032 data_start_offset:676432104
+i:16 end_offset:2158
+ data_end_offset:676445664
+i:17 start_offset:2159 data_start_offset:676477296
+i:17 end_offset:2285
+ data_end_offset:676561368
+i:18 start_offset:2286 data_start_offset:676819224
+i:18 end_offset:2412
+ data_end_offset:676824072
+i:19 start_offset:2413 data_start_offset:676978776
+i:19 end_offset:2539
+ data_end_offset:676909704
+allocate=2539
+wait send PTHREADS end
+index:19 start send cur_offset:676978776 end_offset:676692552
+index:19 end send
+index:11 start send cur_offset:676469880 end_offset:676424424
+index:0 start send cur_offset:676579056 end_offset:676472664
+index:2 start send cur_offset:676312848 end_offset:676899600
+index:18 start send cur_offset:676819224 end_offset:676824072
+index:6 start send cur_offset:676586712 end_offset:676708944
+index:4 start send cur_offset:676650000 end_offset:676927056
+index:6 end send
+index:4 end send
+index:2 end send
+index:16 start send cur_offset:676432104 end_offset:676445664
+index:0 end send
+index:10 start send cur_offset:676632960 end_offset:676548672
+index:10 end send
+index:17 start send cur_offset:676477296 end_offset:676561368
+index:17 end send
+index:7 start send cur_offset:676966104 end_offset:676501296
+index:7 end send
+index:13 start send cur_offset:676680960 end_offset:677026032
+index:13 end send
+index:5 start send cur_offset:676517664 end_offset:677018136
+index:12 start send cur_offset:676878216 end_offset:676844040
+index:12 end send
+index:3 start send cur_offset:676979016 end_offset:676633896
+index:5 end send
+index:3 end send
+index:15 start send cur_offset:676788360 end_offset:676933608
+index:15 end send
+index:11 end send
+index:14 start send cur_offset:676777584 end_offset:676458840
+index:14 end send
+index:9 start send cur_offset:676852896 end_offset:676977000
+index:9 end send
+index:8 start send cur_offset:676669896 end_offset:676836120
+index:8 end send
+index:1 start send cur_offset:676398864 end_offset:676466184
+index:1 end send
+index:16 end send
+index:18 end send
+end locate current last!
+next_num 834 : next_sum 814948
+page num 198
+start locate current last!
+interval = 41
+i:0 start_offset:0 data_start_offset:677103624
+i:0 end_offset:40
+ data_end_offset:677245296
+i:1 start_offset:41 data_start_offset:677098224
+i:1 end_offset:81
+ data_end_offset:677150424
+i:2 start_offset:82 data_start_offset:677253096
+i:2 end_offset:122
+ data_end_offset:677045424
+i:3 start_offset:123 data_start_offset:677221824
+i:3 end_offset:163
+ data_end_offset:677208600
+i:4 start_offset:164 data_start_offset:677249784
+i:4 end_offset:204
+ data_end_offset:677220984
+i:5 start_offset:205 data_start_offset:677092344
+i:5 end_offset:245
+ data_end_offset:677129664
+i:6 start_offset:246 data_start_offset:677066040
+i:6 end_offset:286
+ data_end_offset:677227056
+i:7 start_offset:287 data_start_offset:677183016
+i:7 end_offset:327
+ data_end_offset:677159304
+i:8 start_offset:328 data_start_offset:677199840
+i:8 end_offset:368
+ data_end_offset:677065704
+i:9 start_offset:369 data_start_offset:677131872
+i:9 end_offset:409
+ data_end_offset:677229408
+i:10 start_offset:410 data_start_offset:677203944
+i:10 end_offset:450
+ data_end_offset:677067312
+i:11 start_offset:451 data_start_offset:677249880
+i:11 end_offset:491
+ data_end_offset:677109072
+i:12 start_offset:492 data_start_offset:677112912
+i:12 end_offset:532
+ data_end_offset:677063160
+i:13 start_offset:533 data_start_offset:677052456
+i:13 end_offset:573
+ data_end_offset:677091408
+i:14 start_offset:574 data_start_offset:677250648
+i:14 end_offset:614
+ data_end_offset:677038416
+i:15 start_offset:615 data_start_offset:677052672
+i:15 end_offset:655
+ data_end_offset:677168040
+i:16 start_offset:656 data_start_offset:677117424
+i:16 end_offset:696
+ data_end_offset:677107320
+i:17 start_offset:697 data_start_offset:677177112
+i:17 end_offset:737
+ data_end_offset:677184024
+i:18 start_offset:738 data_start_offset:677218992
+i:18 end_offset:778
+ data_end_offset:677196456
+i:19 start_offset:779 data_start_offset:677100768
+i:19 end_offset:819
+ data_end_offset:677116488
+allocate=819
+wait send PTHREADS end
+index:17 start send cur_offset:677177112 end_offset:677184024
+index:17 end send
+index:0 start send cur_offset:677103624 end_offset:677245296
+index:0 end send
+index:4 start send cur_offset:677249784 end_offset:677220984
+index:4 end send
+index:18 start send cur_offset:677218992 end_offset:677196456
+index:18 end send
+index:16 start send cur_offset:677117424 end_offset:677107320
+index:16 end send
+index:2 start send cur_offset:677253096 end_offset:677045424
+index:2 end send
+index:3 start send cur_offset:677221824 end_offset:677208600
+index:11 start send cur_offset:677249880 end_offset:677109072
+index:3 end send
+index:11 end send
+index:7 start send cur_offset:677183016 end_offset:677159304
+index:7 end send
+index:8 start send cur_offset:677199840 end_offset:677065704
+index:5 start send cur_offset:677092344 end_offset:677129664
+index:8 end send
+index:5 end send
+index:19 start send cur_offset:677100768 end_offset:677231208
+index:19 end send
+index:14 start send cur_offset:677250648 end_offset:677038416
+index:14 end send
+index:10 start send cur_offset:677203944 end_offset:677067312
+index:10 end send
+index:6 start send cur_offset:677066040 end_offset:677227056
+index:13 start send cur_offset:677052456 end_offset:677091408
+index:6 end send
+index:13 end send
+index:1 start send cur_offset:677098224 end_offset:677150424
+index:1 end send
+index:12 start send cur_offset:677112912 end_offset:677063160
+index:12 end send
+index:15 start send cur_offset:677052672 end_offset:677168040
+index:15 end send
+index:9 start send cur_offset:677131872 end_offset:677229408
+index:9 end send
+end locate current last!
+next_num 170 : next_sum 165387
+page num 40
+start locate current last!
+send last current
+random end
+end locate current last!
+interation while end
+at last, send remain next
+stop time = 0.015309
+interation end
+main return

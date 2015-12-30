@@ -1,0 +1,3688 @@
+thread create
+thread create end
+thread create
+thread create end
+thread create
+start:6553, end:13106
+start:13106, end:19659
+start:0, end:6553
+thread create end
+thread create
+thread create end
+thread create
+start:19659, end:26212
+thread create end
+thread create
+thread create end
+thread create
+start:32765, end:39318
+thread create end
+thread create
+thread create end
+thread create
+start:26212, end:32765
+thread create end
+thread create
+start:52424, end:58977
+thread create end
+thread create
+start:39318, end:45871
+connect successfully
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+start:45871, end:52424
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+start:65530, end:72083
+start:58977, end:65530
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+start:98295, end:104848
+start:111401, end:117954
+start:104848, end:111401
+start:117954, end:124507
+start:91742, end:98295
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+connect successfully
+connect successfully
+connect successfully
+start:85189, end:91742
+#-----text_len = 26867300------
+#--------init_encode end---------#
+#-----text_len = 26867300------
+#--------init_encode end---------#
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+#-----text_len = 26867300------
+#--------init_encode end---------#
+start:78636, end:85189
+start:72083, end:78636
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 26867300------
+#--------init_encode end---------#
+start:124507, end:131072
+connect successfully
+#-----text_len = 26916500------
+#--------init_encode end---------#
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+next_num 31569 : next_sum 32662798
+page num 7974
+start locate current last!
+interval = 1578
+i:0 start_offset:0 data_start_offset:2898440816
+i:0 end_offset:1577
+ data_end_offset:2898645056
+i:1 start_offset:1578 data_start_offset:2898593672
+i:1 end_offset:3155
+ data_end_offset:2899013312
+i:2 start_offset:3156 data_start_offset:682465624
+i:2 end_offset:4733
+ data_end_offset:2898312848
+i:3 start_offset:4734 data_start_offset:2898419264
+i:3 end_offset:6311
+ data_end_offset:2898950528
+i:4 start_offset:6312 data_start_offset:2898598376
+i:4 end_offset:7889
+ data_end_offset:2898870080
+i:5 start_offset:7890 data_start_offset:2898466184
+i:5 end_offset:9467
+ data_end_offset:2898664184
+i:6 start_offset:9468 data_start_offset:2898891824
+i:6 end_offset:11045
+ data_end_offset:2898376664
+i:7 start_offset:11046 data_start_offset:2898598304
+i:7 end_offset:12623
+ data_end_offset:2898708296
+i:8 start_offset:12624 data_start_offset:2898979976
+i:8 end_offset:14201
+ data_end_offset:2898540512
+i:9 start_offset:14202 data_start_offset:2898932864
+i:9 end_offset:15779
+ data_end_offset:2898285752
+i:10 start_offset:15780 data_start_offset:2898994880
+i:10 end_offset:17357
+ data_end_offset:2898383072
+i:11 start_offset:17358 data_start_offset:2898532352
+index = 13 boot up
+i:11 end_offset:18935
+ data_end_offset:2898324992
+i:12 start_offset:18936 data_start_offset:2898380768
+index = 15 boot up
+i:12 end_offset:20513
+ data_end_offset:2898622640
+i:13 start_offset:20514 data_start_offset:2898449384
+index = 16 boot up
+index = 18 boot up
+i:13 end_offset:22091
+ data_end_offset:2898649760
+i:14 start_offset:22092 data_start_offset:2898735152
+index = 5 boot up
+i:14 end_offset:23669
+ data_end_offset:2898277232
+i:15 start_offset:23670 data_start_offset:2898398696
+index = 14 boot up
+i:15 end_offset:25247
+ data_end_offset:2898761720
+i:16 start_offset:25248 data_start_offset:2898353984
+index = 7 boot up
+i:16 end_offset:26825
+ data_end_offset:2898920384
+i:17 start_offset:26826 data_start_offset:2898843920
+index = 9 boot up
+index = 10 boot up
+i:17 end_offset:28403
+ data_end_offset:2898577232
+i:18 start_offset:28404 data_start_offset:2898297272
+index = 11 boot up
+index = 17 boot up
+index = 19 boot up
+index = 6 boot up
+i:18 end_offset:29981
+ data_end_offset:2898582704
+i:19 start_offset:29982 data_start_offset:2898455072
+index = 8 boot up
+index = 12 boot up
+i:19 end_offset:31559
+ data_end_offset:2898632384
+allocate=31559
+index:13 start send cur_offset:-1396517912 end_offset:-1396317536
+type = 1 : init_encode start
+index:10 start send cur_offset:-1395972416 end_offset:-1396584224
+type = 1 : init_encode start
+index:9 start send cur_offset:-1396034432 end_offset:-1396681544
+#-----while text_len = 0------
+type = 1 : init_encode start
+#-----while text_len = 734------
+index = 3 boot up
+index = 2 boot up
+index = 1 boot up
+index = 0 boot up
+#-----text_len = 1888------
+#--------init_encode end---------#
+wait send PTHREADS end
+#-----while text_len = 0------
+#-----while text_len = 49------
+#-----text_len = 2800------
+#--------init_encode end---------#
+index:11 start send cur_offset:-1396434944 end_offset:-1396642304
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1960------
+#-----text_len = 4587------
+#--------init_encode end---------#
+index = 4 boot up
+index:19 start send cur_offset:-1396512224 end_offset:-1396206632
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 306------
+#-----text_len = 3050------
+#--------init_encode end---------#
+index:6 start send cur_offset:-1396075472 end_offset:-1396590632
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2536------
+#-----text_len = 3657------
+#--------init_encode end---------#
+index:3 start send cur_offset:-1396548032 end_offset:-1396016768
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2814------
+index:2 start send cur_offset:682465624 end_offset:-1396654448
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 751------
+#-----text_len = 2108------
+#--------init_encode end---------#
+index:1 start send cur_offset:-1396373624 end_offset:-1395953984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 987------
+#-----text_len = 1473------
+#--------init_encode end---------#
+index:0 start send cur_offset:-1396526480 end_offset:-1396322240
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1003------
+#-----text_len = 2401------
+#--------init_encode end---------#
+index:7 start send cur_offset:-1396368992 end_offset:-1396259000
+type = 1 : init_encode start
+index:18 start send cur_offset:-1396670024 end_offset:-1396384592
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 433------
+#-----while text_len = 0------
+#-----while text_len = 1263------
+#-----text_len = 1226------
+#--------init_encode end---------#
+#-----text_len = 4550------
+#--------init_encode end---------#
+index:14 start send cur_offset:-1396232144 end_offset:-1396690064
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 967------
+#-----text_len = 1541------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1396368920 end_offset:-1396097216
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2683------
+#-----text_len = 4603------
+#--------init_encode end---------#
+index:5 start send cur_offset:-1396501112 end_offset:-1396303112
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 273------
+#-----text_len = 302------
+#--------init_encode end---------#
+index:17 start send cur_offset:-1396123376 end_offset:-1396390064
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1636------
+#-----text_len = 6678------
+#--------init_encode end---------#
+#-----text_len = 4746------
+#--------init_encode end---------#
+index:12 start send cur_offset:-1396586528 end_offset:-1396344656
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2161------
+#-----text_len = 4727------
+#--------init_encode end---------#
+index:16 start send cur_offset:-1396613312 end_offset:-1396046912
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 345------
+index:15 start send cur_offset:-1396568600 end_offset:-1396205576
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2693------
+#-----text_len = 3343------
+#--------init_encode end---------#
+index:8 start send cur_offset:-1395987320 end_offset:-1396426784
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1453------
+#-----text_len = 3335------
+#--------init_encode end---------#
+#-----text_len = 2221------
+#--------init_encode end---------#
+#-----while text_len = 0------
+#-----while text_len = 698------
+#-----text_len = 2879------
+#--------init_encode end---------#
+index:18 end send
+index:5 end send
+index:16 end send
+index:15 end send
+index:14 end send
+index:12 end send
+index:8 end send
+index:17 end send
+index:0 end send
+index:6 end send
+index:4 end send
+index:3 end send
+index:11 end send
+index:19 end send
+index:1 end send
+index:13 end send
+index:2 end send
+index:10 end send
+index:7 end send
+index:9 end send
+end locate current last!
+next_num 8938 : next_sum 9190821
+page num 2243
+start locate current last!
+interval = 446
+i:0 start_offset:0 data_start_offset:682852584
+i:0 end_offset:445
+ data_end_offset:682816920
+i:1 start_offset:446 data_start_offset:682929168
+i:1 end_offset:891
+ data_end_offset:682958880
+i:2 start_offset:892 data_start_offset:682790760
+i:2 end_offset:1337
+ data_end_offset:682924920
+i:3 start_offset:1338 data_start_offset:682874784
+i:3 end_offset:1783
+ data_end_offset:682966776
+i:4 start_offset:1784 data_start_offset:682948368
+i:4 end_offset:2229
+ data_end_offset:682840272
+i:5 start_offset:2230 data_start_offset:682875408
+i:5 end_offset:2675
+ data_end_offset:682955016
+i:6 start_offset:2676 data_start_offset:682914480
+i:6 end_offset:3121
+ data_end_offset:682894224
+i:7 start_offset:3122 data_start_offset:682974336
+i:7 end_offset:3567
+ data_end_offset:682953600
+i:8 start_offset:3568 data_start_offset:682909752
+i:8 end_offset:4013
+ data_end_offset:682873536
+i:9 start_offset:4014 data_start_offset:682922088
+i:9 end_offset:4459
+ data_end_offset:682926024
+i:10 start_offset:4460 data_start_offset:682846656
+i:10 end_offset:4905
+ data_end_offset:682845984
+i:11 start_offset:4906 data_start_offset:682920984
+i:11 end_offset:5351
+ data_end_offset:682902264
+i:12 start_offset:5352 data_start_offset:682788024
+i:12 end_offset:5797
+ data_end_offset:682826256
+i:13 start_offset:5798 data_start_offset:682895928
+i:13 end_offset:6243
+ data_end_offset:682951464
+i:14 start_offset:6244 data_start_offset:682982448
+i:14 end_offset:6689
+ data_end_offset:682783800
+i:15 start_offset:6690 data_start_offset:682884696
+i:15 end_offset:7135
+ data_end_offset:682902240
+i:16 start_offset:7136 data_start_offset:682924680
+i:16 end_offset:7581
+ data_end_offset:682947648
+i:17 start_offset:7582 data_start_offset:682867344
+i:17 end_offset:8027
+ data_end_offset:682967424
+i:18 start_offset:8028 data_start_offset:682897488
+i:18 end_offset:8473
+ data_end_offset:682798008
+i:19 start_offset:8474 data_start_offset:682842600
+i:19 end_offset:8919
+ data_end_offset:682789296
+allocate=8919
+wait send PTHREADS end
+index:11 start send cur_offset:682920984 end_offset:682902264
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3007------
+#-----text_len = 3712------
+#--------init_encode end---------#
+index:2 start send cur_offset:682790760 end_offset:682924920
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1481------
+#-----text_len = 2480------
+#--------init_encode end---------#
+index:0 start send cur_offset:682852584 end_offset:682816920
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1077------
+#-----text_len = 3986------
+#--------init_encode end---------#
+index:4 start send cur_offset:682948368 end_offset:682840272
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1280------
+#-----text_len = 1318------
+#--------init_encode end---------#
+index:13 start send cur_offset:682895928 end_offset:682951464
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 538------
+#-----text_len = 2349------
+#--------init_encode end---------#
+index:1 start send cur_offset:682929168 end_offset:682958880
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 995------
+#-----text_len = 2528------
+#--------init_encode end---------#
+index:3 start send cur_offset:682874784 end_offset:682966776
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 23------
+#-----text_len = 230------
+#--------init_encode end---------#
+index:7 start send cur_offset:682974336 end_offset:682953600
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 276------
+#-----text_len = 1412------
+#--------init_encode end---------#
+index:10 start send cur_offset:682846656 end_offset:682845984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 161------
+#-----text_len = 2000------
+#--------init_encode end---------#
+index:9 start send cur_offset:682922088 end_offset:682926024
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 869------
+#-----text_len = 1496------
+#--------init_encode end---------#
+index:6 start send cur_offset:682914480 end_offset:682894224
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 388------
+#-----text_len = 3382------
+#--------init_encode end---------#
+index:19 start send cur_offset:682842600 end_offset:682834344
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 533------
+#-----text_len = 2180------
+#--------init_encode end---------#
+index:16 start send cur_offset:682924680 end_offset:682947648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 703------
+#-----text_len = 1668------
+#--------init_encode end---------#
+index:8 start send cur_offset:682909752 end_offset:682873536
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 17------
+#-----text_len = 1039------
+#--------init_encode end---------#
+index:12 start send cur_offset:682788024 end_offset:682826256
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2167------
+#-----text_len = 2768------
+#--------init_encode end---------#
+index:15 start send cur_offset:682884696 end_offset:682902240
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 622------
+#-----text_len = 2693------
+#--------init_encode end---------#
+index:14 start send cur_offset:682982448 end_offset:682783800
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1144------
+#-----text_len = 2612------
+#--------init_encode end---------#
+index:5 start send cur_offset:682875408 end_offset:682955016
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2826------
+#-----text_len = 4111------
+#--------init_encode end---------#
+index:17 start send cur_offset:682867344 end_offset:682967424
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1036------
+#-----text_len = 1083------
+#--------init_encode end---------#
+index:18 start send cur_offset:682897488 end_offset:682798008
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 39------
+#-----text_len = 1426------
+#--------init_encode end---------#
+index:0 end send
+index:12 end send
+index:5 end send
+index:18 end send
+index:15 end send
+index:17 end send
+index:14 end send
+index:8 end send
+index:16 end send
+index:9 end send
+index:1 end send
+index:6 end send
+index:3 end send
+index:7 end send
+index:11 end send
+index:4 end send
+index:2 end send
+index:13 end send
+index:19 end send
+index:10 end send
+end locate current last!
+next_num 3681 : next_sum 3840127
+page num 937
+start locate current last!
+interval = 184
+i:0 start_offset:0 data_start_offset:2898659312
+i:0 end_offset:183
+ data_end_offset:2898403016
+i:1 start_offset:184 data_start_offset:2899024040
+i:1 end_offset:367
+ data_end_offset:2898855944
+i:2 start_offset:368 data_start_offset:2899006424
+i:2 end_offset:551
+ data_end_offset:2898433544
+i:3 start_offset:552 data_start_offset:2898287672
+i:3 end_offset:735
+ data_end_offset:2898855272
+i:4 start_offset:736 data_start_offset:2898566192
+i:4 end_offset:919
+ data_end_offset:2898306776
+i:5 start_offset:920 data_start_offset:2898467984
+i:5 end_offset:1103
+ data_end_offset:2898838016
+i:6 start_offset:1104 data_start_offset:2898524456
+i:6 end_offset:1287
+ data_end_offset:2898781088
+i:7 start_offset:1288 data_start_offset:2898376976
+i:7 end_offset:1471
+ data_end_offset:2898361160
+i:8 start_offset:1472 data_start_offset:2898503072
+i:8 end_offset:1655
+ data_end_offset:2898673592
+i:9 start_offset:1656 data_start_offset:2898553112
+i:9 end_offset:1839
+ data_end_offset:2898344384
+i:10 start_offset:1840 data_start_offset:2898877112
+i:10 end_offset:2023
+ data_end_offset:2898604376
+i:11 start_offset:2024 data_start_offset:2898905384
+i:11 end_offset:2207
+ data_end_offset:2898700448
+i:12 start_offset:2208 data_start_offset:2898690464
+i:12 end_offset:2391
+ data_end_offset:2898655184
+i:13 start_offset:2392 data_start_offset:2898785792
+i:13 end_offset:2575
+ data_end_offset:2898832352
+i:14 start_offset:2576 data_start_offset:2898574688
+i:14 end_offset:2759
+ data_end_offset:2898380600
+i:15 start_offset:2760 data_start_offset:2898366992
+i:15 end_offset:2943
+ data_end_offset:2898783536
+i:16 start_offset:2944 data_start_offset:2898918152
+i:16 end_offset:3127
+ data_end_offset:2898533912
+i:17 start_offset:3128 data_start_offset:2898737696
+i:17 end_offset:3311
+ data_end_offset:2898697256
+i:18 start_offset:3312 data_start_offset:2898567272
+i:18 end_offset:3495
+ data_end_offset:2898441824
+i:19 start_offset:3496 data_start_offset:2898939584
+i:19 end_offset:3679
+ data_end_offset:2898896936
+allocate=3679
+wait send PTHREADS end
+index:6 start send cur_offset:-1396442840 end_offset:-1396186208
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1322------
+#-----text_len = 1732------
+#--------init_encode end---------#
+index:13 start send cur_offset:-1396181504 end_offset:-1396134944
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1191------
+#-----text_len = 3397------
+#--------init_encode end---------#
+index:1 start send cur_offset:-1395943256 end_offset:-1396111352
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 119------
+#-----text_len = 739------
+#--------init_encode end---------#
+index:7 start send cur_offset:-1396590320 end_offset:-1396606136
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2214------
+#-----text_len = 3006------
+#--------init_encode end---------#
+index:16 start send cur_offset:-1396049144 end_offset:-1396433384
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1471------
+#-----text_len = 3398------
+#--------init_encode end---------#
+index:17 start send cur_offset:-1396229600 end_offset:-1396270040
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 714------
+#-----text_len = 2276------
+#--------init_encode end---------#
+index:3 start send cur_offset:-1396679624 end_offset:-1396112024
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3381------
+#-----text_len = 3734------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1396401104 end_offset:-1396660520
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1899------
+#-----text_len = 1978------
+#--------init_encode end---------#
+index:18 start send cur_offset:-1396400024 end_offset:-1396525472
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1182------
+#-----text_len = 3745------
+#--------init_encode end---------#
+index:5 start send cur_offset:-1396499312 end_offset:-1396129280
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 60------
+#-----text_len = 520------
+#--------init_encode end---------#
+index:2 start send cur_offset:-1395960872 end_offset:-1396533752
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 29------
+#-----text_len = 2193------
+#--------init_encode end---------#
+index:12 start send cur_offset:-1396276832 end_offset:-1396312112
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1681------
+#-----text_len = 2384------
+#--------init_encode end---------#
+index:19 start send cur_offset:-1396027712 end_offset:-1396381472
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 669------
+#-----text_len = 726------
+#--------init_encode end---------#
+index:0 start send cur_offset:-1396307984 end_offset:-1396564280
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 708------
+#-----text_len = 2083------
+#--------init_encode end---------#
+index:8 start send cur_offset:-1396464224 end_offset:-1396293704
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 57------
+#-----text_len = 831------
+#--------init_encode end---------#
+index:11 start send cur_offset:-1396061912 end_offset:-1396266848
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 110------
+#-----text_len = 1220------
+#--------init_encode end---------#
+index:9 start send cur_offset:-1396414184 end_offset:-1396622912
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 508------
+#-----text_len = 2849------
+#--------init_encode end---------#
+index:15 start send cur_offset:-1396600304 end_offset:-1396183760
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 343------
+#-----text_len = 495------
+#--------init_encode end---------#
+index:10 start send cur_offset:-1396090184 end_offset:-1396362920
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 466------
+#-----text_len = 626------
+#--------init_encode end---------#
+index:14 start send cur_offset:-1396392608 end_offset:-1396586696
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1851------
+#-----text_len = 1865------
+#--------init_encode end---------#
+index:18 end send
+index:12 end send
+index:17 end send
+index:4 end send
+index:8 end send
+index:16 end send
+index:15 end send
+index:0 end send
+index:13 end send
+index:14 end send
+index:2 end send
+index:19 end send
+index:11 end send
+index:5 end send
+index:6 end send
+index:10 end send
+index:1 end send
+index:7 end send
+index:3 end send
+index:9 end send
+end locate current last!
+next_num 1530 : next_sum 1579340
+page num 385
+start locate current last!
+interval = 76
+i:0 start_offset:0 data_start_offset:682892664
+i:0 end_offset:75
+ data_end_offset:682938312
+i:1 start_offset:76 data_start_offset:682945056
+i:1 end_offset:151
+ data_end_offset:682843032
+i:2 start_offset:152 data_start_offset:682983336
+i:2 end_offset:227
+ data_end_offset:682905528
+i:3 start_offset:228 data_start_offset:682973592
+i:3 end_offset:303
+ data_end_offset:682854768
+i:4 start_offset:304 data_start_offset:682917528
+i:4 end_offset:379
+ data_end_offset:682808592
+i:5 start_offset:380 data_start_offset:682813728
+i:5 end_offset:455
+ data_end_offset:682936872
+i:6 start_offset:456 data_start_offset:682822464
+i:6 end_offset:531
+ data_end_offset:682879392
+i:7 start_offset:532 data_start_offset:682855824
+i:7 end_offset:607
+ data_end_offset:682803240
+i:8 start_offset:608 data_start_offset:682806336
+i:8 end_offset:683
+ data_end_offset:682980696
+i:9 start_offset:684 data_start_offset:682905816
+i:9 end_offset:759
+ data_end_offset:682956720
+i:10 start_offset:760 data_start_offset:682800144
+i:10 end_offset:835
+ data_end_offset:682897344
+i:11 start_offset:836 data_start_offset:682871256
+i:11 end_offset:911
+ data_end_offset:682871928
+i:12 start_offset:912 data_start_offset:682953576
+i:12 end_offset:987
+ data_end_offset:682804512
+i:13 start_offset:988 data_start_offset:682927776
+i:13 end_offset:1063
+ data_end_offset:682868784
+i:14 start_offset:1064 data_start_offset:682919784
+i:14 end_offset:1139
+ data_end_offset:682983816
+i:15 start_offset:1140 data_start_offset:682808208
+i:15 end_offset:1215
+ data_end_offset:682784952
+i:16 start_offset:1216 data_start_offset:682974720
+i:16 end_offset:1291
+ data_end_offset:682817376
+i:17 start_offset:1292 data_start_offset:682802688
+i:17 end_offset:1367
+ data_end_offset:682860600
+i:18 start_offset:1368 data_start_offset:682965840
+i:18 end_offset:1443
+ data_end_offset:682891968
+i:19 start_offset:1444 data_start_offset:682788624
+i:19 end_offset:1519
+ data_end_offset:682865688
+allocate=1519
+wait send PTHREADS end
+index:13 start send cur_offset:682927776 end_offset:682868784
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 52------
+#-----text_len = 621------
+#--------init_encode end---------#
+index:7 start send cur_offset:682855824 end_offset:682803240
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 42------
+#-----text_len = 655------
+#--------init_encode end---------#
+index:3 start send cur_offset:682973592 end_offset:682854768
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 895------
+#-----text_len = 1987------
+#--------init_encode end---------#
+index:4 start send cur_offset:682917528 end_offset:682808592
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 59------
+#-----text_len = 95------
+#--------init_encode end---------#
+index:9 start send cur_offset:682905816 end_offset:682956720
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 161------
+#-----text_len = 1027------
+#--------init_encode end---------#
+index:16 start send cur_offset:682974720 end_offset:682817376
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 118------
+#-----text_len = 1661------
+#--------init_encode end---------#
+index:2 start send cur_offset:682983336 end_offset:682905528
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 276------
+#-----text_len = 565------
+#--------init_encode end---------#
+index:19 start send cur_offset:682788624 end_offset:682970280
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3151------
+#-----text_len = 4652------
+#--------init_encode end---------#
+index:18 start send cur_offset:682965840 end_offset:682891968
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1657------
+#-----text_len = 2179------
+#--------init_encode end---------#
+index:5 start send cur_offset:682813728 end_offset:682936872
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 643------
+#-----text_len = 1384------
+#--------init_encode end---------#
+index:11 start send cur_offset:682871256 end_offset:682871928
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 967------
+#-----text_len = 982------
+#--------init_encode end---------#
+index:17 start send cur_offset:682802688 end_offset:682860600
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 412------
+#-----text_len = 449------
+#--------init_encode end---------#
+index:15 start send cur_offset:682808208 end_offset:682784952
+index:10 start send cur_offset:682800144 end_offset:682897344
+index:0 start send cur_offset:682892664 end_offset:682938312
+type = 1 : init_encode start
+type = 1 : init_encode start
+#-----while text_len = 0------
+index:6 start send cur_offset:682822464 end_offset:682879392
+#-----while text_len = 1051------
+#-----text_len = 3206------
+#--------init_encode end---------#
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2698------
+#-----text_len = 2877------
+#--------init_encode end---------#
+#-----while text_len = 0------
+#-----while text_len = 276------
+#-----text_len = 4114------
+#--------init_encode end---------#
+index:1 start send cur_offset:682945056 end_offset:682843032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 653------
+#-----text_len = 1466------
+#--------init_encode end---------#
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 504------
+#-----text_len = 2065------
+#--------init_encode end---------#
+index:14 start send cur_offset:682919784 end_offset:682983816
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1603------
+#-----text_len = 3359------
+#--------init_encode end---------#
+index:12 start send cur_offset:682953576 end_offset:682804512
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 524------
+#-----text_len = 1191------
+#--------init_encode end---------#
+index:8 start send cur_offset:682806336 end_offset:682980696
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 456------
+#-----text_len = 3363------
+#--------init_encode end---------#
+index:13 end send
+index:7 end send
+index:5 end send
+index:18 end send
+index:4 end send
+index:15 end send
+index:3 end send
+index:12 end send
+index:16 end send
+index:11 end send
+index:14 end send
+index:9 end send
+index:2 end send
+index:17 end send
+index:6 end send
+index:10 end send
+index:0 end send
+index:19 end send
+index:1 end send
+index:8 end send
+end locate current last!
+next_num 756 : next_sum 758179
+page num 185
+start locate current last!
+interval = 37
+i:0 start_offset:0 data_start_offset:2898679856
+i:0 end_offset:36
+ data_end_offset:2898876272
+i:1 start_offset:37 data_start_offset:2898581024
+i:1 end_offset:73
+ data_end_offset:2898706592
+i:2 start_offset:74 data_start_offset:2898802352
+i:2 end_offset:110
+ data_end_offset:2898358256
+i:3 start_offset:111 data_start_offset:2898427616
+i:3 end_offset:147
+ data_end_offset:2898821240
+i:4 start_offset:148 data_start_offset:2899018064
+i:4 end_offset:184
+ data_end_offset:2898845768
+i:5 start_offset:185 data_start_offset:2898931688
+i:5 end_offset:221
+ data_end_offset:2898300464
+i:6 start_offset:222 data_start_offset:2898866048
+i:6 end_offset:258
+ data_end_offset:2898503384
+i:7 start_offset:259 data_start_offset:2898938888
+i:7 end_offset:295
+ data_end_offset:2898804272
+i:8 start_offset:296 data_start_offset:2898395552
+i:8 end_offset:332
+ data_end_offset:2898784928
+i:9 start_offset:333 data_start_offset:2899023320
+i:9 end_offset:369
+ data_end_offset:2899017872
+i:10 start_offset:370 data_start_offset:2898389096
+i:10 end_offset:406
+ data_end_offset:2898810056
+i:11 start_offset:407 data_start_offset:2898759560
+i:11 end_offset:443
+ data_end_offset:2898543848
+i:12 start_offset:444 data_start_offset:2898983240
+i:12 end_offset:480
+ data_end_offset:2898444968
+i:13 start_offset:481 data_start_offset:2898469664
+i:13 end_offset:517
+ data_end_offset:2898331568
+i:14 start_offset:518 data_start_offset:2898555752
+i:14 end_offset:554
+ data_end_offset:2898538760
+i:15 start_offset:555 data_start_offset:2898929984
+i:15 end_offset:591
+ data_end_offset:2898906200
+i:16 start_offset:592 data_start_offset:2898869792
+i:16 end_offset:628
+ data_end_offset:2898994376
+i:17 start_offset:629 data_start_offset:2898495608
+i:17 end_offset:665
+ data_end_offset:2898668264
+i:18 start_offset:666 data_start_offset:2898551432
+i:18 end_offset:702
+ data_end_offset:2898556688
+i:19 start_offset:703 data_start_offset:2898921296
+i:19 end_offset:739
+ data_end_offset:2898740096
+allocate=739
+wait send PTHREADS end
+index:7 start send cur_offset:-1396028408 end_offset:-1396163024
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 519------
+#-----text_len = 1257------
+#--------init_encode end---------#
+index:1 start send cur_offset:-1396386272 end_offset:-1396260704
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2155------
+#-----text_len = 2271------
+#--------init_encode end---------#
+index:9 start send cur_offset:-1395943976 end_offset:-1395949424
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 462------
+#-----text_len = 1409------
+#--------init_encode end---------#
+index:16 start send cur_offset:-1396097504 end_offset:-1395972920
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 823------
+#-----text_len = 953------
+#--------init_encode end---------#
+index:2 start send cur_offset:-1396164944 end_offset:-1396609040
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1709------
+#-----text_len = 3976------
+#--------init_encode end---------#
+index:6 start send cur_offset:-1396101248 end_offset:-1396463912
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1431------
+#-----text_len = 3547------
+#--------init_encode end---------#
+index:15 start send cur_offset:-1396037312 end_offset:-1396061096
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 377------
+#-----text_len = 3080------
+#--------init_encode end---------#
+index:3 start send cur_offset:-1396539680 end_offset:-1396146056
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 840------
+#-----text_len = 4294------
+#--------init_encode end---------#
+index:17 start send cur_offset:-1396471688 end_offset:-1396299032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2848------
+#-----text_len = 5406------
+#--------init_encode end---------#
+index:10 start send cur_offset:-1396578200 end_offset:-1396157240
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 599------
+#-----text_len = 908------
+#--------init_encode end---------#
+index:13 start send cur_offset:-1396497632 end_offset:-1396635728
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1987------
+#-----text_len = 2050------
+#--------init_encode end---------#
+index:0 start send cur_offset:-1396287440 end_offset:-1396091024
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 59------
+#-----text_len = 122------
+#--------init_encode end---------#
+index:18 start send cur_offset:-1396415864 end_offset:-1396410608
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 702------
+#-----text_len = 928------
+#--------init_encode end---------#
+index:5 start send cur_offset:-1396035608 end_offset:-1396666832
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 123------
+#-----text_len = 1238------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1395949232 end_offset:-1396121528
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 880------
+#-----text_len = 2417------
+#--------init_encode end---------#
+index:14 start send cur_offset:-1396411544 end_offset:-1396428536
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1331------
+#-----text_len = 3142------
+#--------init_encode end---------#
+index:11 start send cur_offset:-1396207736 end_offset:-1396423448
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 215------
+#-----text_len = 1330------
+#--------init_encode end---------#
+index:19 start send cur_offset:-1396046000 end_offset:-1396289912
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 44------
+#-----text_len = 1759------
+#--------init_encode end---------#
+index:8 start send cur_offset:-1396571744 end_offset:-1396182368
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2372------
+#-----text_len = 4163------
+#--------init_encode end---------#
+index:12 start send cur_offset:-1395984056 end_offset:-1396522328
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 250------
+#-----text_len = 762------
+#--------init_encode end---------#
+index:1 end send
+index:0 end send
+index:16 end send
+index:11 end send
+index:18 end send
+index:9 end send
+index:13 end send
+index:15 end send
+index:3 end send
+index:12 end send
+index:6 end send
+index:14 end send
+index:2 end send
+index:17 end send
+index:7 end send
+index:5 end send
+index:8 end send
+index:19 end send
+index:4 end send
+index:10 end send
+end locate current last!
+next_num 493 : next_sum 515151
+page num 125
+start locate current last!
+interval = 24
+i:0 start_offset:0 data_start_offset:682790376
+i:0 end_offset:23
+ data_end_offset:682911144
+i:1 start_offset:24 data_start_offset:682848000
+i:1 end_offset:47
+ data_end_offset:682952832
+i:2 start_offset:48 data_start_offset:682811664
+i:2 end_offset:71
+ data_end_offset:682925496
+i:3 start_offset:72 data_start_offset:682855968
+i:3 end_offset:95
+ data_end_offset:682882320
+i:4 start_offset:96 data_start_offset:682818192
+i:4 end_offset:119
+ data_end_offset:682860480
+i:5 start_offset:120 data_start_offset:682871064
+i:5 end_offset:143
+ data_end_offset:682973040
+i:6 start_offset:144 data_start_offset:682951752
+i:6 end_offset:167
+ data_end_offset:682777128
+i:7 start_offset:168 data_start_offset:682775136
+i:7 end_offset:191
+ data_end_offset:682850496
+i:8 start_offset:192 data_start_offset:682808592
+i:8 end_offset:215
+ data_end_offset:682849536
+i:9 start_offset:216 data_start_offset:682896816
+i:9 end_offset:239
+ data_end_offset:682785384
+i:10 start_offset:240 data_start_offset:682924824
+i:10 end_offset:263
+ data_end_offset:682846392
+i:11 start_offset:264 data_start_offset:682819104
+i:11 end_offset:287
+ data_end_offset:682856064
+i:12 start_offset:288 data_start_offset:682802760
+i:12 end_offset:311
+ data_end_offset:682770624
+i:13 start_offset:312 data_start_offset:682840584
+i:13 end_offset:335
+ data_end_offset:682962888
+i:14 start_offset:336 data_start_offset:682833144
+i:14 end_offset:359
+ data_end_offset:682875576
+i:15 start_offset:360 data_start_offset:682936872
+i:15 end_offset:383
+ data_end_offset:682972464
+i:16 start_offset:384 data_start_offset:682880832
+i:16 end_offset:407
+ data_end_offset:682854768
+i:17 start_offset:408 data_start_offset:682915632
+i:17 end_offset:431
+ data_end_offset:682791624
+i:18 start_offset:432 data_start_offset:682852608
+i:18 end_offset:455
+ data_end_offset:682879584
+i:19 start_offset:456 data_start_offset:682925688
+i:19 end_offset:479
+ data_end_offset:682845816
+allocate=479
+wait send PTHREADS end
+index:7 start send cur_offset:682775136 end_offset:682850496
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1927------
+#-----text_len = 2978------
+#--------init_encode end---------#
+index:18 start send cur_offset:682852608 end_offset:682879584
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 611------
+#-----text_len = 2806------
+#--------init_encode end---------#
+index:7 end send
+index:13 start send cur_offset:682840584 end_offset:682962888
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1420------
+#-----text_len = 1908------
+#--------init_encode end---------#
+index:12 start send cur_offset:682802760 end_offset:682770624
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 59------
+#-----text_len = 1447------
+#--------init_encode end---------#
+index:4 start send cur_offset:682818192 end_offset:682860480
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 577------
+#-----text_len = 3287------
+#--------init_encode end---------#
+index:5 start send cur_offset:682871064 end_offset:682973040
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 445------
+#-----text_len = 995------
+#--------init_encode end---------#
+index:0 start send cur_offset:682790376 end_offset:682911144
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2522------
+#-----text_len = 2622------
+#--------init_encode end---------#
+index:4 end send
+index:3 start send cur_offset:682855968 end_offset:682882320
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1257------
+#-----text_len = 2893------
+#--------init_encode end---------#
+index:10 start send cur_offset:682924824 end_offset:682846392
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1505------
+#-----text_len = 4988------
+#--------init_encode end---------#
+index:8 start send cur_offset:682808592 end_offset:682849536
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 474------
+#-----text_len = 2074------
+#--------init_encode end---------#
+index:17 start send cur_offset:682915632 end_offset:682791624
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1584------
+#-----text_len = 2474------
+#--------init_encode end---------#
+index:10 end send
+index:3 end send
+index:1 start send cur_offset:682848000 end_offset:682952832
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 271------
+#-----text_len = 1731------
+#--------init_encode end---------#
+index:1 end send
+index:11 start send cur_offset:682819104 end_offset:682856064
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1713------
+#-----text_len = 1814------
+#--------init_encode end---------#
+index:11 end send
+index:9 start send cur_offset:682896816 end_offset:682785384
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 325------
+#-----text_len = 2645------
+#--------init_encode end---------#
+index:14 start send cur_offset:682833144 end_offset:682875576
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 161------
+#-----text_len = 601------
+#--------init_encode end---------#
+index:15 start send cur_offset:682936872 end_offset:682972464
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 348------
+#-----text_len = 1075------
+#--------init_encode end---------#
+index:18 end send
+index:15 end send
+index:19 start send cur_offset:682925688 end_offset:682965456
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 899------
+#-----text_len = 1318------
+#--------init_encode end---------#
+index:6 start send cur_offset:682951752 end_offset:682777128
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1502------
+#-----text_len = 1751------
+#--------init_encode end---------#
+index:12 end send
+index:16 start send cur_offset:682880832 end_offset:682854768
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 374------
+#-----text_len = 799------
+#--------init_encode end---------#
+index:2 start send cur_offset:682811664 end_offset:682925496
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 735------
+#-----text_len = 1642------
+#--------init_encode end---------#
+index:5 end send
+index:0 end send
+index:6 end send
+index:13 end send
+index:9 end send
+index:8 end send
+index:14 end send
+index:19 end send
+index:17 end send
+index:2 end send
+index:16 end send
+end locate current last!
+next_num 296 : next_sum 285284
+page num 69
+start locate current last!
+interval = 14
+i:0 start_offset:0 data_start_offset:2899018736
+i:0 end_offset:13
+ data_end_offset:2898854504
+i:1 start_offset:14 data_start_offset:2898640448
+i:1 end_offset:27
+ data_end_offset:2898377600
+i:2 start_offset:28 data_start_offset:2898315056
+i:2 end_offset:41
+ data_end_offset:2898354392
+i:3 start_offset:42 data_start_offset:2898305000
+i:3 end_offset:55
+ data_end_offset:2898689288
+i:4 start_offset:56 data_start_offset:2898985592
+i:4 end_offset:69
+ data_end_offset:2898727856
+i:5 start_offset:70 data_start_offset:2898967520
+i:5 end_offset:83
+ data_end_offset:2898481592
+i:6 start_offset:84 data_start_offset:2898325208
+i:6 end_offset:97
+ data_end_offset:2898759056
+i:7 start_offset:98 data_start_offset:2898350144
+i:7 end_offset:111
+ data_end_offset:2898668840
+i:8 start_offset:112 data_start_offset:2898763088
+i:8 end_offset:125
+ data_end_offset:2898278648
+i:9 start_offset:126 data_start_offset:2898821240
+i:9 end_offset:139
+ data_end_offset:2898763904
+i:10 start_offset:140 data_start_offset:2898317240
+i:10 end_offset:153
+ data_end_offset:2899019096
+i:11 start_offset:154 data_start_offset:2898715160
+i:11 end_offset:167
+ data_end_offset:2898546752
+i:12 start_offset:168 data_start_offset:2898635528
+i:12 end_offset:181
+ data_end_offset:2898594632
+i:13 start_offset:182 data_start_offset:2898374264
+i:13 end_offset:195
+ data_end_offset:2898300464
+i:14 start_offset:196 data_start_offset:2898840176
+i:14 end_offset:209
+ data_end_offset:2898914432
+i:15 start_offset:210 data_start_offset:2898762464
+i:15 end_offset:223
+ data_end_offset:2898700496
+i:16 start_offset:224 data_start_offset:2898577256
+i:16 end_offset:237
+ data_end_offset:2898498032
+i:17 start_offset:238 data_start_offset:2898479072
+i:17 end_offset:251
+ data_end_offset:2898371192
+i:18 start_offset:252 data_start_offset:2898492680
+i:18 end_offset:265
+ data_end_offset:2898490760
+i:19 start_offset:266 data_start_offset:2898539960
+i:19 end_offset:279
+ data_end_offset:2898805016
+allocate=279
+wait send PTHREADS end
+index:6 start send cur_offset:-1396642088 end_offset:-1396208240
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 381------
+#-----text_len = 1219------
+#--------init_encode end---------#
+index:14 start send cur_offset:-1396127120 end_offset:-1396052864
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2903------
+#-----text_len = 3235------
+#--------init_encode end---------#
+index:6 end send
+index:9 start send cur_offset:-1396146056 end_offset:-1396203392
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 127------
+#-----text_len = 3678------
+#--------init_encode end---------#
+index:14 end send
+index:0 start send cur_offset:-1395948560 end_offset:-1396112792
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 467------
+#-----text_len = 1367------
+#--------init_encode end---------#
+index:12 start send cur_offset:-1396331768 end_offset:-1396372664
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 789------
+#-----text_len = 845------
+#--------init_encode end---------#
+index:9 end send
+index:12 end send
+index:15 start send cur_offset:-1396204832 end_offset:-1396266800
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 779------
+#-----text_len = 1394------
+#--------init_encode end---------#
+index:18 start send cur_offset:-1396474616 end_offset:-1396476536
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 670------
+#-----text_len = 1478------
+#--------init_encode end---------#
+index:15 end send
+index:18 end send
+index:17 start send cur_offset:-1396488224 end_offset:-1396596104
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1302------
+#-----text_len = 1767------
+#--------init_encode end---------#
+index:3 start send cur_offset:-1396662296 end_offset:-1396278008
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 50------
+index:13 start send cur_offset:-1396593032 end_offset:-1396666832
+type = 1 : init_encode start
+index:1 start send cur_offset:-1396326848 end_offset:-1396589696
+index:5 start send cur_offset:-1395999776 end_offset:-1396485704
+type = 1 : init_encode start
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----text_len = 656------
+#--------init_encode end---------#
+#-----while text_len = 2810------
+#-----text_len = 5914------
+#--------init_encode end---------#
+index:0 end send
+index:3 end send
+#-----while text_len = 0------
+#-----while text_len = 118------
+#-----text_len = 270------
+#--------init_encode end---------#
+index:8 start send cur_offset:-1396204208 end_offset:-1396688648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 13------
+#-----text_len = 784------
+#--------init_encode end---------#
+index:1 end send
+index:8 end send
+index:11 start send cur_offset:-1396252136 end_offset:-1396420544
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 312------
+#-----text_len = 1076------
+#--------init_encode end---------#
+index:17 end send
+index:16 start send cur_offset:-1396390040 end_offset:-1396469264
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 642------
+#-----text_len = 701------
+#--------init_encode end---------#
+index:11 end send
+index:16 end send
+index:7 start send cur_offset:-1396617152 end_offset:-1396298456
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 219------
+#-----text_len = 903------
+#--------init_encode end---------#
+index:7 end send
+index:19 start send cur_offset:-1396427336 end_offset:-1396277984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1101------
+#-----text_len = 2473------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1395981704 end_offset:-1396239440
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 222------
+#-----text_len = 3105------
+#--------init_encode end---------#
+index:4 end send
+index:5 end send
+index:10 start send cur_offset:-1396650056 end_offset:-1395948200
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 584------
+#-----text_len = 1477------
+#--------init_encode end---------#
+index:10 end send
+#-----while text_len = 0------
+#-----while text_len = 63------
+#-----text_len = 406------
+#--------init_encode end---------#
+index:2 start send cur_offset:-1396652240 end_offset:-1396612904
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 558------
+#-----text_len = 693------
+#--------init_encode end---------#
+index:2 end send
+index:13 end send
+index:19 end send
+end locate current last!
+next_num 368 : next_sum 395306
+page num 96
+start locate current last!
+interval = 18
+i:0 start_offset:0 data_start_offset:682879752
+i:0 end_offset:17
+ data_end_offset:682929768
+i:1 start_offset:18 data_start_offset:682967112
+i:1 end_offset:35
+ data_end_offset:682980216
+i:2 start_offset:36 data_start_offset:682969344
+i:2 end_offset:53
+ data_end_offset:682975416
+i:3 start_offset:54 data_start_offset:682811664
+i:3 end_offset:71
+ data_end_offset:682905912
+i:4 start_offset:72 data_start_offset:682974456
+i:4 end_offset:89
+ data_end_offset:682885032
+i:5 start_offset:90 data_start_offset:682965384
+i:5 end_offset:107
+ data_end_offset:682864872
+i:6 start_offset:108 data_start_offset:682789344
+i:6 end_offset:125
+ data_end_offset:682949664
+i:7 start_offset:126 data_start_offset:682964616
+i:7 end_offset:143
+ data_end_offset:682964808
+i:8 start_offset:144 data_start_offset:682812192
+i:8 end_offset:161
+ data_end_offset:682771224
+i:9 start_offset:162 data_start_offset:682887144
+i:9 end_offset:179
+ data_end_offset:682873560
+i:10 start_offset:180 data_start_offset:682856952
+i:10 end_offset:197
+ data_end_offset:682896816
+i:11 start_offset:198 data_start_offset:682969824
+i:11 end_offset:215
+ data_end_offset:682832448
+i:12 start_offset:216 data_start_offset:682820976
+i:12 end_offset:233
+ data_end_offset:682822176
+i:13 start_offset:234 data_start_offset:682868184
+i:13 end_offset:251
+ data_end_offset:682785288
+i:14 start_offset:252 data_start_offset:682980024
+i:14 end_offset:269
+ data_end_offset:682946760
+i:15 start_offset:270 data_start_offset:682981128
+i:15 end_offset:287
+ data_end_offset:682821096
+i:16 start_offset:288 data_start_offset:682804944
+i:16 end_offset:305
+ data_end_offset:682782648
+i:17 start_offset:306 data_start_offset:682929168
+i:17 end_offset:323
+ data_end_offset:682860648
+i:18 start_offset:324 data_start_offset:682845384
+i:18 end_offset:341
+ data_end_offset:682930440
+i:19 start_offset:342 data_start_offset:682775136
+i:19 end_offset:359
+ data_end_offset:682931736
+allocate=359
+wait send PTHREADS end
+index:15 start send cur_offset:682981128 end_offset:682821096
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 981------
+#-----text_len = 1087------
+#--------init_encode end---------#
+index:17 start send cur_offset:682929168 end_offset:682860648
+type = 1 : init_encode start
+index:3 start send cur_offset:682811664 end_offset:682905912
+index:5 start send cur_offset:682965384 end_offset:682864872
+type = 1 : init_encode start
+#-----while text_len = 0------
+type = 1 : init_encode start
+#-----while text_len = 1918------
+#-----text_len = 3022------
+#-----while text_len = 0------
+#--------init_encode end---------#
+#-----while text_len = 2027------
+#-----text_len = 4090------
+#--------init_encode end---------#
+#-----while text_len = 0------
+#-----while text_len = 345------
+#-----text_len = 1013------
+#--------init_encode end---------#
+index:3 end send
+index:0 start send cur_offset:682879752 end_offset:682929768
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3453------
+#-----text_len = 4652------
+#--------init_encode end---------#
+index:12 start send cur_offset:682820976 end_offset:682822176
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 158------
+#-----text_len = 2090------
+#--------init_encode end---------#
+index:8 start send cur_offset:682812192 end_offset:682771224
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2687------
+#-----text_len = 3317------
+#--------init_encode end---------#
+index:13 start send cur_offset:682868184 end_offset:682785288
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3344------
+#-----text_len = 3679------
+#--------init_encode end---------#
+index:12 end send
+index:13 end send
+index:1 start send cur_offset:682967112 end_offset:682980216
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 274------
+#-----text_len = 502------
+#--------init_encode end---------#
+index:11 start send cur_offset:682969824 end_offset:682832448
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2303------
+#-----text_len = 3981------
+#--------init_encode end---------#
+index:16 start send cur_offset:682804944 end_offset:682782648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2542------
+#-----text_len = 3556------
+#--------init_encode end---------#
+index:11 end send
+index:9 start send cur_offset:682887144 end_offset:682873560
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 287------
+#-----text_len = 366------
+#--------init_encode end---------#
+index:18 start send cur_offset:682845384 end_offset:682930440
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3318------
+#-----text_len = 3449------
+#--------init_encode end---------#
+index:9 end send
+index:2 start send cur_offset:682969344 end_offset:682975416
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2456------
+#-----text_len = 4008------
+#--------init_encode end---------#
+index:1 end send
+index:14 start send cur_offset:682980024 end_offset:682946760
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 113------
+#-----text_len = 1671------
+#--------init_encode end---------#
+index:7 start send cur_offset:682964616 end_offset:682964808
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 741------
+#-----text_len = 2084------
+#--------init_encode end---------#
+index:7 end send
+index:19 start send cur_offset:682775136 end_offset:682887984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 640------
+#-----text_len = 931------
+#--------init_encode end---------#
+index:4 start send cur_offset:682974456 end_offset:682885032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1292------
+#-----text_len = 1501------
+#--------init_encode end---------#
+index:0 end send
+index:10 start send cur_offset:682856952 end_offset:682896816
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 111------
+#-----text_len = 554------
+#--------init_encode end---------#
+index:17 end send
+index:10 end send
+index:16 end send
+index:6 start send cur_offset:682789344 end_offset:682949664
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 161------
+#-----text_len = 1069------
+#--------init_encode end---------#
+index:18 end send
+index:19 end send
+index:5 end send
+index:8 end send
+index:2 end send
+index:6 end send
+index:15 end send
+index:14 end send
+index:4 end send
+end locate current last!
+next_num 260 : next_sum 268348
+page num 65
+start locate current last!
+interval = 13
+i:0 start_offset:0 data_start_offset:2898965576
+i:0 end_offset:12
+ data_end_offset:2898985184
+i:1 start_offset:13 data_start_offset:2898555560
+i:1 end_offset:25
+ data_end_offset:2898702632
+i:2 start_offset:26 data_start_offset:2898641480
+i:2 end_offset:38
+ data_end_offset:2898413336
+i:3 start_offset:39 data_start_offset:2898502688
+i:3 end_offset:51
+ data_end_offset:2898581024
+i:4 start_offset:52 data_start_offset:2898984392
+i:4 end_offset:64
+ data_end_offset:2898395192
+i:5 start_offset:65 data_start_offset:2898928400
+i:5 end_offset:77
+ data_end_offset:2898853232
+i:6 start_offset:78 data_start_offset:2898355400
+i:6 end_offset:90
+ data_end_offset:2898750080
+i:7 start_offset:91 data_start_offset:2898689288
+i:7 end_offset:103
+ data_end_offset:2898859832
+i:8 start_offset:104 data_start_offset:2898654272
+i:8 end_offset:116
+ data_end_offset:2898496016
+i:9 start_offset:117 data_start_offset:2898709352
+i:9 end_offset:129
+ data_end_offset:2898573896
+i:10 start_offset:130 data_start_offset:2898847088
+i:10 end_offset:142
+ data_end_offset:2898278648
+i:11 start_offset:143 data_start_offset:2898394352
+i:11 end_offset:155
+ data_end_offset:2898374264
+i:12 start_offset:156 data_start_offset:2898402824
+i:12 end_offset:168
+ data_end_offset:2898391712
+i:13 start_offset:169 data_start_offset:2898975080
+i:13 end_offset:181
+ data_end_offset:2898750296
+i:14 start_offset:182 data_start_offset:2898929816
+i:14 end_offset:194
+ data_end_offset:2898381776
+i:15 start_offset:195 data_start_offset:2898380648
+i:15 end_offset:207
+ data_end_offset:2898491360
+i:16 start_offset:208 data_start_offset:2898603080
+i:16 end_offset:220
+ data_end_offset:2898759056
+i:17 start_offset:221 data_start_offset:2898563672
+i:17 end_offset:233
+ data_end_offset:2898791984
+i:18 start_offset:234 data_start_offset:2898640592
+i:18 end_offset:246
+ data_end_offset:2898829784
+i:19 start_offset:247 data_start_offset:2898496688
+allocate=259
+wait send PTHREADS end
+index:3 start send cur_offset:-1396464608 end_offset:-1396386272
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 38------
+#-----text_len = 1462------
+#--------init_encode end---------#
+index:1 start send cur_offset:-1396411736 end_offset:-1396264664
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 598------
+#-----text_len = 1134------
+#--------init_encode end---------#
+index:8 start send cur_offset:-1396313024 end_offset:-1396471280
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2424------
+#-----text_len = 2445------
+#--------init_encode end---------#
+index:1 end send
+index:2 start send cur_offset:-1396325816 end_offset:-1396553960
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 322------
+#-----text_len = 452------
+#--------init_encode end---------#
+index:9 start send cur_offset:-1396257944 end_offset:-1396393400
+index:5 start send cur_offset:-1396038896 end_offset:-1396114064
+type = 1 : init_encode start
+#-----while text_len = 0------
+type = 1 : init_encode start
+#-----while text_len = 779------
+#-----text_len = 3268------
+#--------init_encode end---------#
+#-----while text_len = 0------
+#-----while text_len = 189------
+#-----text_len = 241------
+#--------init_encode end---------#
+index:17 start send cur_offset:-1396403624 end_offset:-1396175312
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2284------
+#-----text_len = 3298------
+#--------init_encode end---------#
+index:9 end send
+index:6 start send cur_offset:-1396611896 end_offset:-1396217216
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 34------
+#-----text_len = 1022------
+#--------init_encode end---------#
+index:12 start send cur_offset:-1396564472 end_offset:-1396575584
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 807------
+#-----text_len = 2403------
+#--------init_encode end---------#
+index:6 end send
+index:19 start send cur_offset:-1396470608 end_offset:-1396655312
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1042------
+#-----text_len = 1543------
+#--------init_encode end---------#
+index:2 end send
+index:4 start send cur_offset:-1395982904 end_offset:-1396572104
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1081------
+#-----text_len = 3652------
+#--------init_encode end---------#
+index:0 start send cur_offset:-1396001720 end_offset:-1395982112
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 90------
+#-----text_len = 2208------
+#--------init_encode end---------#
+index:14 start send cur_offset:-1396037480 end_offset:-1396585520
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 643------
+#-----text_len = 793------
+#--------init_encode end---------#
+index:4 end send
+index:3 end send
+index:0 end send
+index:18 start send cur_offset:-1396326704 end_offset:-1396137512
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2733------
+#-----text_len = 2954------
+#--------init_encode end---------#
+index:16 start send cur_offset:-1396364216 end_offset:-1396208240
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 31------
+#-----text_len = 835------
+#--------init_encode end---------#
+index:19 end send
+index:16 end send
+index:7 start send cur_offset:-1396278008 end_offset:-1396107464
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1890------
+#-----text_len = 2341------
+#--------init_encode end---------#
+index:14 end send
+index:7 end send
+index:8 end send
+index:15 start send cur_offset:-1396586648 end_offset:-1396475936
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 177------
+#-----text_len = 1713------
+#--------init_encode end---------#
+index:17 end send
+index:15 end send
+index:5 end send
+index:11 start send cur_offset:-1396572944 end_offset:-1396593032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1312------
+#-----text_len = 3821------
+#--------init_encode end---------#
+index:11 end send
+index:13 start send cur_offset:-1395992216 end_offset:-1396217000
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1714------
+#-----text_len = 4024------
+#--------init_encode end---------#
+index:12 end send
+index:13 end send
+index:10 start send cur_offset:-1396120208 end_offset:-1396688648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 951------
+#-----text_len = 2259------
+#--------init_encode end---------#
+index:10 end send
+index:18 end send
+end locate current last!
+next_num 199 : next_sum 210807
+page num 51
+start locate current last!
+interval = 9
+i:0 start_offset:0 data_start_offset:682913640
+i:0 end_offset:8
+ data_end_offset:682810896
+i:1 start_offset:9 data_start_offset:682815072
+i:1 end_offset:17
+ data_end_offset:682863144
+i:2 start_offset:18 data_start_offset:682891272
+i:2 end_offset:26
+ data_end_offset:682895856
+i:3 start_offset:27 data_start_offset:682817016
+i:3 end_offset:35
+ data_end_offset:682790280
+i:4 start_offset:36 data_start_offset:682791240
+i:4 end_offset:44
+ data_end_offset:682916160
+i:5 start_offset:45 data_start_offset:682844424
+i:5 end_offset:53
+ data_end_offset:682938312
+i:6 start_offset:54 data_start_offset:682913352
+i:6 end_offset:62
+ data_end_offset:682967112
+i:7 start_offset:63 data_start_offset:682983360
+i:7 end_offset:71
+ data_end_offset:682912032
+i:8 start_offset:72 data_start_offset:682959216
+i:8 end_offset:80
+ data_end_offset:682841832
+i:9 start_offset:81 data_start_offset:682786248
+i:9 end_offset:89
+ data_end_offset:682937496
+i:10 start_offset:90 data_start_offset:682833240
+i:10 end_offset:98
+ data_end_offset:682981320
+i:11 start_offset:99 data_start_offset:682864872
+i:11 end_offset:107
+ data_end_offset:682834728
+i:12 start_offset:108 data_start_offset:682905912
+i:12 end_offset:116
+ data_end_offset:682838640
+i:13 start_offset:117 data_start_offset:682776120
+i:13 end_offset:125
+ data_end_offset:682973592
+i:14 start_offset:126 data_start_offset:682825344
+i:14 end_offset:134
+ data_end_offset:682974816
+i:15 start_offset:135 data_start_offset:682876080
+i:15 end_offset:143
+ data_end_offset:682855248
+i:16 start_offset:144 data_start_offset:682882968
+i:16 end_offset:152
+ data_end_offset:682780344
+i:17 start_offset:153 data_start_offset:682928592
+i:17 end_offset:161
+ data_end_offset:682905552
+i:18 start_offset:162 data_start_offset:682983720
+i:18 end_offset:170
+ data_end_offset:682975080
+i:19 start_offset:171 data_start_offset:682969824
+i:19 end_offset:179
+ data_end_offset:682811664
+allocate=179
+wait send PTHREADS end
+index:9 start send cur_offset:682786248 end_offset:682937496
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2240------
+#-----text_len = 2906------
+#--------init_encode end---------#
+index:9 end send
+index:8 start send cur_offset:682959216 end_offset:682841832
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2799------
+#-----text_len = 5145------
+#--------init_encode end---------#
+index:8 end send
+index:5 start send cur_offset:682844424 end_offset:682938312
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 533------
+#-----text_len = 554------
+#--------init_encode end---------#
+index:0 start send cur_offset:682913640 end_offset:682810896
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1185------
+#-----text_len = 1413------
+#--------init_encode end---------#
+index:6 start send cur_offset:682913352 end_offset:682967112
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 204------
+#-----text_len = 217------
+#--------init_encode end---------#
+index:12 start send cur_offset:682905912 end_offset:682838640
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2414------
+#-----text_len = 3059------
+#--------init_encode end---------#
+index:6 end send
+index:12 end send
+index:18 start send cur_offset:682983720 end_offset:682975080
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 809------
+#-----text_len = 1208------
+#--------init_encode end---------#
+index:2 start send cur_offset:682891272 end_offset:682895856
+index:19 start send cur_offset:682969824 end_offset:682830072
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 627------
+#-----text_len = 2809------
+#--------init_encode end---------#
+index:5 end send
+index:17 start send cur_offset:682928592 end_offset:682905552
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 608------
+#-----text_len = 1104------
+#--------init_encode end---------#
+index:3 start send cur_offset:682817016 end_offset:682790280
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 216------
+#-----text_len = 1501------
+#--------init_encode end---------#
+index:18 end send
+index:3 end send
+index:0 end send
+index:7 start send cur_offset:682983360 end_offset:682912032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1454------
+#-----text_len = 1730------
+#--------init_encode end---------#
+index:7 end send
+index:16 start send cur_offset:682882968 end_offset:682780344
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1225------
+#-----text_len = 1252------
+#--------init_encode end---------#
+index:16 end send
+index:14 start send cur_offset:682825344 end_offset:682974816
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 566------
+#-----text_len = 1553------
+#--------init_encode end---------#
+index:4 start send cur_offset:682791240 end_offset:682916160
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1409------
+#-----text_len = 3263------
+#--------init_encode end---------#
+index:4 end send
+index:14 end send
+index:15 start send cur_offset:682876080 end_offset:682855248
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2149------
+#-----text_len = 3914------
+#--------init_encode end---------#
+index:15 end send
+index:11 start send cur_offset:682864872 end_offset:682834728
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1055------
+#-----text_len = 1633------
+#--------init_encode end---------#
+index:11 end send
+index:17 end send
+index:13 start send cur_offset:682776120 end_offset:682973592
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 518------
+#-----text_len = 3658------
+#--------init_encode end---------#
+index:13 end send
+index:10 start send cur_offset:682833240 end_offset:682981320
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 730------
+#-----text_len = 1918------
+#--------init_encode end---------#
+index:10 end send
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1580------
+#-----text_len = 2683------
+#--------init_encode end---------#
+index:2 end send
+index:1 start send cur_offset:682815072 end_offset:682863144
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2340------
+#-----text_len = 3833------
+#--------init_encode end---------#
+index:1 end send
+index:19 end send
+end locate current last!
+next_num 252 : next_sum 270387
+page num 66
+start locate current last!
+interval = 12
+i:0 start_offset:0 data_start_offset:2898930800
+i:0 end_offset:11
+ data_end_offset:2898337112
+i:1 start_offset:12 data_start_offset:2898640448
+i:1 end_offset:23
+ data_end_offset:2898919064
+i:2 start_offset:24 data_start_offset:2898325208
+i:2 end_offset:35
+ data_end_offset:2898668840
+i:3 start_offset:36 data_start_offset:2899023632
+i:3 end_offset:47
+ data_end_offset:2898863984
+i:4 start_offset:48 data_start_offset:2898895328
+i:4 end_offset:59
+ data_end_offset:2898492680
+i:5 start_offset:60 data_start_offset:2898982088
+i:5 end_offset:71
+ data_end_offset:2898806648
+i:6 start_offset:72 data_start_offset:2898436640
+i:6 end_offset:83
+ data_end_offset:2898842312
+i:7 start_offset:84 data_start_offset:2898989024
+i:7 end_offset:95
+ data_end_offset:2898737672
+i:8 start_offset:96 data_start_offset:2898855344
+i:8 end_offset:107
+ data_end_offset:2899025288
+i:9 start_offset:108 data_start_offset:2898853232
+i:9 end_offset:119
+ data_end_offset:2898854504
+i:10 start_offset:120 data_start_offset:2898365312
+i:10 end_offset:131
+ data_end_offset:2898326624
+i:11 start_offset:132 data_start_offset:2898714416
+i:11 end_offset:143
+ data_end_offset:2898750080
+i:12 start_offset:144 data_start_offset:2898491360
+i:12 end_offset:155
+ data_end_offset:2898358256
+i:13 start_offset:156 data_start_offset:2898855272
+i:13 end_offset:167
+ data_end_offset:2898577256
+i:14 start_offset:168 data_start_offset:2898876272
+i:14 end_offset:179
+ data_end_offset:2898265504
+i:15 start_offset:180 data_start_offset:2898889856
+i:15 end_offset:191
+ data_end_offset:2898433544
+i:16 start_offset:192 data_start_offset:2898315056
+i:16 end_offset:203
+ data_end_offset:2898985592
+i:17 start_offset:204 data_start_offset:2898823304
+i:17 end_offset:215
+ data_end_offset:2898988328
+i:18 start_offset:216 data_start_offset:2898706616
+i:18 end_offset:227
+ data_end_offset:2899019096
+i:19 start_offset:228 data_start_offset:2898650312
+i:19 end_offset:239
+ data_end_offset:2898539840
+allocate=239
+wait send PTHREADS end
+index:7 start send cur_offset:-1395978272 end_offset:-1396229624
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 531------
+#-----text_len = 692------
+#--------init_encode end---------#
+index:7 end send
+index:12 start send cur_offset:-1396475936 end_offset:-1396609040
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1253------
+#-----text_len = 1320------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1396071968 end_offset:-1396474616
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2764------
+#-----text_len = 3071------
+#--------init_encode end---------#
+index:17 start send cur_offset:-1396143992 end_offset:-1395978968
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2465------
+#-----text_len = 3134------
+#--------init_encode end---------#
+index:4 end send
+index:15 start send cur_offset:-1396077440 end_offset:-1396533752
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 475------
+#-----text_len = 1252------
+#--------init_encode end---------#
+index:0 start send cur_offset:-1396036496 end_offset:-1396630184
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 802------
+#-----text_len = 3682------
+#--------init_encode end---------#
+index:16 start send cur_offset:-1396652240 end_offset:-1395981704
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 851------
+#-----text_len = 872------
+#--------init_encode end---------#
+index:15 end send
+index:16 end send
+index:8 start send cur_offset:-1396111952 end_offset:-1395942008
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 233------
+#-----text_len = 1101------
+#--------init_encode end---------#
+index:8 end send
+index:11 start send cur_offset:-1396252880 end_offset:-1396217216
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1064------
+#-----text_len = 3219------
+#--------init_encode end---------#
+index:0 end send
+index:18 start send cur_offset:-1396260680 end_offset:-1395948200
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 563------
+#-----text_len = 726------
+#--------init_encode end---------#
+index:11 end send
+index:18 end send
+index:5 start send cur_offset:-1395985208 end_offset:-1396160648
+index:10 start send cur_offset:-1396601984 end_offset:-1396640672
+index:13 start send cur_offset:-1396112024 end_offset:-1396390040
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 139------
+#-----text_len = 2582------
+type = 1 : init_encode start
+#--------init_encode end---------#
+#-----while text_len = 0------
+#-----while text_len = 825------
+#-----text_len = 944------
+#--------init_encode end---------#
+index:13 end send
+index:10 end send
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 727------
+#-----text_len = 791------
+#--------init_encode end---------#
+index:14 start send cur_offset:-1396091024 end_offset:-1396701792
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 687------
+#-----text_len = 728------
+#--------init_encode end---------#
+index:1 start send cur_offset:-1396326848 end_offset:-1396048232
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 240------
+#-----text_len = 533------
+#--------init_encode end---------#
+index:12 end send
+index:2 start send cur_offset:-1396642088 end_offset:-1396298456
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 247------
+#-----text_len = 1188------
+#--------init_encode end---------#
+index:17 end send
+index:2 end send
+index:14 end send
+index:6 start send cur_offset:-1396530656 end_offset:-1396124984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1161------
+#-----text_len = 1486------
+#--------init_encode end---------#
+index:1 end send
+index:5 end send
+index:3 start send cur_offset:-1395943664 end_offset:-1396103312
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 523------
+#-----text_len = 744------
+#--------init_encode end---------#
+index:3 end send
+index:19 start send cur_offset:-1396316984 end_offset:-1395940904
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1350------
+#-----text_len = 1857------
+#--------init_encode end---------#
+index:6 end send
+index:9 start send cur_offset:-1396114064 end_offset:-1396112792
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 81------
+#-----text_len = 2232------
+#--------init_encode end---------#
+index:9 end send
+index:19 end send
+end locate current last!
+next_num 447 : next_sum 511565
+page num 124
+start locate current last!
+interval = 22
+i:0 start_offset:0 data_start_offset:682911144
+i:0 end_offset:21
+ data_end_offset:682958880
+i:1 start_offset:22 data_start_offset:682914456
+i:1 end_offset:43
+ data_end_offset:682822464
+i:2 start_offset:44 data_start_offset:682831848
+i:2 end_offset:65
+ data_end_offset:682894176
+i:3 start_offset:66 data_start_offset:682923552
+i:3 end_offset:87
+ data_end_offset:682855248
+i:4 start_offset:88 data_start_offset:682967112
+i:4 end_offset:109
+ data_end_offset:2898313808
+i:5 start_offset:110 data_start_offset:682849536
+i:5 end_offset:131
+ data_end_offset:682885032
+i:6 start_offset:132 data_start_offset:682787712
+i:6 end_offset:153
+ data_end_offset:682790760
+i:7 start_offset:154 data_start_offset:2898311984
+i:7 end_offset:175
+ data_end_offset:682835328
+i:8 start_offset:176 data_start_offset:682911336
+i:8 end_offset:197
+ data_end_offset:682905144
+i:9 start_offset:198 data_start_offset:682828224
+i:9 end_offset:219
+ data_end_offset:682853256
+i:10 start_offset:220 data_start_offset:682817352
+i:10 end_offset:241
+ data_end_offset:682776552
+i:11 start_offset:242 data_start_offset:682911480
+i:11 end_offset:263
+ data_end_offset:682930704
+i:12 start_offset:264 data_start_offset:682805496
+i:12 end_offset:285
+ data_end_offset:682918440
+i:13 start_offset:286 data_start_offset:682944840
+i:13 end_offset:307
+ data_end_offset:682915152
+i:14 start_offset:308 data_start_offset:682797264
+i:14 end_offset:329
+ data_end_offset:682798800
+i:15 start_offset:330 data_start_offset:682781256
+i:15 end_offset:351
+ data_end_offset:682897584
+i:16 start_offset:352 data_start_offset:682906776
+i:16 end_offset:373
+ data_end_offset:682874952
+i:17 start_offset:374 data_start_offset:682964808
+i:17 end_offset:395
+ data_end_offset:2898489584
+i:18 start_offset:396 data_start_offset:682951320
+i:18 end_offset:417
+ data_end_offset:682849488
+i:19 start_offset:418 data_start_offset:682791192
+i:19 end_offset:439
+ data_end_offset:682913256
+allocate=439
+wait send PTHREADS end
+index:6 start send cur_offset:682787712 end_offset:682790760
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 481------
+#-----text_len = 1887------
+#--------init_encode end---------#
+index:8 start send cur_offset:682911336 end_offset:682905144
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2375------
+#-----text_len = 5620------
+#--------init_encode end---------#
+index:6 end send
+index:18 start send cur_offset:682951320 end_offset:682849488
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1362------
+#-----text_len = 2813------
+#--------init_encode end---------#
+index:13 start send cur_offset:682944840 end_offset:682915152
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 580------
+#-----text_len = 1578------
+#--------init_encode end---------#
+index:10 start send cur_offset:682817352 end_offset:682776552
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 611------
+#-----text_len = 1804------
+#--------init_encode end---------#
+index:5 start send cur_offset:682849536 end_offset:682885032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 386------
+#-----text_len = 2110------
+#--------init_encode end---------#
+index:10 end send
+index:14 start send cur_offset:682797264 end_offset:682798800
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2352------
+#-----text_len = 4226------
+#--------init_encode end---------#
+index:16 start send cur_offset:682906776 end_offset:682874952
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2383------
+#-----text_len = 5184------
+#--------init_encode end---------#
+index:9 start send cur_offset:682828224 end_offset:682853256
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1552------
+#-----text_len = 4247------
+#--------init_encode end---------#
+index:12 start send cur_offset:682805496 end_offset:682918440
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1344------
+#-----text_len = 1766------
+#--------init_encode end---------#
+index:9 end send
+index:0 start send cur_offset:682911144 end_offset:682958880
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 490------
+#-----text_len = 559------
+#--------init_encode end---------#
+index:4 start send cur_offset:682967112 end_offset:-1396653488
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 286------
+#-----text_len = 308------
+#--------init_encode end---------#
+index:4 end send
+index:17 start send cur_offset:682964808 end_offset:-1396477712
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 898------
+#-----text_len = 1547------
+#--------init_encode end---------#
+index:2 start send cur_offset:682831848 end_offset:682894176
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 167------
+#-----text_len = 581------
+#--------init_encode end---------#
+index:7 start send cur_offset:-1396655312 end_offset:682835328
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 200------
+#-----text_len = 762------
+#--------init_encode end---------#
+index:7 end send
+index:18 end send
+index:15 start send cur_offset:682781256 end_offset:682897584
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 478------
+#-----text_len = 1252------
+#--------init_encode end---------#
+index:15 end send
+index:11 start send cur_offset:682911480 end_offset:682930704
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1966------
+#-----text_len = 2065------
+#--------init_encode end---------#
+index:5 end send
+index:11 end send
+index:1 start send cur_offset:682914456 end_offset:682822464
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 111------
+#-----text_len = 588------
+#--------init_encode end---------#
+index:12 end send
+index:1 end send
+index:19 start send cur_offset:682791192 end_offset:682974816
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 122------
+#-----text_len = 299------
+#--------init_encode end---------#
+index:3 start send cur_offset:682923552 end_offset:682855248
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 967------
+#-----text_len = 1729------
+#--------init_encode end---------#
+index:0 end send
+index:13 end send
+index:8 end send
+index:17 end send
+index:16 end send
+index:2 end send
+index:14 end send
+index:19 end send
+index:3 end send
+end locate current last!
+next_num 347 : next_sum 322947
+page num 78
+start locate current last!
+interval = 17
+i:0 start_offset:0 data_start_offset:2898494816
+i:0 end_offset:16
+ data_end_offset:2898337136
+i:1 start_offset:17 data_start_offset:2898799808
+i:1 end_offset:33
+ data_end_offset:2898654272
+i:2 start_offset:34 data_start_offset:2898478400
+i:2 end_offset:50
+ data_end_offset:2898402824
+i:3 start_offset:51 data_start_offset:682966752
+i:3 end_offset:67
+ data_end_offset:682839504
+i:4 start_offset:68 data_start_offset:2898633176
+i:4 end_offset:84
+ data_end_offset:2898621224
+i:5 start_offset:85 data_start_offset:2898277832
+i:5 end_offset:101
+ data_end_offset:2898962072
+i:6 start_offset:102 data_start_offset:2898607928
+i:6 end_offset:118
+ data_end_offset:2898823304
+i:7 start_offset:119 data_start_offset:2898389912
+i:7 end_offset:135
+ data_end_offset:2898836264
+i:8 start_offset:136 data_start_offset:2898802352
+i:8 end_offset:152
+ data_end_offset:2898965576
+i:9 start_offset:153 data_start_offset:2898532232
+i:9 end_offset:169
+ data_end_offset:2898335096
+i:10 start_offset:170 data_start_offset:2898903416
+i:10 end_offset:186
+ data_end_offset:2898945392
+i:11 start_offset:187 data_start_offset:2898350144
+i:11 end_offset:203
+ data_end_offset:2898774800
+i:12 start_offset:204 data_start_offset:682927464
+i:12 end_offset:220
+ data_end_offset:2898742976
+i:13 start_offset:221 data_start_offset:2898978440
+i:13 end_offset:237
+ data_end_offset:2898735536
+i:14 start_offset:238 data_start_offset:2898331616
+i:14 end_offset:254
+ data_end_offset:2898548768
+i:15 start_offset:255 data_start_offset:2898862736
+i:15 end_offset:271
+ data_end_offset:2898365312
+i:16 start_offset:272 data_start_offset:2898845768
+i:16 end_offset:288
+ data_end_offset:2898594632
+i:17 start_offset:289 data_start_offset:682902048
+i:17 end_offset:305
+ data_end_offset:2898905792
+i:18 start_offset:306 data_start_offset:2898724160
+i:18 end_offset:322
+ data_end_offset:2898989024
+i:19 start_offset:323 data_start_offset:2898819920
+i:19 end_offset:339
+ data_end_offset:2899025288
+allocate=339
+wait send PTHREADS end
+index:10 start send cur_offset:-1396063880 end_offset:-1396021904
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 588------
+#-----text_len = 3294------
+#--------init_encode end---------#
+index:18 start send cur_offset:-1396243136 end_offset:-1395978272
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 97------
+#-----text_len = 229------
+#--------init_encode end---------#
+index:10 end send
+index:18 end send
+index:0 start send cur_offset:-1396472480 end_offset:-1396630160
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1197------
+#-----text_len = 1267------
+#--------init_encode end---------#
+index:0 end send
+index:13 start send cur_offset:-1395988856 end_offset:-1396231760
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1080------
+#-----text_len = 2591------
+#--------init_encode end---------#
+index:9 start send cur_offset:-1396435064 end_offset:-1396632200
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 489------
+#-----text_len = 517------
+#--------init_encode end---------#
+index:17 start send cur_offset:682902048 end_offset:-1396061504
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 138------
+#-----text_len = 593------
+#--------init_encode end---------#
+index:8 start send cur_offset:-1396164944 end_offset:-1396001720
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 101------
+#-----text_len = 2464------
+#--------init_encode end---------#
+index:9 end send
+index:5 start send cur_offset:-1396689464 end_offset:-1396005224
+index:4 start send cur_offset:-1396334120 end_offset:-1396346072
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 946------
+#-----text_len = 3584------
+#--------init_encode end---------#
+index:17 end send
+index:4 end send
+index:14 start send cur_offset:-1396635680 end_offset:-1396418528
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 12------
+#-----text_len = 187------
+#--------init_encode end---------#
+index:2 start send cur_offset:-1396488896 end_offset:-1396564472
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1531------
+#-----text_len = 1779------
+#--------init_encode end---------#
+index:19 start send cur_offset:-1396147376 end_offset:-1396605080
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 423------
+#-----text_len = 1431------
+#--------init_encode end---------#
+index:14 end send
+index:16 start send cur_offset:-1396121528 end_offset:-1396372664
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 367------
+#-----text_len = 1267------
+#--------init_encode end---------#
+index:12 start send cur_offset:682927464 end_offset:-1396224320
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 895------
+#-----text_len = 3629------
+#--------init_encode end---------#
+index:19 end send
+index:2 end send
+index:7 start send cur_offset:-1396577384 end_offset:-1396131032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 994------
+#-----text_len = 1999------
+#--------init_encode end---------#
+index:15 start send cur_offset:-1396104560 end_offset:-1396601984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 29------
+#-----text_len = 292------
+#--------init_encode end---------#
+index:8 end send
+index:3 start send cur_offset:682966752 end_offset:682839504
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2320------
+#-----text_len = 3219------
+#--------init_encode end---------#
+index:12 end send
+index:3 end send
+index:11 start send cur_offset:-1396617152 end_offset:-1396192496
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 13------
+#-----text_len = 920------
+#--------init_encode end---------#
+index:13 end send
+index:11 end send
+index:1 start send cur_offset:-1396167488 end_offset:-1396313024
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1051------
+#-----text_len = 1537------
+#--------init_encode end---------#
+index:1 end send
+index:7 end send
+index:15 end send
+index:16 end send
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2267------
+#-----text_len = 3541------
+#--------init_encode end---------#
+index:5 end send
+index:6 start send cur_offset:-1396359368 end_offset:-1396143992
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 730------
+#-----text_len = 4239------
+#--------init_encode end---------#
+index:6 end send
+end locate current last!
+next_num 246 : next_sum 269388
+page num 65
+start locate current last!
+interval = 12
+i:0 start_offset:0 data_start_offset:682869312
+i:0 end_offset:11
+ data_end_offset:682965288
+i:1 start_offset:12 data_start_offset:2898311984
+i:1 end_offset:23
+ data_end_offset:682842360
+i:2 start_offset:24 data_start_offset:682912032
+i:2 end_offset:35
+ data_end_offset:682786440
+i:3 start_offset:36 data_start_offset:682778520
+i:3 end_offset:47
+ data_end_offset:682947264
+i:4 start_offset:48 data_start_offset:682969200
+i:4 end_offset:59
+ data_end_offset:682942992
+i:5 start_offset:60 data_start_offset:682785288
+i:5 end_offset:71
+ data_end_offset:682848888
+i:6 start_offset:72 data_start_offset:682899240
+i:6 end_offset:83
+ data_end_offset:682866696
+i:7 start_offset:84 data_start_offset:682787472
+i:7 end_offset:95
+ data_end_offset:682926600
+i:8 start_offset:96 data_start_offset:682790760
+i:8 end_offset:107
+ data_end_offset:682956696
+i:9 start_offset:108 data_start_offset:682936536
+i:9 end_offset:119
+ data_end_offset:2898313808
+i:10 start_offset:120 data_start_offset:682790280
+i:10 end_offset:131
+ data_end_offset:682795440
+i:11 start_offset:132 data_start_offset:682818192
+i:11 end_offset:143
+ data_end_offset:682849920
+i:12 start_offset:144 data_start_offset:682946184
+i:12 end_offset:155
+ data_end_offset:682968696
+i:13 start_offset:156 data_start_offset:682956336
+i:13 end_offset:167
+ data_end_offset:682923648
+i:14 start_offset:168 data_start_offset:682847496
+i:14 end_offset:179
+ data_end_offset:682843560
+i:15 start_offset:180 data_start_offset:682951776
+i:15 end_offset:191
+ data_end_offset:2898444104
+i:16 start_offset:192 data_start_offset:682848000
+i:16 end_offset:203
+ data_end_offset:682835328
+i:17 start_offset:204 data_start_offset:682836912
+i:17 end_offset:215
+ data_end_offset:2898722360
+i:18 start_offset:216 data_start_offset:682833504
+i:18 end_offset:227
+ data_end_offset:682895784
+i:19 start_offset:228 data_start_offset:682901640
+i:19 end_offset:239
+ data_end_offset:682791240
+allocate=239
+wait send PTHREADS end
+index:4 start send cur_offset:682969200 end_offset:682942992
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2556------
+#-----text_len = 4040------
+#--------init_encode end---------#
+index:16 start send cur_offset:682848000 end_offset:682835328
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 241------
+#-----text_len = 294------
+#--------init_encode end---------#
+index:4 end send
+index:0 start send cur_offset:682869312 end_offset:682965288
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 721------
+#-----text_len = 1045------
+#--------init_encode end---------#
+index:0 end send
+index:8 start send cur_offset:682790760 end_offset:682956696
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1146------
+#-----text_len = 3389------
+#--------init_encode end---------#
+index:2 start send cur_offset:682912032 end_offset:682786440
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 596------
+#-----text_len = 613------
+#--------init_encode end---------#
+index:2 end send
+index:13 start send cur_offset:682956336 end_offset:682923648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2124------
+#-----text_len = 2565------
+#--------init_encode end---------#
+index:18 start send cur_offset:682833504 end_offset:682895784
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 57------
+#-----text_len = 109------
+#--------init_encode end---------#
+index:3 start send cur_offset:682778520 end_offset:682947264
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1734------
+#-----text_len = 4505------
+#--------init_encode end---------#
+index:18 end send
+index:16 end send
+index:3 end send
+index:12 start send cur_offset:682946184 end_offset:682968696
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2840------
+#-----text_len = 3527------
+#--------init_encode end---------#
+index:14 start send cur_offset:682847496 end_offset:682843560
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3363------
+#-----text_len = 3879------
+#--------init_encode end---------#
+index:11 start send cur_offset:682818192 end_offset:682849920
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 494------
+#-----text_len = 1739------
+#--------init_encode end---------#
+index:17 start send cur_offset:682836912 end_offset:-1396244936
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1498------
+#-----text_len = 1629------
+#--------init_encode end---------#
+index:11 end send
+index:17 end send
+index:1 start send cur_offset:-1396655312 end_offset:682842360
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 225------
+#-----text_len = 1491------
+#--------init_encode end---------#
+index:1 end send
+index:7 start send cur_offset:682787472 end_offset:682926600
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2258------
+#-----text_len = 2418------
+#--------init_encode end---------#
+index:8 end send
+index:7 end send
+index:13 end send
+index:15 start send cur_offset:682951776 end_offset:-1396523192
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2286------
+#-----text_len = 3594------
+#--------init_encode end---------#
+index:15 end send
+index:6 start send cur_offset:682899240 end_offset:682866696
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 904------
+#-----text_len = 4273------
+#--------init_encode end---------#
+index:14 end send
+index:6 end send
+index:12 end send
+index:5 start send cur_offset:682785288 end_offset:682848888
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 964------
+#-----text_len = 1936------
+#--------init_encode end---------#
+index:5 end send
+index:10 start send cur_offset:682790280 end_offset:682795440
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2427------
+#-----text_len = 4015------
+#--------init_encode end---------#
+index:10 end send
+index:9 start send cur_offset:682936536 end_offset:-1396653488
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 257------
+#-----text_len = 3160------
+#--------init_encode end---------#
+index:19 start send cur_offset:682901640 end_offset:682929768
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 278------
+#-----text_len = 433------
+#--------init_encode end---------#
+index:19 end send
+index:9 end send
+end locate current last!
+next_num 256 : next_sum 266712
+page num 65
+start locate current last!
+interval = 12
+i:0 start_offset:0 data_start_offset:2898668840
+i:0 end_offset:11
+ data_end_offset:2898337136
+i:1 start_offset:12 data_start_offset:2898402824
+i:1 end_offset:23
+ data_end_offset:682795488
+i:2 start_offset:24 data_start_offset:2899018064
+i:2 end_offset:35
+ data_end_offset:2898573896
+i:3 start_offset:36 data_start_offset:2898650312
+i:3 end_offset:47
+ data_end_offset:2898391712
+i:4 start_offset:48 data_start_offset:2898894032
+i:4 end_offset:59
+ data_end_offset:682839504
+i:5 start_offset:60 data_start_offset:2898960320
+i:5 end_offset:71
+ data_end_offset:2898644984
+i:6 start_offset:72 data_start_offset:2898908408
+i:6 end_offset:83
+ data_end_offset:2898577256
+i:7 start_offset:84 data_start_offset:2898572624
+i:7 end_offset:95
+ data_end_offset:2898395552
+i:8 start_offset:96 data_start_offset:2898277736
+i:8 end_offset:107
+ data_end_offset:2898791984
+i:9 start_offset:108 data_start_offset:2898749792
+i:9 end_offset:119
+ data_end_offset:2898430712
+i:10 start_offset:120 data_start_offset:682861344
+i:10 end_offset:131
+ data_end_offset:2898755192
+i:11 start_offset:132 data_start_offset:2898918536
+i:11 end_offset:143
+ data_end_offset:2899022264
+i:12 start_offset:144 data_start_offset:2898654272
+i:12 end_offset:155
+ data_end_offset:2898731000
+i:13 start_offset:156 data_start_offset:2898494816
+i:13 end_offset:167
+ data_end_offset:2898532232
+i:14 start_offset:168 data_start_offset:682804584
+i:14 end_offset:179
+ data_end_offset:2898712928
+i:15 start_offset:180 data_start_offset:2898714416
+i:15 end_offset:191
+ data_end_offset:2898454664
+i:16 start_offset:192 data_start_offset:2898763904
+i:16 end_offset:203
+ data_end_offset:682830504
+i:17 start_offset:204 data_start_offset:2898500816
+i:17 end_offset:215
+ data_end_offset:2898659312
+i:18 start_offset:216 data_start_offset:2898967520
+i:18 end_offset:227
+ data_end_offset:2898398528
+i:19 start_offset:228 data_start_offset:2898592352
+i:19 end_offset:239
+ data_end_offset:2898405896
+allocate=239
+wait send PTHREADS end
+index:19 start send cur_offset:-1396374944 end_offset:-1396595432
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 886------
+#-----text_len = 4644------
+#--------init_encode end---------#
+index:8 start send cur_offset:-1396689560 end_offset:-1396175312
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2684------
+#-----text_len = 3037------
+#--------init_encode end---------#
+index:8 end send
+index:0 start send cur_offset:-1396298456 end_offset:-1396630160
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1635------
+#-----text_len = 2757------
+#--------init_encode end---------#
+index:0 end send
+index:19 end send
+index:14 start send cur_offset:682804584 end_offset:-1396254368
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 430------
+#-----text_len = 1127------
+#--------init_encode end---------#
+index:15 start send cur_offset:-1396252880 end_offset:-1396512632
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1864------
+#-----text_len = 4873------
+#--------init_encode end---------#
+index:14 end send
+index:17 start send cur_offset:-1396466480 end_offset:-1396307984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1037------
+#-----text_len = 3867------
+#--------init_encode end---------#
+index:18 start send cur_offset:-1395999776 end_offset:-1396568768
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 420------
+#-----text_len = 2452------
+#--------init_encode end---------#
+index:15 end send
+index:7 start send cur_offset:-1396394672 end_offset:-1396571744
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1423------
+#-----text_len = 1458------
+#--------init_encode end---------#
+index:5 start send cur_offset:-1396006976 end_offset:-1396322312
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 205------
+#-----text_len = 1327------
+#--------init_encode end---------#
+index:5 end send
+index:3 start send cur_offset:-1396316984 end_offset:-1396575584
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 496------
+#-----text_len = 2816------
+#--------init_encode end---------#
+index:7 end send
+index:3 end send
+index:6 start send cur_offset:-1396058888 end_offset:-1396390040
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1707------
+#-----text_len = 2037------
+#--------init_encode end---------#
+index:6 end send
+index:10 start send cur_offset:682861344 end_offset:-1396212104
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2017------
+#-----text_len = 5196------
+#--------init_encode end---------#
+index:16 start send cur_offset:-1396203392 end_offset:682830504
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 811------
+#-----text_len = 2451------
+#--------init_encode end---------#
+index:10 end send
+index:12 start send cur_offset:-1396313024 end_offset:-1396236296
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1201------
+#-----text_len = 1448------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1396073264 end_offset:682839504
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2183------
+#-----text_len = 4334------
+#--------init_encode end---------#
+index:4 end send
+index:1 start send cur_offset:-1396564472 end_offset:682795488
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1961------
+#-----text_len = 2019------
+#--------init_encode end---------#
+index:1 end send
+index:17 end send
+index:12 end send
+index:9 start send cur_offset:-1396217504 end_offset:-1396536584
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 509------
+#-----text_len = 917------
+#--------init_encode end---------#
+index:9 end send
+index:13 start send cur_offset:-1396472480 end_offset:-1396435064
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 139------
+#-----text_len = 785------
+#--------init_encode end---------#
+index:18 end send
+index:11 start send cur_offset:-1396048760 end_offset:-1395945032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 916------
+#-----text_len = 974------
+#--------init_encode end---------#
+index:11 end send
+index:2 start send cur_offset:-1395949232 end_offset:-1396393400
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2795------
+#-----text_len = 4781------
+#--------init_encode end---------#
+index:2 end send
+index:16 end send
+index:13 end send
+end locate current last!
+next_num 199 : next_sum 240553
+page num 58
+start locate current last!
+interval = 9
+i:0 start_offset:0 data_start_offset:682847496
+i:0 end_offset:8
+ data_end_offset:682845792
+i:1 start_offset:9 data_start_offset:682811880
+i:1 end_offset:17
+ data_end_offset:682850472
+i:2 start_offset:18 data_start_offset:682908168
+i:2 end_offset:26
+ data_end_offset:682905144
+i:3 start_offset:27 data_start_offset:2898805016
+i:3 end_offset:35
+ data_end_offset:682899240
+i:4 start_offset:36 data_start_offset:2898414920
+i:4 end_offset:44
+ data_end_offset:682923648
+i:5 start_offset:45 data_start_offset:682856952
+i:5 end_offset:53
+ data_end_offset:2898594608
+i:6 start_offset:54 data_start_offset:2898289568
+i:6 end_offset:62
+ data_end_offset:2898479072
+i:7 start_offset:63 data_start_offset:682882824
+i:7 end_offset:71
+ data_end_offset:682785792
+i:8 start_offset:72 data_start_offset:682905912
+i:8 end_offset:80
+ data_end_offset:682946184
+i:9 start_offset:81 data_start_offset:682947336
+i:9 end_offset:89
+ data_end_offset:682895856
+i:10 start_offset:90 data_start_offset:682942992
+i:10 end_offset:98
+ data_end_offset:682775808
+i:11 start_offset:99 data_start_offset:682835640
+i:11 end_offset:107
+ data_end_offset:682936536
+i:12 start_offset:108 data_start_offset:682786440
+i:12 end_offset:116
+ data_end_offset:2898418472
+i:13 start_offset:117 data_start_offset:682905552
+i:13 end_offset:125
+ data_end_offset:682776912
+i:14 start_offset:126 data_start_offset:682967112
+i:14 end_offset:134
+ data_end_offset:682821312
+i:15 start_offset:135 data_start_offset:682872600
+i:15 end_offset:143
+ data_end_offset:682947792
+i:16 start_offset:144 data_start_offset:682774776
+i:16 end_offset:152
+ data_end_offset:682855080
+i:17 start_offset:153 data_start_offset:682788504
+i:17 end_offset:161
+ data_end_offset:682892880
+i:18 start_offset:162 data_start_offset:682820016
+i:18 end_offset:170
+ data_end_offset:682941024
+i:19 start_offset:171 data_start_offset:682842648
+i:19 end_offset:179
+ data_end_offset:682771224
+allocate=179
+wait send PTHREADS end
+index:6 start send cur_offset:-1396677728 end_offset:-1396488224
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2229------
+#-----text_len = 3037------
+#--------init_encode end---------#
+index:6 end send
+index:8 start send cur_offset:682905912 end_offset:682946184
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1259------
+#-----text_len = 1273------
+#--------init_encode end---------#
+index:8 end send
+index:3 start send cur_offset:-1396162280 end_offset:682899240
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1317------
+#-----text_len = 2938------
+#--------init_encode end---------#
+index:3 end send
+index:10 start send cur_offset:682942992 end_offset:682775808
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 274------
+#-----text_len = 3063------
+#--------init_encode end---------#
+index:12 start send cur_offset:682786440 end_offset:-1396548824
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 13------
+#-----text_len = 1533------
+#--------init_encode end---------#
+index:10 end send
+index:12 end send
+index:17 start send cur_offset:682788504 end_offset:682892880
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2551------
+#-----text_len = 2603------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1396552376 end_offset:682923648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2330------
+#-----text_len = 4287------
+#--------init_encode end---------#
+index:17 end send
+index:4 end send
+index:0 start send cur_offset:682847496 end_offset:682845792
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 780------
+#-----text_len = 2677------
+#--------init_encode end---------#
+index:14 start send cur_offset:682967112 end_offset:682821312
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 404------
+#-----text_len = 2066------
+#--------init_encode end---------#
+index:14 end send
+index:5 start send cur_offset:682856952 end_offset:-1396372688
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3134------
+#-----text_len = 4467------
+#--------init_encode end---------#
+index:1 start send cur_offset:682811880 end_offset:682850472
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2039------
+#-----text_len = 3957------
+#--------init_encode end---------#
+index:5 end send
+index:1 end send
+index:0 end send
+index:9 start send cur_offset:682947336 end_offset:682895856
+index:16 start send cur_offset:682774776 end_offset:682855080
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 89------
+#-----text_len = 212------
+#--------init_encode end---------#
+index:16 end send
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1747------
+#-----text_len = 3670------
+#--------init_encode end---------#
+index:18 start send cur_offset:682820016 end_offset:682941024
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 852------
+#-----text_len = 2977------
+#--------init_encode end---------#
+index:9 end send
+index:13 start send cur_offset:682905552 end_offset:682776912
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1065------
+#-----text_len = 1078------
+#--------init_encode end---------#
+index:11 start send cur_offset:682835640 end_offset:682936536
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 907------
+#-----text_len = 3143------
+#--------init_encode end---------#
+index:13 end send
+index:11 end send
+index:2 start send cur_offset:682908168 end_offset:682905144
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1620------
+#-----text_len = 3742------
+#--------init_encode end---------#
+index:2 end send
+index:19 start send cur_offset:682842648 end_offset:682828224
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 299------
+#-----text_len = 2812------
+#--------init_encode end---------#
+index:15 start send cur_offset:682872600 end_offset:682947792
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 568------
+#-----text_len = 1160------
+#--------init_encode end---------#
+index:15 end send
+index:7 start send cur_offset:682882824 end_offset:682785792
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1823------
+#-----text_len = 2320------
+#--------init_encode end---------#
+index:7 end send
+index:18 end send
+index:19 end send
+end locate current last!
+next_num 279 : next_sum 281354
+page num 68
+start locate current last!
+interval = 13
+i:0 start_offset:0 data_start_offset:2898755192
+i:0 end_offset:12
+ data_end_offset:2898650312
+i:1 start_offset:13 data_start_offset:682840776
+i:1 end_offset:25
+ data_end_offset:682923552
+i:2 start_offset:26 data_start_offset:2898829160
+i:2 end_offset:38
+ data_end_offset:682842792
+i:3 start_offset:39 data_start_offset:682843752
+i:3 end_offset:51
+ data_end_offset:2898761600
+i:4 start_offset:52 data_start_offset:2898464600
+i:4 end_offset:64
+ data_end_offset:682782912
+i:5 start_offset:65 data_start_offset:682894728
+i:5 end_offset:77
+ data_end_offset:2898763088
+i:6 start_offset:78 data_start_offset:2898706616
+i:6 end_offset:90
+ data_end_offset:2898975080
+i:7 start_offset:91 data_start_offset:2898948872
+i:7 end_offset:103
+ data_end_offset:2898318368
+i:8 start_offset:104 data_start_offset:2898821240
+i:8 end_offset:116
+ data_end_offset:2899022264
+i:9 start_offset:117 data_start_offset:2898894032
+i:9 end_offset:129
+ data_end_offset:2898659312
+i:10 start_offset:130 data_start_offset:2898978752
+i:10 end_offset:142
+ data_end_offset:2898719216
+i:11 start_offset:143 data_start_offset:2898310616
+i:11 end_offset:155
+ data_end_offset:2898374264
+i:12 start_offset:156 data_start_offset:2898277832
+i:12 end_offset:168
+ data_end_offset:2898570152
+i:13 start_offset:169 data_start_offset:2898360272
+i:13 end_offset:181
+ data_end_offset:2898578288
+i:14 start_offset:182 data_start_offset:2898776528
+i:14 end_offset:194
+ data_end_offset:2898770336
+i:15 start_offset:195 data_start_offset:2898518144
+i:15 end_offset:207
+ data_end_offset:2898802352
+i:16 start_offset:208 data_start_offset:2898643424
+i:16 end_offset:220
+ data_end_offset:2898985184
+i:17 start_offset:221 data_start_offset:2898635528
+i:17 end_offset:233
+ data_end_offset:2898853232
+i:18 start_offset:234 data_start_offset:2898644984
+i:18 end_offset:246
+ data_end_offset:682865184
+i:19 start_offset:247 data_start_offset:2898978440
+i:19 end_offset:259
+ data_end_offset:2898858968
+allocate=259
+wait send PTHREADS end
+index:10 start send cur_offset:-1395988544 end_offset:-1396248080
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3236------
+#-----text_len = 4006------
+#--------init_encode end---------#
+index:16 start send cur_offset:-1396323872 end_offset:-1395982112
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 16------
+#-----text_len = 1196------
+#--------init_encode end---------#
+index:10 end send
+index:18 start send cur_offset:-1396322312 end_offset:682865184
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 923------
+#-----text_len = 3296------
+#--------init_encode end---------#
+index:13 start send cur_offset:-1396607024 end_offset:-1396389008
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2146------
+#-----text_len = 3400------
+#--------init_encode end---------#
+index:12 start send cur_offset:-1396689464 end_offset:-1396397144
+index:6 start send cur_offset:-1396260680 end_offset:-1395992216
+index:0 start send cur_offset:-1396212104 end_offset:-1396316984
+type = 1 : init_encode start
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 0------
+#-----while text_len = 1005------
+#-----while text_len = 18------
+#-----text_len = 1189------
+#--------init_encode end---------#
+#-----text_len = 3290------
+#--------init_encode end---------#
+index:0 end send
+index:6 end send
+index:18 end send
+index:15 start send cur_offset:-1396449152 end_offset:-1396164944
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 199------
+#-----text_len = 1066------
+#--------init_encode end---------#
+index:3 start send cur_offset:682843752 end_offset:-1396205696
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 380------
+#-----text_len = 1061------
+#--------init_encode end---------#
+index:15 end send
+index:7 start send cur_offset:-1396018424 end_offset:-1396648928
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 433------
+#-----text_len = 1311------
+#--------init_encode end---------#
+index:16 end send
+index:7 end send
+index:14 start send cur_offset:-1396190768 end_offset:-1396196960
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 57------
+#-----text_len = 196------
+#--------init_encode end---------#
+index:17 start send cur_offset:-1396331768 end_offset:-1396114064
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1838------
+#-----text_len = 4915------
+#--------init_encode end---------#
+index:14 end send
+index:1 start send cur_offset:682840776 end_offset:682923552
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1118------
+#-----text_len = 2690------
+#--------init_encode end---------#
+index:5 start send cur_offset:682894728 end_offset:-1396204208
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1453------
+#-----text_len = 1622------
+#--------init_encode end---------#
+index:1 end send
+index:8 start send cur_offset:-1396146056 end_offset:-1395945032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 90------
+#-----text_len = 1259------
+#--------init_encode end---------#
+index:4 start send cur_offset:-1396502696 end_offset:682782912
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 245------
+#-----text_len = 1893------
+#--------init_encode end---------#
+index:4 end send
+index:9 start send cur_offset:-1396073264 end_offset:-1396307984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 399------
+#-----text_len = 854------
+#--------init_encode end---------#
+index:17 end send
+index:13 end send
+index:9 end send
+index:11 start send cur_offset:-1396656680 end_offset:-1396593032
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 902------
+#-----text_len = 3953------
+#--------init_encode end---------#
+index:11 end send
+index:2 start send cur_offset:-1396138136 end_offset:682842792
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2809------
+#-----text_len = 3129------
+#--------init_encode end---------#
+index:2 end send
+index:3 end send
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 125------
+#-----text_len = 2936------
+#--------init_encode end---------#
+index:12 end send
+index:5 end send
+index:19 start send cur_offset:-1395988856 end_offset:682916616
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 123------
+#-----text_len = 408------
+#--------init_encode end---------#
+index:8 end send
+index:19 end send
+end locate current last!
+next_num 174 : next_sum 188094
+page num 45
+start locate current last!
+send last current
+random end
+end locate current last!
+interation while end
+at last, send remain next
+stop time = 0.003143
+interation end
+main return

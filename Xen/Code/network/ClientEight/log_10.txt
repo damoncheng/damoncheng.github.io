@@ -1,0 +1,731 @@
+thread create
+thread create end
+thread create
+thread create end
+thread create
+thread create end
+thread create
+start:0, end:13107
+start:13107, end:26214
+start:26214, end:39321
+thread create end
+thread create
+thread create end
+thread create
+start:39321, end:52428
+thread create end
+thread create
+start:52428, end:65535
+thread create end
+thread create
+start:65535, end:78642
+thread create end
+thread create
+start:78642, end:91749
+thread create end
+thread create
+start:91749, end:104856
+thread create end
+start:104856, end:117963
+start:117963, end:131072
+connect successfully
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53738700------
+#--------init_encode end---------#
+connect successfully
+#-----text_len = 53746900------
+#--------init_encode end---------#
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+thread end
+index = 5 boot up
+index = 7 boot up
+index = 9 boot up
+index = 6 boot up
+index = 8 boot up
+index = 4 boot up
+index = 3 boot up
+index = 2 boot up
+index = 1 boot up
+index = 0 boot up
+next_num 41478 : next_sum 42582064
+page num 10396
+start locate current last!
+interval = 4147
+i:0 start_offset:0 data_start_offset:680078192
+i:0 end_offset:4146
+ data_end_offset:679920584
+i:1 start_offset:4147 data_start_offset:680688368
+i:1 end_offset:8293
+ data_end_offset:680349944
+i:2 start_offset:8294 data_start_offset:679915856
+i:2 end_offset:12440
+ data_end_offset:680414888
+i:3 start_offset:12441 data_start_offset:680130008
+i:3 end_offset:16587
+ data_end_offset:680689976
+i:4 start_offset:16588 data_start_offset:680637704
+i:4 end_offset:20734
+ data_end_offset:680548952
+i:5 start_offset:20735 data_start_offset:680658680
+i:5 end_offset:24881
+ data_end_offset:680598704
+i:6 start_offset:24882 data_start_offset:680428496
+i:6 end_offset:29028
+ data_end_offset:679782392
+i:7 start_offset:29029 data_start_offset:680207672
+i:7 end_offset:33175
+ data_end_offset:680463080
+i:8 start_offset:33176 data_start_offset:679884800
+i:8 end_offset:37322
+ data_end_offset:680510672
+i:9 start_offset:37323 data_start_offset:679805672
+i:9 end_offset:41469
+ data_end_offset:679953992
+allocate=41469
+wait send PTHREADS end
+index:5 start send cur_offset:680658680 end_offset:680598704
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1166------
+#-----text_len = 3336------
+#--------init_encode end---------#
+index:7 start send cur_offset:680207672 end_offset:680463080
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2395------
+#-----text_len = 3022------
+#--------init_encode end---------#
+index:9 start send cur_offset:679805672 end_offset:679863560
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 291------
+#-----text_len = 1151------
+#--------init_encode end---------#
+index:8 start send cur_offset:679884800 end_offset:680510672
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1427------
+#-----text_len = 1931------
+#--------init_encode end---------#
+index:6 start send cur_offset:680428496 end_offset:679782392
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 390------
+#-----text_len = 593------
+#--------init_encode end---------#
+index:4 start send cur_offset:680637704 end_offset:680548952
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2213------
+index:3 start send cur_offset:680130008 end_offset:680689976
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 610------
+#-----text_len = 4022------
+#--------init_encode end---------#
+#-----text_len = 1637------
+#--------init_encode end---------#
+index:2 start send cur_offset:679915856 end_offset:680414888
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2479------
+#-----text_len = 2595------
+#--------init_encode end---------#
+index:1 start send cur_offset:680688368 end_offset:680349944
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 304------
+#-----text_len = 3340------
+#--------init_encode end---------#
+index:0 start send cur_offset:680078192 end_offset:679920584
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 574------
+#-----text_len = 3227------
+#--------init_encode end---------#
+index:6 end send
+index:5 end send
+index:7 end send
+index:4 end send
+index:9 end send
+index:1 end send
+index:3 end send
+index:2 end send
+index:8 end send
+index:0 end send
+end locate current last!
+next_num 13967 : next_sum 14235997
+page num 3475
+start locate current last!
+interval = 1396
+i:0 start_offset:0 data_start_offset:680877432
+i:0 end_offset:1395
+ data_end_offset:681012024
+i:1 start_offset:1396 data_start_offset:680997336
+i:1 end_offset:2791
+ data_end_offset:681038976
+i:2 start_offset:2792 data_start_offset:680955840
+i:2 end_offset:4187
+ data_end_offset:681198120
+i:3 start_offset:4188 data_start_offset:680965848
+i:3 end_offset:5583
+ data_end_offset:681135960
+i:4 start_offset:5584 data_start_offset:681111000
+i:4 end_offset:6979
+ data_end_offset:681036816
+i:5 start_offset:6980 data_start_offset:681126600
+i:5 end_offset:8375
+ data_end_offset:681037176
+i:6 start_offset:8376 data_start_offset:681037608
+i:6 end_offset:9771
+ data_end_offset:681164352
+i:7 start_offset:9772 data_start_offset:680870136
+i:7 end_offset:11167
+ data_end_offset:681081912
+i:8 start_offset:11168 data_start_offset:680996544
+i:8 end_offset:12563
+ data_end_offset:680990064
+i:9 start_offset:12564 data_start_offset:680937720
+i:9 end_offset:13959
+ data_end_offset:680972280
+allocate=13959
+wait send PTHREADS end
+index:6 start send cur_offset:681037608 end_offset:681164352
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1333------
+#-----text_len = 1928------
+#--------init_encode end---------#
+index:4 start send cur_offset:681111000 end_offset:681036816
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1251------
+#-----text_len = 2676------
+#--------init_encode end---------#
+index:1 start send cur_offset:680997336 end_offset:681038976
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 652------
+#-----text_len = 941------
+#--------init_encode end---------#
+index:9 start send cur_offset:680937720 end_offset:681148008
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 412------
+#-----text_len = 1415------
+#--------init_encode end---------#
+index:5 start send cur_offset:681126600 end_offset:681037176
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 222------
+#-----text_len = 2291------
+#--------init_encode end---------#
+index:7 start send cur_offset:680870136 end_offset:681081912
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 67------
+#-----text_len = 1712------
+#--------init_encode end---------#
+index:2 start send cur_offset:680955840 end_offset:681198120
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1352------
+#-----text_len = 3232------
+#--------init_encode end---------#
+index:3 start send cur_offset:680965848 end_offset:681135960
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1806------
+#-----text_len = 2560------
+#--------init_encode end---------#
+index:8 start send cur_offset:680996544 end_offset:680990064
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3105------
+#-----text_len = 6257------
+#--------init_encode end---------#
+index:0 start send cur_offset:680877432 end_offset:681012024
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 315------
+#-----text_len = 1497------
+#--------init_encode end---------#
+index:9 end send
+index:4 end send
+index:5 end send
+index:1 end send
+index:3 end send
+index:8 end send
+index:7 end send
+index:6 end send
+index:2 end send
+index:0 end send
+end locate current last!
+next_num 5260 : next_sum 5376634
+page num 1312
+start locate current last!
+interval = 526
+i:0 start_offset:0 data_start_offset:679779296
+i:0 end_offset:525
+ data_end_offset:680453144
+i:1 start_offset:526 data_start_offset:679866968
+i:1 end_offset:1051
+ data_end_offset:680530688
+i:2 start_offset:1052 data_start_offset:680075960
+i:2 end_offset:1577
+ data_end_offset:679780376
+i:3 start_offset:1578 data_start_offset:680053184
+i:3 end_offset:2103
+ data_end_offset:680476472
+i:4 start_offset:2104 data_start_offset:680644304
+i:4 end_offset:2629
+ data_end_offset:680594984
+i:5 start_offset:2630 data_start_offset:680534288
+i:5 end_offset:3155
+ data_end_offset:680626472
+i:6 start_offset:3156 data_start_offset:680260952
+i:6 end_offset:3681
+ data_end_offset:680705720
+i:7 start_offset:3682 data_start_offset:680086904
+i:7 end_offset:4207
+ data_end_offset:679881872
+i:8 start_offset:4208 data_start_offset:680416424
+i:8 end_offset:4733
+ data_end_offset:679947704
+i:9 start_offset:4734 data_start_offset:680695088
+allocate=5259
+wait send PTHREADS end
+index:5 start send cur_offset:680534288 end_offset:680626472
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1035------
+#-----text_len = 1870------
+#--------init_encode end---------#
+index:1 start send cur_offset:679866968 end_offset:680530688
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1608------
+#-----text_len = 2450------
+#--------init_encode end---------#
+index:4 start send cur_offset:680644304 end_offset:680594984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 207------
+#-----text_len = 2538------
+#--------init_encode end---------#
+index:9 start send cur_offset:680695088 end_offset:679899272
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 559------
+#-----text_len = 2429------
+#--------init_encode end---------#
+index:6 start send cur_offset:680260952 end_offset:680705720
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2053------
+#-----text_len = 2309------
+#--------init_encode end---------#
+index:8 start send cur_offset:680416424 end_offset:679947704
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1600------
+#-----text_len = 1771------
+#--------init_encode end---------#
+index:7 start send cur_offset:680086904 end_offset:679881872
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 115------
+#-----text_len = 916------
+#--------init_encode end---------#
+index:3 start send cur_offset:680053184 end_offset:680476472
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 113------
+#-----text_len = 1363------
+#--------init_encode end---------#
+index:2 start send cur_offset:680075960 end_offset:679780376
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 389------
+#-----text_len = 4248------
+#--------init_encode end---------#
+index:0 start send cur_offset:679779296 end_offset:680453144
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 227------
+#-----text_len = 1766------
+#--------init_encode end---------#
+index:4 end send
+index:5 end send
+index:9 end send
+index:1 end send
+index:6 end send
+index:3 end send
+index:8 end send
+index:7 end send
+index:0 end send
+index:2 end send
+end locate current last!
+next_num 2163 : next_sum 2210214
+page num 539
+start locate current last!
+interval = 216
+i:0 start_offset:0 data_start_offset:681071640
+i:0 end_offset:215
+ data_end_offset:681074040
+i:1 start_offset:216 data_start_offset:680880168
+i:1 end_offset:431
+ data_end_offset:680993184
+i:2 start_offset:432 data_start_offset:681057696
+i:2 end_offset:647
+ data_end_offset:680879712
+i:3 start_offset:648 data_start_offset:681103440
+i:3 end_offset:863
+ data_end_offset:681135576
+i:4 start_offset:864 data_start_offset:680972520
+i:4 end_offset:1079
+ data_end_offset:680934648
+i:5 start_offset:1080 data_start_offset:681174504
+i:5 end_offset:1295
+ data_end_offset:681166200
+i:6 start_offset:1296 data_start_offset:680923584
+i:6 end_offset:1511
+ data_end_offset:681047928
+i:7 start_offset:1512 data_start_offset:681069288
+i:7 end_offset:1727
+ data_end_offset:681050400
+i:8 start_offset:1728 data_start_offset:680986272
+i:8 end_offset:1943
+ data_end_offset:681109176
+i:9 start_offset:1944 data_start_offset:681053784
+i:9 end_offset:2159
+ data_end_offset:681081192
+allocate=2159
+wait send PTHREADS end
+index:4 start send cur_offset:680972520 end_offset:680934648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 826------
+#-----text_len = 2708------
+#--------init_encode end---------#
+index:8 start send cur_offset:680986272 end_offset:681109176
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 530------
+#-----text_len = 583------
+#--------init_encode end---------#
+index:0 start send cur_offset:681071640 end_offset:681074040
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1117------
+#-----text_len = 3547------
+#--------init_encode end---------#
+index:7 start send cur_offset:681069288 end_offset:681050400
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 133------
+#-----text_len = 3477------
+#--------init_encode end---------#
+index:2 start send cur_offset:681057696 end_offset:680879712
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 267------
+#-----text_len = 1866------
+#--------init_encode end---------#
+index:3 start send cur_offset:681103440 end_offset:681135576
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2421------
+#-----text_len = 2937------
+#--------init_encode end---------#
+index:5 start send cur_offset:681174504 end_offset:681166200
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 167------
+#-----text_len = 408------
+#--------init_encode end---------#
+index:1 start send cur_offset:680880168 end_offset:680993184
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1314------
+#-----text_len = 3043------
+#--------init_encode end---------#
+index:9 start send cur_offset:681053784 end_offset:680972400
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 883------
+#-----text_len = 1963------
+#--------init_encode end---------#
+index:6 start send cur_offset:680923584 end_offset:681047928
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 892------
+#-----text_len = 2050------
+#--------init_encode end---------#
+index:4 end send
+index:6 end send
+index:1 end send
+index:5 end send
+index:9 end send
+index:3 end send
+index:2 end send
+index:0 end send
+index:7 end send
+index:8 end send
+end locate current last!
+next_num 947 : next_sum 955624
+page num 233
+start locate current last!
+interval = 94
+i:0 start_offset:0 data_start_offset:680157128
+i:0 end_offset:93
+ data_end_offset:679849784
+i:1 start_offset:94 data_start_offset:680193608
+i:1 end_offset:187
+ data_end_offset:680152976
+i:2 start_offset:188 data_start_offset:679902488
+i:2 end_offset:281
+ data_end_offset:680264696
+i:3 start_offset:282 data_start_offset:680365376
+i:3 end_offset:375
+ data_end_offset:680324336
+i:4 start_offset:376 data_start_offset:679952768
+i:4 end_offset:469
+ data_end_offset:680376992
+i:5 start_offset:470 data_start_offset:680465360
+i:5 end_offset:563
+ data_end_offset:680282936
+i:6 start_offset:564 data_start_offset:680339720
+i:6 end_offset:657
+ data_end_offset:680171648
+i:7 start_offset:658 data_start_offset:679932824
+i:7 end_offset:751
+ data_end_offset:679813760
+i:8 start_offset:752 data_start_offset:680742872
+i:8 end_offset:845
+ data_end_offset:680702168
+i:9 start_offset:846 data_start_offset:680534504
+i:9 end_offset:939
+ data_end_offset:680636384
+allocate=939
+wait send PTHREADS end
+index:1 start send cur_offset:680193608 end_offset:680152976
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 382------
+#-----text_len = 3759------
+#--------init_encode end---------#
+index:8 start send cur_offset:680742872 end_offset:680702168
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 716------
+#-----text_len = 1535------
+#--------init_encode end---------#
+index:4 start send cur_offset:679952768 end_offset:680376992
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 413------
+#-----text_len = 2195------
+#--------init_encode end---------#
+index:3 start send cur_offset:680365376 end_offset:680324336
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 1277------
+#-----text_len = 3900------
+#--------init_encode end---------#
+index:0 start send cur_offset:680157128 end_offset:679849784
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 153------
+#-----text_len = 417------
+#--------init_encode end---------#
+index:7 start send cur_offset:679932824 end_offset:679813760
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 62------
+#-----text_len = 1594------
+#--------init_encode end---------#
+index:2 start send cur_offset:679902488 end_offset:680264696
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 738------
+#-----text_len = 1720------
+#--------init_encode end---------#
+index:5 start send cur_offset:680465360 end_offset:680282936
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2865------
+#-----text_len = 3538------
+#--------init_encode end---------#
+index:6 start send cur_offset:680339720 end_offset:680171648
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 144------
+#-----text_len = 2349------
+#--------init_encode end---------#
+index:9 start send cur_offset:680534504 end_offset:680345600
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 456------
+#-----text_len = 1255------
+#--------init_encode end---------#
+index:4 end send
+index:5 end send
+index:1 end send
+index:6 end send
+index:7 end send
+index:2 end send
+index:9 end send
+index:8 end send
+index:0 end send
+index:3 end send
+end locate current last!
+next_num 407 : next_sum 436039
+page num 106
+start locate current last!
+interval = 40
+i:0 start_offset:0 data_start_offset:681135096
+i:0 end_offset:39
+ data_end_offset:681069936
+i:1 start_offset:40 data_start_offset:681191448
+i:1 end_offset:79
+ data_end_offset:680900664
+i:2 start_offset:80 data_start_offset:680914968
+i:2 end_offset:119
+ data_end_offset:681125136
+i:3 start_offset:120 data_start_offset:680882520
+i:3 end_offset:159
+ data_end_offset:681050664
+i:4 start_offset:160 data_start_offset:680973048
+i:4 end_offset:199
+ data_end_offset:681138144
+i:5 start_offset:200 data_start_offset:681087384
+i:5 end_offset:239
+ data_end_offset:681147288
+i:6 start_offset:240 data_start_offset:681048096
+i:6 end_offset:279
+ data_end_offset:681135984
+i:7 start_offset:280 data_start_offset:681157344
+i:7 end_offset:319
+ data_end_offset:680941872
+i:8 start_offset:320 data_start_offset:680929536
+i:8 end_offset:359
+ data_end_offset:681182640
+i:9 start_offset:360 data_start_offset:681073368
+i:9 end_offset:399
+ data_end_offset:680876040
+allocate=399
+wait send PTHREADS end
+index:6 start send cur_offset:681048096 end_offset:681135984
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 785------
+#-----text_len = 1609------
+#--------init_encode end---------#
+index:0 start send cur_offset:681135096 end_offset:681069936
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2711------
+#-----text_len = 3735------
+#--------init_encode end---------#
+index:8 start send cur_offset:680929536 end_offset:681182640
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 104------
+#-----text_len = 587------
+#--------init_encode end---------#
+index:7 start send cur_offset:681157344 end_offset:680941872
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 3547------
+#-----text_len = 4173------
+#--------init_encode end---------#
+index:3 start send cur_offset:680882520 end_offset:681050664
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 2331------
+#-----text_len = 3749------
+#--------init_encode end---------#
+index:2 start send cur_offset:680914968 end_offset:681125136
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 42------
+#-----text_len = 1533------
+#--------init_encode end---------#
+index:5 start send cur_offset:681087384 end_offset:681147288
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 373------
+#-----text_len = 764------
+#--------init_encode end---------#
+index:4 start send cur_offset:680973048 end_offset:681138144
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 38------
+#-----text_len = 54------
+#--------init_encode end---------#
+index:9 start send cur_offset:681073368 end_offset:680874768
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 273------
+#-----text_len = 3122------
+#--------init_encode end---------#
+index:1 start send cur_offset:681191448 end_offset:680900664
+type = 1 : init_encode start
+#-----while text_len = 0------
+#-----while text_len = 152------
+#-----text_len = 1378------
+#--------init_encode end---------#
+index:5 end send
+index:4 end send
+index:6 end send
+index:3 end send
+index:7 end send
+index:2 end send
+index:1 end send
+index:8 end send
+index:9 end send
+index:0 end send
+end locate current last!
+next_num 188 : next_sum 192260
+page num 46
+start locate current last!
+send last current
+random end
+end locate current last!
+interation while end
+at last, send remain next
+stop time = 0.003050
+interation end
+main return

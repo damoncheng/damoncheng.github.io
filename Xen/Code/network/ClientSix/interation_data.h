@@ -66,6 +66,7 @@ end_offset = pthread_send_data[index].end_offset;
 printf("index:%d start send cur_offset:%d end_offset:%d\n",index,cur_offset,end_offset);                
           while(cur_offset != end_offset)
           {
+//printf("here\n");
               tpage_offset.page_num = cur_offset->page_num;  
               tpage_offset.start_offset = cur_offset->start_offset;
               tpage_offset.end_offset = cur_offset->end_offset;
@@ -126,8 +127,10 @@ printf("index:%d start send cur_offset:%d end_offset:%d\n",index,cur_offset,end_
           }
 pthread_mutex_lock(&allocate_data_mutex);
               pthread_state[index] = 0;
-pthread_mutex_unlock(&allocate_data_mutex);
               printf("index:%d end send\n",index);                
+pthread_mutex_unlock(&allocate_data_mutex);
+
+
        }
 
    }

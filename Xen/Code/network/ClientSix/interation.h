@@ -4,6 +4,7 @@ static void *sn_interation(void *arg)
 
   unsigned long byte_to_pagenum;
   struct pageInfo * cur_last = NULL;
+  struct pageInfo * pre = NULL;
   int i,allocate;
   unsigned long record_next_sum;
   unsigned long record_next_num;
@@ -51,7 +52,7 @@ pthread_mutex_lock(&allocate_data_mutex);
             }
             interval = record_next_num / PTHREAD_NUM;
 printf("interval = %u\n",interval);
-            for(allocate = 0,i = 0;cur_last->next != NULL;allocate++)
+            for(allocate = 0,i = 0;cur_last != NULL;)
             {
                if((allocate%interval) == 0)
                {
@@ -64,9 +65,20 @@ printf("i:%d start_offset:%d data_start_offset:%u\n",i,allocate,cur_last);
 printf("i:%d end_offset:%d\n data_end_offset:%u\n",i,allocate,cur_last);
                    i++;
                }
+               pre = cur_last;
                cur_last = cur_last->next;
+
+               if((allocate >= (record_next_num - 1)) || (i >= PTHREAD_NUM))
+                  break;
+
+               allocate++;
             }
-            pthread_send_data[i].end_offset = cur_last;
+printf("allocate=%u\n", allocate);
+            
+            while(pre->next != NULL)
+                pre = pre->next;
+            pthread_send_data[i].end_offset = pre;
+
 pthread_mutex_unlock(&allocate_data_mutex);
 
 printf("wait send PTHREADS end\n");
@@ -74,7 +86,7 @@ printf("wait send PTHREADS end\n");
             for(i=0;i<PTHREAD_NUM;i++)
             {
               if(pthread_state[i] == 1)
-              i = 0;
+                i = -1;
             }
 
          }
@@ -98,7 +110,7 @@ printf("end locate current last!\n");
        //add current to pool
        pthread_mutex_lock(&switch_mutex);
 
-       cur_last->next = pool;
+       pre->next = pool;
        pool = current;
        current = NULL;
           

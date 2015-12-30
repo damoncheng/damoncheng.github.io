@@ -1,0 +1,67 @@
+thread create
+thread create end
+start:0, end:131072
+connect successfully
+sn_thread end
+next_num 77491 : next_sum 79307671
+page num 19362
+start locate current last!
+interval = 77491
+i:0 start_offset:0 data_start_offset:687481448
+index = 0 boot up
+allocate=77490
+wait send PTHREADS end
+index:0 start send cur_offset:687481448 end_offset:686081744
+end locate current last!
+index:0 end send
+next_num 24909 : next_sum 25442768
+page num 6211
+start locate current last!
+interval = 24909
+i:0 start_offset:0 data_start_offset:687683792
+allocate=24908
+wait send PTHREADS end
+index:0 start send cur_offset:687683792 end_offset:688111928
+end locate current last!
+index:0 end send
+next_num 7287 : next_sum 7466910
+page num 1822
+start locate current last!
+interval = 7287
+i:0 start_offset:0 data_start_offset:687189800
+allocate=7285
+wait send PTHREADS end
+index:0 start send cur_offset:687189800 end_offset:686318768
+end locate current last!
+index:0 end send
+next_num 2225 : next_sum 2347184
+page num 573
+start locate current last!
+interval = 2225
+i:0 start_offset:0 data_start_offset:688114256
+allocate=2224
+wait send PTHREADS end
+index:0 start send cur_offset:688114256 end_offset:687676040
+end locate current last!
+index:0 end send
+next_num 647 : next_sum 643471
+page num 157
+start locate current last!
+interval = 647
+i:0 start_offset:0 data_start_offset:686199272
+allocate=646
+wait send PTHREADS end
+index:0 start send cur_offset:686199272 end_offset:686604296
+end locate current last!
+index:0 end send
+next_num 202 : next_sum 204786
+page num 49
+start locate current last!
+send last current
+random end
+end locate current last!
+interation while end
+at last, send remain next
+stop time = 0.006032
+interation end
+main return

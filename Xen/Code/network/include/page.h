@@ -5,6 +5,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <pthread.h>
+#include <math.h>
 
 #define PAGE_SIZE 4096
 
