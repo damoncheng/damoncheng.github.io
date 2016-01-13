@@ -1,74 +1,42 @@
-<html>
-<body>
-<p>
-#!C://python27/python
+#!/usr/bin/python2.7
 #coding: utf-8
 
 import smtplib, urllib2, urllib
+import sys
+from email.mime.text import MIMEText
+
+
+fromaddr = '3023754589@qq.com'
+toaddrs  = ['422638426@qq.com', '315706493@qq.com']
 
 '''
-fromaddr = 'snhellogg@gmail.com'
-toaddrs  = '422638426@qq.com'
-msg = 'There was a terrible error that occured and I wanted you to know!'
+msg = ("From: %s\r\nTo: %s\r\n\r\n"
+       % (fromaddr, toaddrs))
+msg += 'There was a terrible error that occured and I wanted you to know!'
+'''
 
+content="hello michelle"
+sub="bother you"
+msg = MIMEText(content) 
+msg['Subject'] = sub 
+msg['From'] = fromaddr 
+msg['To'] = ";".join(toaddrs)
 
 # Credentials (if needed)
-username = 'snhellogg@gmail.com'
-password = '1chx1990112'
+username = '3023754589@qq.com'
+password = 'beqqtcohashmdccg'
 
 # The actual mail send
-server = smtplib.SMTP('smtp.gmail.com')
+print "brefore SMTP"
+server = smtplib.SMTP('smtp.qq.com', 587)
+print "after SMTP"
+server.set_debuglevel(1)
 print "before  starttls"
 server.starttls()
 print "before login"
 server.login(username,password)
-server.sendmail(fromaddr, toaddrs, msg)
+server.sendmail(fromaddr, toaddrs, msg.as_string())
 server.quit()
-'''
 
 
-def setMail(to, cc, title, content, type=2, sender='pt-admin'):
-    """
-    调试时可以用此函数发通知
-    """
-    url = "http://testing.sng.local/cgi-bin/msg.py"
-    params = {"to": to, "title": title, "content": content, "type": type, "cc": cc, "from": sender}
-    request = urllib2.Request(url, urllib.urlencode(params))
-    response = None
-    try:
-        response = urllib2.urlopen(request)
-    except urllib2.URLError, e:
-        logging.error(e.code)
-    if response is not None:
-        if response.read().strip() == "1":
-            return True
-    return False
-    
-to = "damoncheng"
-cc = ""
-title = "test"
-content = """
-<html>    
-<head>
-    <style type="text/css">
-        table thead th { red; color: red}
-    </style>
-</head>
-<body>
-    <table>
-        <thead>
-            <th>name</th>
-            <th>age</th>
-        </thead>
-        <tbody>
-            <td>xiaoming</td>
-            <td>20</td>
-        </tbody>
-    </table>
-</body>
-</html>
-"""
-setMail(to, cc, title, content)
-</p>
-</body>
-</html>
+
