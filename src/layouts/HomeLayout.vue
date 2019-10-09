@@ -3,7 +3,7 @@
     <div> 
       
       <span>Hello Quasar</span>
-      <span class="el-icon-chenggong"></span>
+      <span class="el-iconfont-chenggong1" style="color:#6BC839"></span>
       <span class="el-icon-success"></span>
 
     </div>

@@ -8,13 +8,17 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "deploy": "push-dir --dir=dist/spa-mat --remote=gh-pages --branch=master --allow-unclean --cleanup"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "publish": "npm run build && push-dir --dir=dist/spa-mat --remote=gh-pages --branch=master --allow-unclean --cleanup"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "element-ui": "^2.12.0",
     "vue-i18n": "^7.3.3"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
     "push-dir": "^0.4.1",
     "quasar-cli": "^0.17.0",
     "strip-ansi": "=3.0.1"
@@ -31,5 +35,10 @@
   ],
   "resolutions": {
     "ajv": "6.8.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

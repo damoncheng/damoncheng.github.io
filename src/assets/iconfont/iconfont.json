@@ -1,0 +1,23 @@
+{
+  "id": "1223473",
+  "name": "Git个人主页",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-iconfont-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1079448",
+      "name": "成功",
+      "font_class": "chenggong",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1951950",
+      "name": "成功",
+      "font_class": "chenggong1",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}
