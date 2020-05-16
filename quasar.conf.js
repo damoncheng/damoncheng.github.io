@@ -1,5 +1,6 @@
 // Configuration for your app
 
+
 module.exports = function (ctx) {
   return {
     // app plugins (/src/plugins)
@@ -27,6 +28,11 @@ module.exports = function (ctx) {
       // analyze: true,
       // extractCSS: false,
       extendWebpack (cfg) {
+
+        cfg.module.rules.push({
+          test: /\.md$/,
+          loader:'raw-loader',
+        })
       }
     },
     devServer: {
@@ -50,7 +56,15 @@ module.exports = function (ctx) {
         'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide'
+        'QItemSide',
+
+        'QTabs',
+        'QTab',
+        'QTabPane',
+        'QRouteTab',
+
+        'QFab',
+        'QFabAction'
       ],
       directives: [
         'Ripple'
