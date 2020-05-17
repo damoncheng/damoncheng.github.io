@@ -6,11 +6,18 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "1079448",
-      "name": "成功",
-      "font_class": "chenggong",
-      "unicode": "e607",
-      "unicode_decimal": 58887
+      "icon_id": "964300",
+      "name": "返回",
+      "font_class": "gongxiangtubiaozhuangtaileicaozuolei59",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "14310217",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e623",
+      "unicode_decimal": 58915
     },
     {
       "icon_id": "1951950",
@@ -18,6 +25,13 @@
       "font_class": "chenggong1",
       "unicode": "e61c",
       "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1079448",
+      "name": "成功",
+      "font_class": "chenggong",
+      "unicode": "e607",
+      "unicode_decimal": 58887
     }
   ]
 }

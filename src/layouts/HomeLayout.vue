@@ -18,6 +18,13 @@
                 v-show="direction ==='left'"
               />
 
+              <q-btn
+                flat round dense
+                @click="goBack()"
+                class="icon iconfont el-iconfont-fanhui"
+                v-show="direction ==='right'"
+              />
+
               <!-- 当direction为right的时候，显示回退按钮-->
 
               <q-toolbar-title>
@@ -123,15 +130,30 @@ export default {
         domain: '',
         domain_url_arr: [],
         module_url_arr: [],
+        path: '/',
         //section_url_arr: []
     }
   },
   computed: {
 
 
-
   },
   methods: {
+
+    goBack(){
+
+        let path_parts = this.path.split('/')
+
+        let go_back_path = "/"
+        if(path_parts.length > 3){
+
+          go_back_path = path_parts.slice(0, -2).join('/')
+
+        }
+
+        this.$router.push(go_back_path)
+
+    }
 
   },
   watch: {
@@ -170,6 +192,10 @@ export default {
         }
         
       }
+
+      this.path = to.path
+
+      console.log(this.path)
 
       /*
       if(to.params.module){
