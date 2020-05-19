@@ -1,10 +1,17 @@
 console.log("markdown state")
 const files = require.context(`../../statics/md/`, true, /\.md$/)
+
+
 const markdown = {};
+const markdown_content = {};
+
 files.keys().forEach(item => {
   //modules[item] = files(item).default || files(item)
-  let item_arr = item.split('/')
-  item_arr.shift()
+
+  let item_arr = item.split('/');
+  item_arr.shift();
+
+  markdown_content[item_arr.join('/')] = files(item).default || files(item);
 
   let domain = null;
   let dmodule = null;
@@ -31,7 +38,11 @@ files.keys().forEach(item => {
 
 })
 
+console.log(markdown)
+console.log(markdown_content)
+
 export default {
   obj: markdown,
+  content : markdown_content,
   readme : "Readme.md"
 }

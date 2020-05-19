@@ -1,3 +1,3 @@
-### javascript 
+## javascript 
 
-- [原型](/#/domain/web/module/js/section/demo)
+### [原型](/#/domain/web/module/js/section/basic)

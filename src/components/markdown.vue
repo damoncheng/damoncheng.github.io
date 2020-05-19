@@ -11,7 +11,9 @@
     import { Remarkable } from 'remarkable';
 
     export default {
-        props: ['markdown_name'],
+        props: [
+            'markdown_name',
+        ],
         data () {
             return {
                 markdown_content : "loading...",
@@ -32,9 +34,20 @@
             load_markdown () {
 
                 console.log(this.api)
-                this.$axios.get(this.api).then((response) => {
-                    this.markdown_content = new Remarkable().render(response.data)
-                })
+
+                if(this.markdown_name in this.$store.state.markdown.content){
+
+                    this.markdown_content = new Remarkable().render(
+                        this.$store.state.markdown.content[this.markdown_name]
+                    )
+                    
+                }else{
+
+                    this.$axios.get(this.api).then((response) => {
+                        this.markdown_content = new Remarkable().render(response.data)
+                    })
+
+                }
 
             }
         },

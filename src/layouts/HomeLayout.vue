@@ -161,7 +161,6 @@ export default {
     '$route' (to, from) {
 
       // 对路由变化作出响应...
-      console.log(to)
       if(to.params.domain){
 
           this.domain = to.params.domain
@@ -194,8 +193,6 @@ export default {
       }
 
       this.path = to.path
-
-      console.log(this.path)
 
       /*
       if(to.params.module){
