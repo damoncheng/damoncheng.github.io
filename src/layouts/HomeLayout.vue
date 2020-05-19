@@ -220,7 +220,8 @@ export default {
         this.domain_url_arr.push({ name : domain, url : `/domain/${domain}`})
       }
 
-    console.log(this.doamin_url_arr)
+    console.log(`this.doamin_url_arr`)
+    console.log(this.domain_url_arr)
 
 
   }
